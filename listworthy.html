@@ -38,8 +38,22 @@
     .card{background:var(--card); padding:18px; border-radius:var(--radius); border:1px solid rgba(255,255,255,.06)}
     .pill{display:inline-block; padding:4px 10px; border-radius:999px; background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.08); font-size:.85rem; color:var(--muted)}
     .list{margin:0; padding-left:18px}
+
+    /* Screenshots */
     .shots{display:grid; gap:12px; grid-template-columns:1fr 1fr}
-    .shot{aspect-ratio: 9/16; background:#0b0c10; border-radius:14px; border:1px solid rgba(255,255,255,.08); display:grid; place-items:center; color:var(--muted)}
+    .shot-img{
+      width:100%;
+      height:auto;            /* keep natural aspect ratio */
+      display:block;
+      border-radius:14px;
+      border:1px solid rgba(255,255,255,.08);
+      background:#0b0c10;
+    }
+    /* If you prefer fixed 9:16 frames, swap the block above for:
+    .shot-img{width:100%; aspect-ratio:9/16; object-fit:cover; display:block;
+              border-radius:14px; border:1px solid rgba(255,255,255,.08); background:#0b0c10;}
+    */
+
     footer{color:var(--muted); font-size:.95rem; padding:24px 0 8px}
     .hr{height:1px; background:rgba(255,255,255,.08); margin:24px 0}
     .cta-row{display:flex; flex-wrap:wrap; gap:12px}
@@ -52,6 +66,7 @@
     <header>
       <a class="brand" href="/index.html">
         <img src="/assets/AppLogo.png" alt="Listworthy Logo" class="logo" />
+        <strong>Listworthy</strong>
       </a>
       <nav>
         <a href="/index.html">Home</a>
@@ -99,9 +114,8 @@
 
         <div>
           <div class="shots">
-<img src="/assets/screen1.png" alt="Listworthy Screenshot 1" class="shot" />
-<img src="/assets/screen2.png" alt="Listworthy Screenshot 2" class="shot" />
-
+            <img src="assets/screen1.png" alt="Listworthy Screenshot 1" class="shot-img" />
+            <img src="assets/screen2.png" alt="Listworthy Screenshot 2" class="shot-img" />
           </div>
 
           <div class="card" style="margin-top:14px">
