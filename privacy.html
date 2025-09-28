@@ -43,8 +43,8 @@
     .brand{display:flex; align-items:center; gap:12px; text-decoration:none; color:var(--ink)}
     .logo{
       width:36px; height:36px; border-radius:12px;
-      background:var(--brand); display:grid; place-items:center;
-      font-weight:800; color:#111; letter-spacing:.3px; box-shadow:var(--shadow);
+      display:block; object-fit:contain;
+      box-shadow:var(--shadow);
     }
     nav a{margin-left:16px; font-weight:600}
     main{
@@ -65,7 +65,7 @@
   <div class="wrap">
     <header>
       <a class="brand" href="/index.html">
-        <div class="logo">LW</div>
+        <img src="/assets/AppLogo.png" alt="Listworthy Logo" class="logo" />
         <strong>Listworthy</strong>
       </a>
       <nav>
