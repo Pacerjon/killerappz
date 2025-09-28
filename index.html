@@ -33,9 +33,9 @@
          background:linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,0))}
     .hero{display:grid; gap:18px; grid-template-columns:1fr; align-items:center}
     @media (min-width:900px){ .hero{grid-template-columns:1.2fr 1fr} }
-    h1{font-size:clamp(32px, 3vw, 44px); line-height:1.15; margin:0}
+    h1{font-size:clamp(28px, 2.8vw, 40px); line-height:1.2; margin:0 0 12px}
     .tag{display:inline-block; padding:6px 12px; border-radius:999px; background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.08); color:var(--muted); font-size:.9rem}
-    .cta-row{display:flex; flex-wrap:wrap; gap:12px}
+    .cta-row{display:flex; flex-wrap:wrap; gap:12px; margin-top:16px}
     .btn{display:inline-flex; align-items:center; gap:10px; font-weight:800; background:var(--brand); color:#111; padding:12px 16px; border-radius:12px; box-shadow:var(--shadow)}
     .ghost{background:transparent; color:var(--ink); border:1px solid rgba(255,255,255,.2)}
     .card{background:var(--card); padding:18px; border-radius:var(--radius); border:1px solid rgba(255,255,255,.06)}
@@ -52,7 +52,7 @@
       align-items:start;
     }
     @media (max-width:600px){
-      .shots { grid-template-columns:1fr; } /* stack on mobile */
+      .shots { grid-template-columns:1fr; }
     }
     .shot-img {
       width:100%;
@@ -85,8 +85,15 @@
       <section class="hero">
         <div>
           <span class="tag">iOS • Movies • TV • Music • Books • Games • Comics</span>
-          <h1>Make Top-Ten Magic ✨<br/>Create & share your favorite lists with Listworthy.</h1>
-          <p>Rank what you love, track what you’ve watched or read, and share gorgeous images of your lists with friends.</p>
+          <h1>Listworthy</h1>
+          <p>Listworthy is your excuse to finally organize all those “Top 10s” you argue about with friends — and to track down which streaming service that one show is actually on. Movies, TV shows, music, books, comics… if it’s worth making a list for, Listworthy has your back.</p>
+          <ul>
+            <li>Make checklists to finally watch that show everyone’s talking about, or ranked lists to prove (once and for all) what the best Star Wars movie really is</li>
+            <li>Add scores and let the app auto-rank your lists</li>
+            <li>Share lists with friends and discover new favorites together</li>
+            <li>Set reminders so you don’t forget that movie you swore you’d watch back in 2011</li>
+            <li>Sync across devices — your lists follow you like a very organized puppy</li>
+          </ul>
           <div class="cta-row">
             <a class="btn" href="https://apps.apple.com/app/listworthy/id6752911163" target="_blank" rel="noopener">Download on the App Store</a>
             <a class="btn ghost" href="listworthy.html">Learn more</a>
