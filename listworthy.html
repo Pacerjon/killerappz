@@ -40,19 +40,16 @@
     .list{margin:0; padding-left:18px}
 
     /* Screenshots */
-    .shots{display:grid; gap:12px; grid-template-columns:1fr 1fr}
+    .shots{display:grid; gap:12px; grid-template-columns:1fr 1fr; justify-items:center}
     .shot-img{
       width:100%;
-      height:auto;            /* keep natural aspect ratio */
+      max-width:220px;       /* cap screenshot width */
+      height:auto;           /* keep natural aspect ratio */
       display:block;
       border-radius:14px;
       border:1px solid rgba(255,255,255,.08);
       background:#0b0c10;
     }
-    /* If you prefer fixed 9:16 frames, swap the block above for:
-    .shot-img{width:100%; aspect-ratio:9/16; object-fit:cover; display:block;
-              border-radius:14px; border:1px solid rgba(255,255,255,.08); background:#0b0c10;}
-    */
 
     footer{color:var(--muted); font-size:.95rem; padding:24px 0 8px}
     .hr{height:1px; background:rgba(255,255,255,.08); margin:24px 0}
