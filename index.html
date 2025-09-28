@@ -42,7 +42,19 @@
     .grid{display:grid; gap:16px; grid-template-columns:1fr}
     @media (min-width:800px){ .grid{grid-template-columns:repeat(3,1fr)} }
     .feat h3{margin:.2rem 0}
-    .shot{aspect-ratio: 9/16; background:#0b0c10; border-radius:14px; border:1px solid rgba(255,255,255,.08); display:grid; place-items:center; color:var(--muted)}
+
+    /* Screenshots */
+    .shot-img{
+      width:100%;
+      max-width:220px;       /* cap width */
+      height:auto;
+      display:block;
+      margin:0 auto;
+      border-radius:14px;
+      border:1px solid rgba(255,255,255,.08);
+      background:#0b0c10;
+    }
+
     footer{color:var(--muted); font-size:.95rem; padding:24px 0 8px}
     .hr{height:1px; background:rgba(255,255,255,.08); margin:24px 0}
   </style>
@@ -72,8 +84,8 @@
             <a class="btn ghost" href="listworthy.html">Learn more</a>
           </div>
         </div>
-        <img src="/assets/screen1.jpg" alt="Listworthy Screenshot 1" class="shot" />
-        <img src="/assets/screen2.jpg" alt="Listworthy Screenshot 2" class="shot" />
+        <img src="/assets/screen1.jpg" alt="Listworthy Screenshot 1" class="shot-img" />
+        <img src="/assets/screen2.jpg" alt="Listworthy Screenshot 2" class="shot-img" />
       </section>
 
       <section style="margin-top:22px">
