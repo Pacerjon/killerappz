@@ -49,8 +49,7 @@
     }
     .logo{
       width:36px; height:36px; border-radius:12px;
-      background: var(--brand);
-      display:grid; place-items:center; font-weight:800; color:#111; letter-spacing:.3px;
+      display:block; object-fit:contain;
       box-shadow: var(--shadow);
     }
     nav a{margin-left:16px; font-weight:600}
@@ -109,7 +108,7 @@
   <div class="wrap">
     <header>
       <a class="brand" href="/index.html" aria-label="Listworthy Home">
-        <div class="logo" aria-hidden="true">LW</div>
+        <img src="/assets/AppLogo.png" alt="Listworthy Logo" class="logo" />
         <strong>Listworthy</strong>
       </a>
       <nav aria-label="Primary">
