@@ -1,110 +1,84 @@
-
+<!-- =============================================
+File: support.html (Support / FAQ)
+============================================== -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="color-scheme" content="light dark" />
   <title>Listworthy — Support</title>
-  <meta name="description" content="Help, FAQs, and contact for Listworthy — ranked lists, places search, reminders, and iCloud sync." />
-  <link rel="icon" href="/favicon.ico" />
-  <link rel="canonical" href="https://killerappz.dev/support.html" />
-  <!-- Open Graph -->
+  <meta name="description" content="Get help with Listworthy. FAQs, troubleshooting, and contact info." />
+
   <meta property="og:title" content="Listworthy — Support" />
-  <meta property="og:description" content="Help, FAQs, and contact for Listworthy — ranked lists, places search, reminders, and iCloud sync." />
+  <meta property="og:description" content="FAQs, troubleshooting, and contact for Listworthy." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://killerappz.dev/support.html" />
+
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="canonical" href="https://killerappz.dev/support.html" />
+
   <style>
-    :root{
-      --bg:#0e0f12;
-      --ink:#121212;
-      --cream:#F5EFE6;
-      --accent:#2E7CF6;
-      --muted:#6b7280;
-      --card: rgba(255,255,255,0.9);
-      --card-dark: rgba(25,27,31,0.85);
-      --radius: 16px;
-      --shadow: 0 8px 30px rgba(0,0,0,0.08);
-      --maxw: 960px;
-    }
-    @media (prefers-color-scheme: dark){
-      :root{
-        --card: var(--card-dark);
-        --ink:#e5e7eb;
-      }
-    }
-    html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:-apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol";}
-    a{color:var(--accent);text-decoration:none}
-    a:hover{text-decoration:underline}
-    header{position:relative;padding:24px 16px;display:flex;justify-content:center;border-bottom:1px solid rgba(255,255,255,0.06)}
-    nav{width:100%;max-width:var(--maxw);display:flex;gap:16px;align-items:center;justify-content:space-between}
-    .brand{display:flex;gap:12px;align-items:center}
-    .brand-logo{width:32px;height:32px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#7aa7ff)}
-    .brand-name{font-weight:700;letter-spacing:.2px}
-    .links a{margin-left:14px;font-weight:600;opacity:.9}
-    .container{max-width:var(--maxw);margin:0 auto;padding:24px 16px 64px}
-    .hero{margin-top:12px;background:var(--card);backdrop-filter: blur(10px);padding:32px;border-radius:var(--radius);box-shadow:var(--shadow)}
-    .hero h1{margin:.2em 0;font-size:clamp(28px,4vw,44px);line-height:1.1}
-    .tagline{font-size:clamp(16px,2.3vw,20px);color:var(--muted)}
-    .grid{display:grid;grid-template-columns:1fr;gap:16px;margin-top:18px}
-    @media(min-width:840px){ .grid{grid-template-columns:1fr 1fr} }
-    .card{background:var(--card);padding:24px;border-radius:var(--radius);box-shadow:var(--shadow)}
-    .card h2{margin-top:0}
-    ul.check{list-style:none;padding-left:0}
-    ul.check li{padding:8px 0 8px 32px;position:relative}
-    ul.check li::before{content:"✓";position:absolute;left:0;top:8px;background:var(--accent);color:white;border-radius:8px;width:22px;height:22px;display:grid;place-items:center;font-size:14px}
-    .button{display:inline-block;background:var(--accent);color:white;padding:12px 18px;border-radius:12px;font-weight:700;margin-top:10px}
-    footer{margin-top:48px;color:var(--muted);font-size:14px;text-align:center}
-    .small{font-size:14px;color:var(--muted)}
-    code.inline{background:rgba(0,0,0,0.08);padding:2px 6px;border-radius:6px}
+    :root{--bg:#0e0f12;--panel:#14161b;--text:#e8ecf1;--muted:#aab3bf;--brand:#6ee7ff}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+    a{color:var(--brand)} header,main,footer{max-width:900px;margin:0 auto;padding:24px}
+    nav{display:flex;gap:16px;align-items:center;justify-content:flex-end}
+    h1,h2{margin:0 0 8px} .muted{color:var(--muted)}
+    .panel{background:var(--panel);border:1px solid #262a35;border-radius:16px;padding:18px;margin:16px 0}
+    .foot{color:var(--muted);font-size:13px;padding:24px 0 48px}
+    code{background:#0c0d11;border:1px solid #252a33;border-radius:6px;padding:2px 6px}
   </style>
 </head>
 <body>
   <header>
     <nav>
-      <div class="brand">
-        <div class="brand-logo" aria-hidden="true"></div>
-        <div class="brand-name">Listworthy</div>
-      </div>
-      <div class="links">
-        <a href="/index.html">Home</a>
-        <a href="/listworthy.html">App</a>
-        <a href="/support.html">Support</a>
-        <a href="/privacy.html">Privacy</a>
-      </div>
+      <a href="/index.html">Home</a>
+      <a href="/listworthy.html">Listworthy</a>
+      <a href="/support.html" aria-current="page">Support</a>
+      <a href="/privacy.html">Privacy</a>
     </nav>
   </header>
-  <main class="container">
-    
-<section class="hero">
-  <h1>Support</h1>
-  <p class="tagline">How can we help?</p>
-  <p>Reach us anytime at <a href="mailto:support@killerappz.dev">support@killerappz.dev</a>.</p>
-</section>
 
-<section class="grid" aria-label="Support topics">
-  <div class="card">
-    <h2>Feature Help</h2>
-    <ul class="check">
-      <li><strong>Places Search:</strong> Listworthy uses your device’s location (optional) to find nearby places like restaurants, bakeries, and venues. You can allow or deny this permission anytime in iOS Settings.</li>
-      <li><strong>Ranked Lists:</strong> Add scores to items and Listworthy automatically updates your rankings.</li>
-      <li><strong>Reminders:</strong> Set reminders on items so you won’t forget what to watch, read, or visit.</li>
-      <li><strong>iCloud Sync:</strong> Lists are stored with iCloud so changes appear on all your devices signed into the same Apple ID.</li>
-      <li><strong>Sharing:</strong> Share your lists with friends; they’ll see titles, details, and your rankings.</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h2>FAQ</h2>
-    <p><strong>Do I have to enable location?</strong><br/>No. Location is optional and only used to power nearby place search when enabled.</p>
-    <p><strong>Why don’t I see the same lists on my iPad?</strong><br/>Make sure you’re signed into the same Apple ID and that iCloud Drive is enabled for Listworthy.</p>
-    <p><strong>Can I change notifications?</strong><br/>Yes — manage reminders in the app or in iOS Settings → Notifications.</p>
-    <p><strong>Ads in the app?</strong><br/>We use Google AdMob to help keep Listworthy sustainable. See our <a href="/privacy.html">Privacy Policy</a> for details.</p>
-  </div>
-</section>
+  <main>
+    <h1>Support</h1>
+    <p class="muted">Track · Rank · Share Favorites</p>
 
+    <div class="panel">
+      <h2>Quick links</h2>
+      <ul>
+        <li><a href="https://apps.apple.com/app/listworthy/id6752911163">Download on the App Store</a></li>
+        <li><a href="/privacy.html">Privacy Policy</a></li>
+        <li><a href="mailto:support@killerappz.dev">Email support</a></li>
+      </ul>
+    </div>
+
+    <div class="panel">
+      <h2>FAQs</h2>
+      <h3>Where are my lists stored?</h3>
+      <p>Your lists sync via your iCloud account using CloudKit. We don’t host your lists on our servers.</p>
+
+      <h3>Why does the app ask for my location?</h3>
+      <p>Only to power <em>Places</em> search so you can find nearby restaurants, bakeries, venues, and more. You control permission, and you can choose Approximate or Precise. You can also use Places search by typing a city or area without granting location.</p>
+
+      <h3>Ads & app‑ads.txt</h3>
+      <p>Listworthy uses Google AdMob for ads. The authorized sellers file is served at <code>/app-ads.txt</code> on this domain.</p>
+
+      <h3>Suggested templates</h3>
+      <p>Try these to get started:</p>
+      <ul>
+        <li>Favorite Restaurants</li>
+        <li>Best Bakeries</li>
+        <li>Stores I Love</li>
+        <li>Places to Visit</li>
+      </ul>
+
+      <h3>Contact</h3>
+      <p>Email <a href="mailto:support@killerappz.dev">support@killerappz.dev</a> for help.</p>
+    </div>
   </main>
-  <footer>
-    <p>© 2025 KillerAppz — All rights reserved.</p>
+
+  <footer class="foot">
+    <div>© <span id="y"></span> KillerAppz — <a href="/privacy.html">Privacy</a></div>
   </footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
 </html>
