@@ -1,197 +1,110 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Listworthy — Support</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Official support page for Listworthy — create and share top lists for movies, TV, music, books, games, and comics." />
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Listworthy — Support" />
-  <meta property="og:description" content="Help, FAQs, and contact for Listworthy." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://killerappz.dev/support.html" />
-  <!-- <meta property="og:image" content="https://killerappz.dev/assets/listworthy-card.png" /> -->
-
+  <meta name="color-scheme" content="light dark" />
+  <title>Listworthy — Support</title>
+  <meta name="description" content="Help, FAQs, and contact for Listworthy — ranked lists, places search, reminders, and iCloud sync." />
   <link rel="icon" href="/favicon.ico" />
   <link rel="canonical" href="https://killerappz.dev/support.html" />
-
+  <!-- Open Graph -->
+  <meta property="og:title" content="Listworthy — Support" />
+  <meta property="og:description" content="Help, FAQs, and contact for Listworthy — ranked lists, places search, reminders, and iCloud sync." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://killerappz.dev/support.html" />
   <style>
     :root{
       --bg:#0e0f12;
-      --card:#16181d;
-      --ink:#eaeaea;
-      --muted:#b9c0cd;
-      --brand:#e6dccb;   /* your cream brand color */
-      --accent:#6aa4ff;  /* subtle accent for focus states/links */
-      --max:860px;
-      --radius:16px;
-      --shadow:0 6px 24px rgba(0,0,0,.24), 0 2px 8px rgba(0,0,0,.18);
+      --ink:#121212;
+      --cream:#F5EFE6;
+      --accent:#2E7CF6;
+      --muted:#6b7280;
+      --card: rgba(255,255,255,0.9);
+      --card-dark: rgba(25,27,31,0.85);
+      --radius: 16px;
+      --shadow: 0 8px 30px rgba(0,0,0,0.08);
+      --maxw: 960px;
     }
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{
-      margin:0;
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji;
-      background: radial-gradient(1200px 700px at 20% -10%, #1a1f28 0%, #0e0f12 60%) no-repeat var(--bg);
-      color:var(--ink);
-      line-height:1.6;
+    @media (prefers-color-scheme: dark){
+      :root{
+        --card: var(--card-dark);
+        --ink:#e5e7eb;
+      }
     }
-    a{color:var(--accent); text-decoration:none}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:-apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol";}
+    a{color:var(--accent);text-decoration:none}
     a:hover{text-decoration:underline}
-    .wrap{max-width:var(--max); margin:0 auto; padding:24px}
-    header{
-      display:flex; align-items:center; justify-content:space-between; gap:12px;
-      padding:18px 0 10px;
-    }
-    .brand{
-      display:flex; align-items:center; gap:12px; text-decoration:none; color:var(--ink);
-    }
-    .logo{
-      width:36px; height:36px; border-radius:12px;
-      display:block; object-fit:contain;
-      box-shadow: var(--shadow);
-    }
-    nav a{margin-left:16px; font-weight:600}
-    main{
-      background:linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,0));
-      padding:24px; border-radius:var(--radius); box-shadow:var(--shadow);
-      border:1px solid rgba(255,255,255,.06);
-    }
-    h1{font-size:clamp(28px, 2.6vw, 36px); line-height:1.2; margin:0 0 6px}
-    .tagline{color:var(--muted); margin:0 0 18px}
-    .card{
-      background:var(--card); padding:18px 18px; border-radius:var(--radius);
-      border:1px solid rgba(255,255,255,.06);
-    }
-    .grid{
-      display:grid; gap:16px; margin-top:18px;
-      grid-template-columns: 1fr;
-    }
-    @media (min-width:800px){
-      .grid{grid-template-columns: 1fr 1fr;}
-    }
-
-    /* FAQ (details) */
-    details{
-      background: #14171c; border:1px solid rgba(255,255,255,.08);
-      border-radius:12px; padding:14px 16px; transition: border-color .2s ease;
-    }
-    details + details{margin-top:10px}
-    summary{
-      cursor:pointer; list-style:none; font-weight:700;
-      display:flex; align-items:center; justify-content:space-between; gap:12px;
-    }
-    summary::-webkit-details-marker{display:none}
-    .chev{transition: transform .25s ease; opacity:.9}
-    details[open] .chev{transform:rotate(90deg)}
-    details p{margin:10px 0 2px; color:var(--muted)}
-    .muted{color:var(--muted)}
-    .cta{
-      display:inline-flex; align-items:center; gap:10px; font-weight:700;
-      background:var(--brand); color:#111; padding:10px 14px; border-radius:12px; border:none;
-      box-shadow:var(--shadow);
-    }
-    .stack{display:flex; flex-direction:column; gap:12px}
-    footer{
-      color:var(--muted); font-size:.95rem; padding:24px 0 8px;
-    }
-    .hr{height:1px; background:rgba(255,255,255,.08); margin:24px 0}
-    .pill{
-      display:inline-block; padding:4px 10px; border-radius:999px;
-      background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.08);
-      font-size:.85rem; color:var(--muted);
-    }
+    header{position:relative;padding:24px 16px;display:flex;justify-content:center;border-bottom:1px solid rgba(255,255,255,0.06)}
+    nav{width:100%;max-width:var(--maxw);display:flex;gap:16px;align-items:center;justify-content:space-between}
+    .brand{display:flex;gap:12px;align-items:center}
+    .brand-logo{width:32px;height:32px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#7aa7ff)}
+    .brand-name{font-weight:700;letter-spacing:.2px}
+    .links a{margin-left:14px;font-weight:600;opacity:.9}
+    .container{max-width:var(--maxw);margin:0 auto;padding:24px 16px 64px}
+    .hero{margin-top:12px;background:var(--card);backdrop-filter: blur(10px);padding:32px;border-radius:var(--radius);box-shadow:var(--shadow)}
+    .hero h1{margin:.2em 0;font-size:clamp(28px,4vw,44px);line-height:1.1}
+    .tagline{font-size:clamp(16px,2.3vw,20px);color:var(--muted)}
+    .grid{display:grid;grid-template-columns:1fr;gap:16px;margin-top:18px}
+    @media(min-width:840px){ .grid{grid-template-columns:1fr 1fr} }
+    .card{background:var(--card);padding:24px;border-radius:var(--radius);box-shadow:var(--shadow)}
+    .card h2{margin-top:0}
+    ul.check{list-style:none;padding-left:0}
+    ul.check li{padding:8px 0 8px 32px;position:relative}
+    ul.check li::before{content:"✓";position:absolute;left:0;top:8px;background:var(--accent);color:white;border-radius:8px;width:22px;height:22px;display:grid;place-items:center;font-size:14px}
+    .button{display:inline-block;background:var(--accent);color:white;padding:12px 18px;border-radius:12px;font-weight:700;margin-top:10px}
+    footer{margin-top:48px;color:var(--muted);font-size:14px;text-align:center}
+    .small{font-size:14px;color:var(--muted)}
+    code.inline{background:rgba(0,0,0,0.08);padding:2px 6px;border-radius:6px}
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <a class="brand" href="/index.html" aria-label="Listworthy Home">
-        <img src="/assets/AppLogo.png" alt="Listworthy Logo" class="logo" />
-        <strong>Listworthy</strong>
-      </a>
-      <nav aria-label="Primary">
-        <a href="/index.html">Home</a>
-        <a href="/support.html" aria-current="page">Support</a>
-        <a href="/privacy.html">Privacy</a>
-      </nav>
-    </header>
-
-    <main>
-      <h1>Listworthy Support</h1>
-      <p class="tagline">Welcome to the official support page for Listworthy 🎉</p>
-
-      <div class="card">
-        <p>
-          Listworthy helps you create and share personalized lists of your favorite entertainment —
-          including movies, TV shows, music, books, games, and comics.
-        </p>
-        <span class="pill">iOS • Personal Lists • Shareable</span>
+  <header>
+    <nav>
+      <div class="brand">
+        <div class="brand-logo" aria-hidden="true"></div>
+        <div class="brand-name">Listworthy</div>
       </div>
+      <div class="links">
+        <a href="/index.html">Home</a>
+        <a href="/listworthy.html">App</a>
+        <a href="/support.html">Support</a>
+        <a href="/privacy.html">Privacy</a>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    
+<section class="hero">
+  <h1>Support</h1>
+  <p class="tagline">How can we help?</p>
+  <p>Reach us anytime at <a href="mailto:support@killerappz.dev">support@killerappz.dev</a>.</p>
+</section>
 
-      <section class="grid" aria-labelledby="faq-title" style="margin-top:18px">
-        <div class="stack">
-          <h2 id="faq-title">Frequently Asked Questions</h2>
-
-          <details>
-            <summary>
-              How do I create a list?
-              <span class="chev" aria-hidden="true">›</span>
-            </summary>
-            <p>Tap <strong>+ New List</strong>, choose a category, and start adding items.</p>
-          </details>
-
-          <details>
-            <summary>
-              Can I share my lists?
-              <span class="chev" aria-hidden="true">›</span>
-            </summary>
-            <p>Yes! Tap the <strong>Share</strong> button in any list to generate a shareable image or link.</p>
-          </details>
-
-          <details>
-            <summary>
-              What categories are supported?
-              <span class="chev" aria-hidden="true">›</span>
-            </summary>
-            <p>Movies, TV shows, music, books, comics, and games — with more coming soon.</p>
-          </details>
-        </div>
-
-        <div class="stack">
-          <h2>Contact Us</h2>
-          <p class="muted">Questions, feedback, or a feature idea? We’d love to hear it.</p>
-          <a class="cta" href="mailto:listworthy_support@icloud.com">
-            📧 Email Support
-          </a>
-
-          <div class="hr"></div>
-
-          <h2>Privacy Policy</h2>
-          <p class="muted">Your data matters. Read how we handle it.</p>
-          <p><a href="/privacy.html">View Privacy Policy</a></p>
-        </div>
-      </section>
-    </main>
-
-    <h2>New Feature Help</h2>
-<ul>
-  <li><strong>Places Search:</strong> Listworthy uses your device’s location to find nearby places such as restaurants and stores. You can allow or deny this permission anytime in iOS Settings.</li>
-  <li><strong>Reminders:</strong> You can now set reminders for movies, books, or places you’ve added to your lists.</li>
-  <li><strong>iCloud Sync:</strong> All lists are securely synced across your iPhone and iPad using iCloud.</li>
-  <li><strong>Ranked Lists:</strong> When you change scores, Listworthy automatically updates your rankings.</li>
-</ul>
-
-    <footer>
-      <div class="hr"></div>
-      <div>&copy; <span id="y"></span> Listworthy. All rights reserved.</div>
-    </footer>
+<section class="grid" aria-label="Support topics">
+  <div class="card">
+    <h2>Feature Help</h2>
+    <ul class="check">
+      <li><strong>Places Search:</strong> Listworthy uses your device’s location (optional) to find nearby places like restaurants, bakeries, and venues. You can allow or deny this permission anytime in iOS Settings.</li>
+      <li><strong>Ranked Lists:</strong> Add scores to items and Listworthy automatically updates your rankings.</li>
+      <li><strong>Reminders:</strong> Set reminders on items so you won’t forget what to watch, read, or visit.</li>
+      <li><strong>iCloud Sync:</strong> Lists are stored with iCloud so changes appear on all your devices signed into the same Apple ID.</li>
+      <li><strong>Sharing:</strong> Share your lists with friends; they’ll see titles, details, and your rankings.</li>
+    </ul>
   </div>
+  <div class="card">
+    <h2>FAQ</h2>
+    <p><strong>Do I have to enable location?</strong><br/>No. Location is optional and only used to power nearby place search when enabled.</p>
+    <p><strong>Why don’t I see the same lists on my iPad?</strong><br/>Make sure you’re signed into the same Apple ID and that iCloud Drive is enabled for Listworthy.</p>
+    <p><strong>Can I change notifications?</strong><br/>Yes — manage reminders in the app or in iOS Settings → Notifications.</p>
+    <p><strong>Ads in the app?</strong><br/>We use Google AdMob to help keep Listworthy sustainable. See our <a href="/privacy.html">Privacy Policy</a> for details.</p>
+  </div>
+</section>
 
-  <script>
-    // set year automatically — tiny touch of “it just works”
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script>
+  </main>
+  <footer>
+    <p>© 2025 KillerAppz — All rights reserved.</p>
+  </footer>
 </body>
 </html>
