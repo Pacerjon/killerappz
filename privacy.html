@@ -1,162 +1,140 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Listworthy — Privacy Policy</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Privacy Policy for Listworthy — how we handle data and protect your privacy." />
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Listworthy — Privacy Policy" />
-  <meta property="og:description" content="How Listworthy handles your information." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://killerappz.dev/privacy.html" />
-
+  <meta name="color-scheme" content="light dark" />
+  <title>Listworthy — Privacy Policy</title>
+  <meta name="description" content="Privacy-first design: optional location for places, iCloud sync, AdMob advertising disclosures." />
   <link rel="icon" href="/favicon.ico" />
   <link rel="canonical" href="https://killerappz.dev/privacy.html" />
-
+  <!-- Open Graph -->
+  <meta property="og:title" content="Listworthy — Privacy Policy" />
+  <meta property="og:description" content="Privacy-first design: optional location for places, iCloud sync, AdMob advertising disclosures." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://killerappz.dev/privacy.html" />
   <style>
     :root{
       --bg:#0e0f12;
-      --card:#16181d;
-      --ink:#eaeaea;
-      --muted:#b9c0cd;
-      --brand:#e6dccb;
-      --accent:#6aa4ff;
-      --max:860px;
-      --radius:16px;
-      --shadow:0 6px 24px rgba(0,0,0,.24), 0 2px 8px rgba(0,0,0,.18);
+      --ink:#121212;
+      --cream:#F5EFE6;
+      --accent:#2E7CF6;
+      --muted:#6b7280;
+      --card: rgba(255,255,255,0.9);
+      --card-dark: rgba(25,27,31,0.85);
+      --radius: 16px;
+      --shadow: 0 8px 30px rgba(0,0,0,0.08);
+      --maxw: 960px;
     }
-    *{box-sizing:border-box}
-    body{
-      margin:0; font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
-      background: radial-gradient(1200px 700px at 20% -10%, #1a1f28 0%, #0e0f12 60%) no-repeat var(--bg);
-      color:var(--ink); line-height:1.6;
+    @media (prefers-color-scheme: dark){
+      :root{
+        --card: var(--card-dark);
+        --ink:#e5e7eb;
+      }
     }
-    a{color:var(--accent); text-decoration:none}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:-apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol";}
+    a{color:var(--accent);text-decoration:none}
     a:hover{text-decoration:underline}
-    .wrap{max-width:var(--max); margin:0 auto; padding:24px}
-    header{
-      display:flex; align-items:center; justify-content:space-between; gap:12px;
-      padding:18px 0 10px;
-    }
-    .brand{display:flex; align-items:center; gap:12px; text-decoration:none; color:var(--ink)}
-    .logo{
-      width:36px; height:36px; border-radius:12px;
-      display:block; object-fit:contain;
-      box-shadow:var(--shadow);
-    }
-    nav a{margin-left:16px; font-weight:600}
-    main{
-      background:linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,0));
-      padding:24px; border-radius:var(--radius); box-shadow:var(--shadow);
-      border:1px solid rgba(255,255,255,.06);
-    }
-    h1{font-size:clamp(28px, 2.6vw, 36px); line-height:1.2; margin:0 0 12px}
-    .muted{color:var(--muted)}
-    h2{margin-top:24px; font-size:1.4rem}
-    .section{background:var(--card); padding:16px 18px; border-radius:var(--radius); margin-top:16px;
-             border:1px solid rgba(255,255,255,.06);}
-    footer{color:var(--muted); font-size:.95rem; padding:24px 0 8px}
-    .hr{height:1px; background:rgba(255,255,255,.08); margin:24px 0}
+    header{position:relative;padding:24px 16px;display:flex;justify-content:center;border-bottom:1px solid rgba(255,255,255,0.06)}
+    nav{width:100%;max-width:var(--maxw);display:flex;gap:16px;align-items:center;justify-content:space-between}
+    .brand{display:flex;gap:12px;align-items:center}
+    .brand-logo{width:32px;height:32px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#7aa7ff)}
+    .brand-name{font-weight:700;letter-spacing:.2px}
+    .links a{margin-left:14px;font-weight:600;opacity:.9}
+    .container{max-width:var(--maxw);margin:0 auto;padding:24px 16px 64px}
+    .hero{margin-top:12px;background:var(--card);backdrop-filter: blur(10px);padding:32px;border-radius:var(--radius);box-shadow:var(--shadow)}
+    .hero h1{margin:.2em 0;font-size:clamp(28px,4vw,44px);line-height:1.1}
+    .tagline{font-size:clamp(16px,2.3vw,20px);color:var(--muted)}
+    .grid{display:grid;grid-template-columns:1fr;gap:16px;margin-top:18px}
+    @media(min-width:840px){ .grid{grid-template-columns:1fr 1fr} }
+    .card{background:var(--card);padding:24px;border-radius:var(--radius);box-shadow:var(--shadow)}
+    .card h2{margin-top:0}
+    ul.check{list-style:none;padding-left:0}
+    ul.check li{padding:8px 0 8px 32px;position:relative}
+    ul.check li::before{content:"✓";position:absolute;left:0;top:8px;background:var(--accent);color:white;border-radius:8px;width:22px;height:22px;display:grid;place-items:center;font-size:14px}
+    .button{display:inline-block;background:var(--accent);color:white;padding:12px 18px;border-radius:12px;font-weight:700;margin-top:10px}
+    footer{margin-top:48px;color:var(--muted);font-size:14px;text-align:center}
+    .small{font-size:14px;color:var(--muted)}
+    code.inline{background:rgba(0,0,0,0.08);padding:2px 6px;border-radius:6px}
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <a class="brand" href="/index.html">
-        <img src="/assets/AppLogo.png" alt="Listworthy Logo" class="logo" />
-        <strong>Listworthy</strong>
-      </a>
-      <nav>
+  <header>
+    <nav>
+      <div class="brand">
+        <div class="brand-logo" aria-hidden="true"></div>
+        <div class="brand-name">Listworthy</div>
+      </div>
+      <div class="links">
         <a href="/index.html">Home</a>
+        <a href="/listworthy.html">App</a>
         <a href="/support.html">Support</a>
-        <a href="/privacy.html" aria-current="page">Privacy</a>
-      </nav>
-    </header>
-
-    <main>
-      <h1>Listworthy Privacy Policy</h1>
-      <p class="muted">Effective Date: September 23, 2025</p>
-
-      <p>
-        Thank you for using Listworthy. Your privacy is important to us. 
-        This Privacy Policy explains how Listworthy handles information when you use our app.
-      </p>
-
-      <div class="section">
-        <h2>1. Information We Do Not Collect</h2>
-        <ul>
-          <li>No account creation required.</li>
-          <li>We do not collect personal identifiers (name, email, phone).</li>
-          <li>We do not track your precise location.</li>
-          <li>Your lists and preferences stay local on your device.</li>
-        </ul>
+        <a href="/privacy.html">Privacy</a>
       </div>
+    </nav>
+  </header>
+  <main class="container">
+    
+<section class="hero">
+  <h1>Privacy Policy</h1>
+  <p class="tagline">We build features that respect your data.</p>
+  <p>Effective date: October 6, 2025</p>
+</section>
 
-      <div class="section">
-        <h2>2. Information We Do Access</h2>
-        <p><strong>Search Providers:</strong> When you search, Listworthy queries third-party providers (TMDb, TVMaze, Deezer, Google Books, IGDB, ComicVine, RAWG). Search terms are sent directly to providers, not stored by us.</p>
-        <p><strong>Advertisements:</strong> We use Google AdMob for banner ads. AdMob may collect anonymous usage data (like device type, approximate location, or ad interactions). See Google’s Privacy Policy for details.</p>
-      </div>
+<section class="card">
+  <h2>Overview</h2>
+  <p>Listworthy does not collect your name, email, contacts, or other personally identifiable information within the app.</p>
+</section>
 
-      <div class="section">
-        <h2>3. How We Use Information</h2>
-        <ul>
-          <li>Show you search results from providers.</li>
-          <li>Help you create, rank, and manage lists.</li>
-          <li>Display ads that keep the app free.</li>
-        </ul>
-        <p>We do not sell or share your personal information.</p>
-      </div>
-
-      <div class="section">
-        <h2>4. Data Storage</h2>
-        <ul>
-          <li>Your lists, reminders, and settings are stored locally.</li>
-          <li>If you delete the app, your data is deleted with it.</li>
-        </ul>
-      </div>
-
-      <div class="section">
-        <h2>5. Third-Party Services</h2>
-        <p>Listworthy integrates with:</p>
-        <ul>
-          <li>TMDb — Movies</li>
-          <li>TVMaze — TV Shows</li>
-          <li>Google Books & Open Library — Books</li>
-          <li>Deezer & MusicBrainz — Music</li>
-          <li>IGDB & RAWG — Games</li>
-          <li>ComicVine — Comics</li>
-          <li>Google AdMob — Advertising</li>
-        </ul>
-        <p>Please review their privacy policies for details.</p>
-      </div>
-
-      <div class="section">
-        <h2>6. Children’s Privacy</h2>
-        <p>Listworthy is not directed at children under 13. We do not knowingly collect information from children.</p>
-      </div>
-
-      <div class="section">
-        <h2>7. Changes to This Policy</h2>
-        <p>We may update this Privacy Policy from time to time. Updates will be posted here with a new effective date.</p>
-      </div>
-
-      <div class="section">
-        <h2>8. Contact Us</h2>
-        <p>Email: <a href="mailto:listworthy_support@icloud.com">listworthy_support@icloud.com</a></p>
-      </div>
-    </main>
-
-    <footer>
-      <div class="hr"></div>
-      <div>&copy; <span id="y"></span> Listworthy. All rights reserved.</div>
-    </footer>
+<section class="grid">
+  <div class="card">
+    <h2>Location Data</h2>
+    <p>Listworthy may request access to your device’s location <em>only</em> to provide nearby place search results (for example, restaurants or venues). Location access is optional. If granted, the app uses your current location at the time of search to show relevant results and does not store or track your location over time.</p>
+    <p>You can revoke access any time in <strong>iOS Settings → Privacy &amp; Security → Location Services</strong>.</p>
   </div>
+  <div class="card">
+    <h2>iCloud Sync</h2>
+    <p>Your lists and related data are stored securely using Apple’s iCloud. Data is synced between devices signed into the same Apple ID. Storage and transmission are governed by Apple’s iCloud terms and privacy policies.</p>
+  </div>
+</section>
 
-  <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script>
+<section class="grid">
+  <div class="card">
+    <h2>Advertising (AdMob)</h2>
+    <p>Listworthy uses Google AdMob to display ads. AdMob may collect device identifiers and usage data to deliver and measure advertising. You can learn more about Google’s data practices and controls here: <a target="_blank" rel="noopener" href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a>.</p>
+    <p>We support Apple’s App Tracking Transparency (ATT). Where applicable, iOS will ask if you allow tracking across apps and websites by other companies; your choice is respected by the app and the ad network.</p>
+  </div>
+  <div class="card">
+    <h2>Analytics</h2>
+    <p>Listworthy does not include third‑party analytics. Basic diagnostics provided by Apple (if you opt in to share with developers) may include crash reports and usage information.</p>
+  </div>
+</section>
+
+<section class="grid">
+  <div class="card">
+    <h2>Data Retention</h2>
+    <p>Your content (lists, items, scores) lives in your iCloud account until you delete it or uninstall the app. We do not run our own servers for your content.</p>
+  </div>
+  <div class="card">
+    <h2>Your Choices</h2>
+    <ul>
+      <li>Control location access in iOS Settings.</li>
+      <li>Manage notifications/reminders in the app and iOS Settings.</li>
+      <li>Delete lists/items in the app at any time.</li>
+      <li>Use Apple’s privacy tools to manage iCloud data.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="card">
+  <h2>Contact</h2>
+  <p>Questions or requests? Email <a href="mailto:privacy@killerappz.dev">privacy@killerappz.dev</a> or <a href="mailto:support@killerappz.dev">support@killerappz.dev</a>.</p>
+</section>
+
+  </main>
+  <footer>
+    <p>© 2025 KillerAppz — All rights reserved.</p>
+  </footer>
 </body>
 </html>
