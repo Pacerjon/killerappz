@@ -1,61 +1,92 @@
-<!-- =============================================
-</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Listworthy — Privacy Policy</title>
+  <meta name="description" content="Privacy policy for Listworthy. Your lists stay in your iCloud; location is optional and used only for place search; ads via Google AdMob." />
+  <style>
+    :root{--bg:#0e0f12;--panel:#14161b;--text:#e8ecf1;--muted:#aab3bf;--brand:#6ee7ff;--brand2:#a78bfa}
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+    a{color:var(--brand);text-decoration:none}
+    a:hover{text-decoration:underline}
+    header,main,footer{max-width:900px;margin:0 auto;padding:24px}
+    nav{display:flex;gap:16px;align-items:center;justify-content:flex-end}
+    h1,h2{margin:0 0 8px}
+    .muted{color:var(--muted)}
+    .panel{background:var(--panel);border:1px solid #262a35;border-radius:16px;padding:18px;margin:16px 0}
+    .foot{color:var(--muted);font-size:13px;padding:24px 0 48px}
+    code{background:#0c0d11;border:1px solid #252a33;border-radius:6px;padding:2px 6px}
+    .badge{display:inline-block;padding:6px 12px;border:1px solid #2a2f39;border-radius:999px;color:var(--muted);font-size:12px}
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/index.html" class="badge">Home</a>
+      <a href="/listworthy.html" class="badge">Listworthy</a>
+      <a href="/support.html" class="badge">Support</a>
+      <a href="/privacy.html" class="badge">Privacy</a>
+    </nav>
+  </header>
 
-<main>
-<h1>Privacy Policy</h1>
-<p class="muted">Effective: <span id="eff"></span></p>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="muted">Effective: <span id="eff"></span></p>
 
-<div class="panel">
-<h2>Summary</h2>
-<ul>
-<li><strong>Your lists, your iCloud.</strong> List data is stored in your personal iCloud via Apple CloudKit. We do not run accounts or store your lists on our servers.</li>
-<li><strong>Location</strong> (Approximate or Precise, your choice) is used only to power the in‑app <em>Places</em> search. We do not store or sell your location data.</li>
-<li><strong>Advertising</strong>: The app uses Google AdMob. Ad networks may use device identifiers to show ads. See “Advertising & app‑ads.txt”.</li>
-<li><strong>Analytics & diagnostics</strong>: We use standard platform diagnostics (e.g., Apple crash logs) to improve stability. No third‑party analytics SDKs collect your list content.</li>
-</ul>
-</div>
+    <div class="panel">
+      <h2>Summary</h2>
+      <ul>
+        <li><strong>Your lists, your iCloud.</strong> List data is stored in your personal iCloud via Apple CloudKit. We do not run accounts or store your lists on our servers.</li>
+        <li><strong>Location</strong> (Approximate or Precise, your choice) is used only to power the in-app <em>Places</em> search. We do not store or sell your location data.</li>
+        <li><strong>Advertising</strong>: The app uses Google AdMob. Ad networks may use device identifiers to show ads. See “Advertising & app-ads.txt”.</li>
+        <li><strong>Analytics & diagnostics</strong>: We use standard platform diagnostics (e.g., Apple crash logs) to improve stability. No third-party analytics SDKs collect your list content.</li>
+      </ul>
+    </div>
 
-<div class="panel" id="lists">
-<h2>Lists & iCloud Sync</h2>
-<p>Your lists and item data are stored in your iCloud account using CloudKit. This enables seamless syncing across your Apple devices. We cannot access your iCloud. Deleting the app may remove local data; iCloud copies persist until removed from iCloud.</p>
-</div>
+    <div class="panel" id="lists">
+      <h2>Lists & iCloud Sync</h2>
+      <p>Your lists and item data are stored in your iCloud account using CloudKit. This enables seamless syncing across your Apple devices. We cannot access your iCloud. Deleting the app may remove local data; iCloud copies persist until removed from iCloud.</p>
+    </div>
 
-<div class="panel" id="location">
-<h2>Location</h2>
-<p>Listworthy requests Location permission only if you use <em>Places</em> search. You may choose <strong>Approximate</strong> or <strong>Precise</strong> location and can change this anytime in iOS Settings. Location is used to query Apple’s map services for nearby results and is not retained by us.</p>
-</div>
+    <div class="panel" id="location">
+      <h2>Location</h2>
+      <p>Listworthy requests Location permission only if you use <em>Places</em> search. You may choose <strong>Approximate</strong> or <strong>Precise</strong> location and can change this anytime in iOS Settings. Location is used to query Apple’s map services for nearby results and is not retained by us.</p>
+    </div>
 
-<div class="panel" id="notifications">
-<h2>Notifications</h2>
-<p>If you enable reminders, Listworthy may send local notifications at times you schedule. You can disable notifications at any time in Settings.</p>
-</div>
+    <div class="panel" id="notifications">
+      <h2>Notifications</h2>
+      <p>If you enable reminders, Listworthy may send local notifications at times you schedule. You can disable notifications at any time in Settings.</p>
+    </div>
 
-<div class="panel" id="ads">
-<h2>Advertising & app‑ads.txt</h2>
-<p>We use <strong>Google AdMob</strong> to display ads. Ad networks may use device identifiers and related information to deliver and measure ads. For authorized sellers, see <code>/app-ads.txt</code> on this domain. If you are seeing test ads during development, that is expected while the app is in testing mode.</p>
-</div>
+    <div class="panel" id="ads">
+      <h2>Advertising & app-ads.txt</h2>
+      <p>We use <strong>Google AdMob</strong> to display ads. Ad networks may use device identifiers and related information to deliver and measure ads. For authorized sellers, see <code>/app-ads.txt</code> on this domain. If you are seeing test ads during development, that is expected while the app is in testing mode.</p>
+    </div>
 
-<div class="panel" id="data-control">
-<h2>Your controls</h2>
-<ul>
-<li>Location: grant/deny or switch Approximate/Precise in iOS Settings &gt; Privacy &gt; Location Services.</li>
-<li>Notifications: enable/disable in Settings &gt; Notifications.</li>
-<li>Lists: delete data locally and/or from iCloud via iOS Settings &gt; Apple ID &gt; iCloud &gt; Manage Storage.</li>
-</ul>
-</div>
+    <div class="panel" id="data-control">
+      <h2>Your controls</h2>
+      <ul>
+        <li>Location: grant/deny or switch Approximate/Precise in iOS Settings &gt; Privacy &gt; Location Services.</li>
+        <li>Notifications: enable/disable in Settings &gt; Notifications.</li>
+        <li>Lists: delete data locally and/or from iCloud via iOS Settings &gt; Apple ID &gt; iCloud &gt; Manage Storage.</li>
+      </ul>
+    </div>
 
-<div class="panel" id="contact">
-<h2>Contact</h2>
-<p>Questions about privacy? Email <a href="mailto:support@killerappz.dev">support@killerappz.dev</a>.</p>
-</div>
-</main>
+    <div class="panel" id="contact">
+      <h2>Contact</h2>
+      <p>Questions about privacy? Email <a href="mailto:support@killerappz.dev">support@killerappz.dev</a>.</p>
+    </div>
+  </main>
 
-<footer class="foot">
-<div>© <span id="y"></span> KillerAppz — <a href="/support.html">Support</a></div>
-</footer>
-<script>
-document.getElementById('y').textContent=new Date().getFullYear();
-document.getElementById('eff').textContent=new Date().toLocaleDateString();
-</script>
+  <footer class="foot">
+    <div>© <span id="y"></span> KillerAppz — <a href="/support.html">Support</a></div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent=new Date().getFullYear();
+    document.getElementById('eff').textContent=new Date().toLocaleDateString();
+  </script>
 </body>
 </html>
