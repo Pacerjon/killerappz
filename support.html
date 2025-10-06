@@ -1,6 +1,3 @@
-<!-- =============================================
-File: support.html (Support / FAQ)
-============================================== -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,33 +5,29 @@ File: support.html (Support / FAQ)
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Listworthy — Support</title>
   <meta name="description" content="Get help with Listworthy. FAQs, troubleshooting, and contact info." />
-
-  <meta property="og:title" content="Listworthy — Support" />
-  <meta property="og:description" content="FAQs, troubleshooting, and contact for Listworthy." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://killerappz.dev/support.html" />
-
-  <link rel="icon" href="/favicon.ico" />
-  <link rel="canonical" href="https://killerappz.dev/support.html" />
-
   <style>
-    :root{--bg:#0e0f12;--panel:#14161b;--text:#e8ecf1;--muted:#aab3bf;--brand:#6ee7ff}
+    :root{--bg:#0e0f12;--panel:#14161b;--text:#e8ecf1;--muted:#aab3bf;--brand:#6ee7ff;--brand2:#a78bfa}
+    *{box-sizing:border-box}
     html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
-    a{color:var(--brand)} header,main,footer{max-width:900px;margin:0 auto;padding:24px}
+    a{color:var(--brand);text-decoration:none}
+    a:hover{text-decoration:underline}
+    header,main,footer{max-width:900px;margin:0 auto;padding:24px}
     nav{display:flex;gap:16px;align-items:center;justify-content:flex-end}
-    h1,h2{margin:0 0 8px} .muted{color:var(--muted)}
+    h1,h2,h3{margin:0 0 8px}
+    .muted{color:var(--muted)}
     .panel{background:var(--panel);border:1px solid #262a35;border-radius:16px;padding:18px;margin:16px 0}
     .foot{color:var(--muted);font-size:13px;padding:24px 0 48px}
     code{background:#0c0d11;border:1px solid #252a33;border-radius:6px;padding:2px 6px}
+    .badge{display:inline-block;padding:6px 12px;border:1px solid #2a2f39;border-radius:999px;color:var(--muted);font-size:12px}
   </style>
 </head>
 <body>
   <header>
     <nav>
-      <a href="/index.html">Home</a>
-      <a href="/listworthy.html">Listworthy</a>
-      <a href="/support.html" aria-current="page">Support</a>
-      <a href="/privacy.html">Privacy</a>
+      <a href="/index.html" class="badge">Home</a>
+      <a href="/listworthy.html" class="badge">Listworthy</a>
+      <a href="/support.html" class="badge" aria-current="page">Support</a>
+      <a href="/privacy.html" class="badge">Privacy</a>
     </nav>
   </header>
 
@@ -45,7 +38,7 @@ File: support.html (Support / FAQ)
     <div class="panel">
       <h2>Quick links</h2>
       <ul>
-        <li><a href="https://apps.apple.com/app/listworthy/id6752911163">Download on the App Store</a></li>
+        <li><a href="https://apps.apple.com/app/listworthy/id6752911163">Download on the App Store</a></li>
         <li><a href="/privacy.html">Privacy Policy</a></li>
         <li><a href="mailto:support@killerappz.dev">Email support</a></li>
       </ul>
@@ -53,14 +46,15 @@ File: support.html (Support / FAQ)
 
     <div class="panel">
       <h2>FAQs</h2>
+
       <h3>Where are my lists stored?</h3>
-      <p>Your lists sync via your iCloud account using CloudKit. We don’t host your lists on our servers.</p>
+      <p>Your lists sync via your iCloud account using CloudKit. We don’t host or view your lists — they live in your iCloud.</p>
 
       <h3>Why does the app ask for my location?</h3>
-      <p>Only to power <em>Places</em> search so you can find nearby restaurants, bakeries, venues, and more. You control permission, and you can choose Approximate or Precise. You can also use Places search by typing a city or area without granting location.</p>
+      <p>Only to power <em>Places</em> search so you can find nearby restaurants, bakeries, venues, and more. You control permission and can choose Approximate or Precise. You can also search manually without granting location.</p>
 
-      <h3>Ads & app‑ads.txt</h3>
-      <p>Listworthy uses Google AdMob for ads. The authorized sellers file is served at <code>/app-ads.txt</code> on this domain.</p>
+      <h3>Ads & app-ads.txt</h3>
+      <p>Listworthy uses Google AdMob to serve ads. Our authorized sellers file is hosted at <code>/app-ads.txt</code> on this domain.</p>
 
       <h3>Suggested templates</h3>
       <p>Try these to get started:</p>
@@ -72,13 +66,16 @@ File: support.html (Support / FAQ)
       </ul>
 
       <h3>Contact</h3>
-      <p>Email <a href="mailto:support@killerappz.dev">support@killerappz.dev</a> for help.</p>
+      <p>Email <a href="mailto:support@killerappz.dev">support@killerappz.dev</a> for any help or feedback.</p>
     </div>
   </main>
 
   <footer class="foot">
     <div>© <span id="y"></span> KillerAppz — <a href="/privacy.html">Privacy</a></div>
   </footer>
-  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
