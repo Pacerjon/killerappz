@@ -1,110 +1,56 @@
+<!-- =============================================
+<a href="/index.html" class="badge">Home</a>
+<a href="/listworthy.html" class="badge">Listworthy</a>
+<a href="/support.html" class="badge">Support</a>
+<a href="/privacy.html" class="badge">Privacy</a>
+</nav>
+</header>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="color-scheme" content="light dark" />
-  <title>Listworthy — Home</title>
-  <meta name="description" content="Organize and share your hot takes. Rank movies, shows, music, books, comics, and places — with reminders and iCloud sync." />
-  <link rel="icon" href="/favicon.ico" />
-  <link rel="canonical" href="https://killerappz.dev/index.html" />
-  <!-- Open Graph -->
-  <meta property="og:title" content="Listworthy — Home" />
-  <meta property="og:description" content="Organize and share your hot takes. Rank movies, shows, music, books, comics, and places — with reminders and iCloud sync." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://killerappz.dev/index.html" />
-  <style>
-    :root{
-      --bg:#0e0f12;
-      --ink:#121212;
-      --cream:#F5EFE6;
-      --accent:#2E7CF6;
-      --muted:#6b7280;
-      --card: rgba(255,255,255,0.9);
-      --card-dark: rgba(25,27,31,0.85);
-      --radius: 16px;
-      --shadow: 0 8px 30px rgba(0,0,0,0.08);
-      --maxw: 960px;
-    }
-    @media (prefers-color-scheme: dark){
-      :root{
-        --card: var(--card-dark);
-        --ink:#e5e7eb;
-      }
-    }
-    html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:-apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol";}
-    a{color:var(--accent);text-decoration:none}
-    a:hover{text-decoration:underline}
-    header{position:relative;padding:24px 16px;display:flex;justify-content:center;border-bottom:1px solid rgba(255,255,255,0.06)}
-    nav{width:100%;max-width:var(--maxw);display:flex;gap:16px;align-items:center;justify-content:space-between}
-    .brand{display:flex;gap:12px;align-items:center}
-    .brand-logo{width:32px;height:32px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#7aa7ff)}
-    .brand-name{font-weight:700;letter-spacing:.2px}
-    .links a{margin-left:14px;font-weight:600;opacity:.9}
-    .container{max-width:var(--maxw);margin:0 auto;padding:24px 16px 64px}
-    .hero{margin-top:12px;background:var(--card);backdrop-filter: blur(10px);padding:32px;border-radius:var(--radius);box-shadow:var(--shadow)}
-    .hero h1{margin:.2em 0;font-size:clamp(28px,4vw,44px);line-height:1.1}
-    .tagline{font-size:clamp(16px,2.3vw,20px);color:var(--muted)}
-    .grid{display:grid;grid-template-columns:1fr;gap:16px;margin-top:18px}
-    @media(min-width:840px){ .grid{grid-template-columns:1fr 1fr} }
-    .card{background:var(--card);padding:24px;border-radius:var(--radius);box-shadow:var(--shadow)}
-    .card h2{margin-top:0}
-    ul.check{list-style:none;padding-left:0}
-    ul.check li{padding:8px 0 8px 32px;position:relative}
-    ul.check li::before{content:"✓";position:absolute;left:0;top:8px;background:var(--accent);color:white;border-radius:8px;width:22px;height:22px;display:grid;place-items:center;font-size:14px}
-    .button{display:inline-block;background:var(--accent);color:white;padding:12px 18px;border-radius:12px;font-weight:700;margin-top:10px}
-    footer{margin-top:48px;color:var(--muted);font-size:14px;text-align:center}
-    .small{font-size:14px;color:var(--muted)}
-    code.inline{background:rgba(0,0,0,0.08);padding:2px 6px;border-radius:6px}
-  </style>
-</head>
-<body>
-  <header>
-    <nav>
-      <div class="brand">
-        <div class="brand-logo" aria-hidden="true"></div>
-        <div class="brand-name">Listworthy</div>
-      </div>
-      <div class="links">
-        <a href="/index.html">Home</a>
-        <a href="/listworthy.html">App</a>
-        <a href="/support.html">Support</a>
-        <a href="/privacy.html">Privacy</a>
-      </div>
-    </nav>
-  </header>
-  <main class="container">
-    
+<main>
 <section class="hero">
-  <h1>Listworthy — Your Lists, Ranked.</h1>
-  <p class="tagline">Organize and share all your hot takes — and prove once and for all who’s got the best list.</p>
-  <p>Search a massive library for movies, TV shows, music, books, comics, and places. Discover where to stream your next obsession, create definitive rankings for your favorites, and build the bucket list you’ll actually complete.</p>
-  <a class="button" href="https://apps.apple.com/app/listworthy/id6752911163">Get Listworthy on the App Store</a>
+<h1 class="title">Listworthy</h1>
+<p class="subtitle">Track · Rank · Share Favorites</p>
+<p class="small">Search a massive library for movies, TV shows, music, books, comics, and places. Discover where to stream your next obsession, create definitive rankings, and build the bucket list you’ll actually complete.</p>
+<div class="cta">
+<a class="btn" href="https://apps.apple.com/app/listworthy/id6752911163" rel="noopener">Get the app on the App Store</a>
+<a class="badge" href="/listworthy.html">Learn more</a>
+</div>
 </section>
 
-<section class="grid" aria-label="Highlights">
-  <div class="card">
-    <h2>What you can do</h2>
-    <ul class="check">
-      <li>Create <strong>checklists</strong> or <strong>ranked lists</strong>.</li>
-      <li>Discover <strong>nearby places</strong> with built‑in location search.</li>
-      <li>Add <strong>scores</strong> and let Listworthy auto‑rank your favorites.</li>
-      <li><strong>Share</strong> lists with friends and swap recommendations.</li>
-      <li>Set <strong>reminders</strong> so you finally watch that 2011 classic.</li>
-      <li><strong>Sync</strong> seamlessly across your iCloud devices.</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h2>Categories</h2>
-    <p>Movies • TV Shows • Music • Books • Comics • Places</p>
-    <p class="small">Places search uses your device location (optional) to find restaurants, bakeries, venues, and more nearby.</p>
-  </div>
+<section class="panel">
+<h2 style="margin:0 0 8px">What you can do</h2>
+<div class="grid">
+<div class="panel">
+<strong>Create checklists & ranked lists</strong>
+<p class="small">Get things done or unleash your inner critic with tiered rankings.</p>
+</div>
+<div class="panel">
+<strong>Find places near you</strong>
+<p class="small">Built‑in location search to discover restaurants, bakeries, parks, venues, cities, and more.</p>
+</div>
+<div class="panel">
+<strong>Auto‑ranking scores</strong>
+<p class="small">Add your scores and watch Listworthy shuffle your rankings to reveal true favorites.</p>
+</div>
+<div class="panel">
+<strong>Share & discover</strong>
+<p class="small">Share lists with friends and discover new favorites together.</p>
+</div>
+<div class="panel">
+<strong>Reminders that stick</strong>
+<p class="small">Set reminders so you finally watch that movie you swore you’d get to back in 2011.</p>
+</div>
+<div class="panel">
+<strong>iCloud sync</strong>
+<p class="small">Sync all your lists seamlessly across your Apple devices. Your data stays in your iCloud.</p>
+</div>
+</div>
 </section>
+</main>
 
-  </main>
-  <footer>
-    <p>© 2025 KillerAppz — All rights reserved.</p>
-  </footer>
+<footer class="foot">
+<div>© <span id="y"></span> KillerAppz — <a href="/support.html">Support</a> · <a href="/privacy.html">Privacy</a></div>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
 </html>
