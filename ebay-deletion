@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><title>eBay Deletion Endpoint</title></head>
+<body>
+  <h3>Listworthy eBay Deletion Endpoint</h3>
+  <p>This endpoint acknowledges receipt of marketplace account deletion notices.</p>
+</body>
+</html>
