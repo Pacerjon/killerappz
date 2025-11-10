@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Affiliate Links — KillerAppz</title>
+  <meta name="description" content="Affiliate links and recommendations curated by KillerAppz and Listworthy. As an Amazon Associate, I earn from qualifying purchases." />
+  <style>
+    :root{--bg:#0e0f12;--panel:#14161b;--text:#e8ecf1;--muted:#aab3bf;--brand:#6ee7ff;--brand2:#a78bfa}
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+    a{color:var(--brand);text-decoration:none}
+    a:hover{text-decoration:underline}
+    header,main,footer{max-width:1000px;margin:0 auto;padding:24px}
+    nav{display:flex;gap:16px;align-items:center;justify-content:flex-end}
+    .badge{display:inline-block;padding:4px 10px;border:1px solid #2a2f39;border-radius:999px;color:var(--muted);font-size:12px}
+    .panel{background:var(--panel);border:1px solid #262a35;border-radius:16px;padding:18px;margin-top:20px}
+    .foot{color:var(--muted);font-size:13px;padding:24px 0 48px}
+    .small{font-size:13px;color:var(--muted)}
+    h1{font-size:32px;margin-bottom:8px}
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/index.html" class="badge">Home</a>
+      <a href="/listworthy.html" class="badge">Listworthy</a>
+      <a href="/affiliate.html" class="badge">Affiliates</a>
+      <a href="/support.html" class="badge">Support</a>
+      <a href="/privacy.html" class="badge">Privacy</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Affiliate Links</h1>
+    <p class="small">
+      KillerAppz and the Listworthy app occasionally share affiliate links to products and services we genuinely recommend. 
+      As an <strong>Amazon Associate</strong>, we earn from qualifying purchases.
+    </p>
+
+    <section class="panel">
+      <h2 style="margin-top:0;">Featured Products</h2>
+      <ul>
+        <li><a href="https://www.amazon.com/dp/B0CXXXXXXX?tag=yourtag-20" target="_blank" rel="noopener">Example Product 1</a></li>
+        <li><a href="https://www.amazon.com/dp/B0DXXXXXXX?tag=yourtag-20" target="_blank" rel="noopener">Example Product 2</a></li>
+        <li><a href="https://www.amazon.com/dp/B0EXXXXXXX?tag=yourtag-20" target="_blank" rel="noopener">Example Product 3</a></li>
+      </ul>
+      <p class="small">These links are for demonstration and review purposes only. Actual recommendations will appear here as new lists and content are added.</p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div>© <span id="y"></span> KillerAppz — <a href="/support.html">Support</a> · <a href="/privacy.html">Privacy</a></div>
+  </footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
