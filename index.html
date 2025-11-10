@@ -23,6 +23,11 @@
     .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:10px}
     .foot{color:var(--muted);font-size:13px;padding:24px 0 48px}
     .small{font-size:13px;color:var(--muted)}
+    .product-card{margin-top:48px;display:flex;flex-direction:column;align-items:center;text-align:center;background:var(--panel);border:1px solid #262a35;border-radius:18px;padding:20px;transition:transform .2s ease, box-shadow .2s ease;}
+    .product-card:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,0.3);}
+    .product-card img{width:220px;height:auto;border-radius:12px;margin-bottom:12px;}
+    .product-card h3{margin:8px 0 4px;font-size:20px;}
+    .product-card p{color:var(--muted);font-size:14px;margin:0 0 12px;}
   </style>
 </head>
 <body>
@@ -45,6 +50,15 @@
         <a class="btn" href="https://apps.apple.com/app/listworthy/id6752911163" rel="noopener">Get the app on the App Store</a>
         <a class="badge" href="/listworthy.html">Learn more</a>
       </div>
+    </section>
+
+    <section class="product-card">
+      <a href="https://amzn.to/4ozwP6b" target="_blank" rel="noopener">
+        <img src="/assets/AUltra3.png" alt="Apple Watch Ultra 3" loading="lazy" />
+      </a>
+      <h3><a href="https://amzn.to/4ozwP6b" target="_blank" rel="noopener">Apple Watch Ultra 3</a></h3>
+      <p>The ultimate adventure smartwatch — precision-engineered for performance, endurance, and style.</p>
+      <a class="badge" href="/affiliate.html">See more recommendations →</a>
     </section>
 
     <section class="panel">
