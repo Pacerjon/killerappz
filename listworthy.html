@@ -8,12 +8,13 @@
   <style>
     :root{--bg:#0e0f12;--panel:#14161b;--text:#e8ecf1;--muted:#aab3bf;--brand:#6ee7ff;--brand2:#a78bfa}
     *{box-sizing:border-box}
-    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6}
     a{color:var(--brand);text-decoration:none}
     a:hover{text-decoration:underline}
     header,main,footer{max-width:900px;margin:0 auto;padding:24px}
     nav{display:flex;gap:16px;align-items:center;justify-content:flex-end}
     h1{font-size:36px;margin:0 0 8px}
+    h2{margin-top:0}
     .muted{color:var(--muted)}
     .panel{background:var(--panel);border:1px solid #262a35;border-radius:16px;padding:18px;margin-top:18px}
     ul{margin:0;padding-left:18px}
@@ -28,7 +29,7 @@
   <header>
     <nav>
       <a href="/index.html" class="badge">Home</a>
-      <a href="/listworthy.html" class="badge">Listworthy</a>
+      <a href="/listworthy.html" class="badge" aria-current="page">Listworthy</a>
       <a href="/support.html" class="badge">Support</a>
       <a href="/privacy.html" class="badge">Privacy</a>
     </nav>
@@ -37,18 +38,90 @@
   <main>
     <h1>Listworthy</h1>
     <p class="muted">Track · Rank · Share Favorites</p>
-    <p>Listworthy is the app to track, rank and share all your favorites. Search a massive library for <strong>movies</strong>, <strong>TV shows</strong>, <strong>music</strong>, <strong>books</strong>, <strong>comics</strong>, and <strong>places</strong>. Discover where to stream your next obsession, create definitive rankings for your favorites, and build the bucket list you’ll actually complete.</p>
+    <p>Listworthy helps you track, rank, and share everything you love. Create custom lists for <strong>movies</strong>, <strong>TV shows</strong>, <strong>music</strong>, <strong>books</strong>, <strong>comics</strong>, <strong>places</strong>, and more — all beautifully organized and synced across devices with iCloud.</p>
     <a class="cta" href="https://apps.apple.com/app/listworthy/id6752911163" rel="noopener">Get it on the App Store</a>
 
+    <!-- Comprehensive Features -->
     <section class="panel">
       <h2>Features</h2>
+
+      <h3>📋 Core Features</h3>
       <ul>
-        <li><strong>Create checklists</strong> to get things done, or <strong>ranked lists</strong> to unleash your inner critic.</li>
-        <li><strong>Discover places nearby</strong> with built-in location search (restaurants, bakeries, lakes, cities, countries, concert venues, etc.).</li>
-        <li><strong>Add your own scores</strong> and watch Listworthy shuffle your rankings to reveal your true favorites.</li>
-        <li><strong>Share your lists</strong> with friends and discover new favorites together.</li>
-        <li><strong>Set reminders</strong> so you finally watch that movie you swore you’d get to back in 2011.</li>
-        <li><strong>Sync with iCloud</strong> to keep your lists up-to-date across all your Apple devices.</li>
+        <li>Create unlimited lists across categories like Movies, Music, Books, Games, Comics, Places, and Checklists.</li>
+        <li>Category-specific detail views — Movies show posters, Places show maps, Checklists allow reminders.</li>
+        <li>Built-in templates to get started fast (e.g. Favorite Restaurants, Bucket List, or Best TV Shows).</li>
+        <li>One-tap add buttons to quickly create new lists or add new items.</li>
+      </ul>
+
+      <h3>⚡️ List & Item Controls</h3>
+      <ul>
+        <li>Swipe left on lists to Rename or Delete.</li>
+        <li>Swipe right on lists to Set Default for that category.</li>
+        <li>Swipe left on items to Rename, Move, or Delete.</li>
+        <li>Swipe right on items to Set Reminder (for checklists) or Mark Complete.</li>
+        <li>Drag and drop to reorder and rank items instantly.</li>
+      </ul>
+
+      <h3>⭐️ Rating & Ranking</h3>
+      <ul>
+        <li>Rate items 1–10 using a smooth haptic slider.</li>
+        <li>Auto-sort lists by rating to reveal your top favorites.</li>
+        <li>Quickly adjust ranks by dragging or re-rating items.</li>
+      </ul>
+
+      <h3>🔗 Sharing & Imports</h3>
+      <ul>
+        <li>Share from any app using the iOS Share Sheet (YouTube, Safari, TikTok, Maps, etc.).</li>
+        <li>Automatic title and image detection for shared links.</li>
+        <li>Share lists as images to post online or send to friends.</li>
+        <li>Export full lists to <code>.listworthy</code> files, including notes and images.</li>
+        <li>Import shared lists back into the app with one tap.</li>
+      </ul>
+
+      <h3>🗂 Customization</h3>
+      <ul>
+        <li>Change list icons with emojis or category images.</li>
+        <li>Rename lists and items anytime.</li>
+        <li>Move items between lists seamlessly.</li>
+        <li>Set default lists per category for faster sharing.</li>
+      </ul>
+
+      <h3>⏰ Reminders & Checklists</h3>
+      <ul>
+        <li>Add reminders to checklist items with a simple swipe.</li>
+        <li>Receive local notifications — no sign-in required.</li>
+        <li>Mark tasks complete with a tap.</li>
+      </ul>
+
+      <h3>🔍 Search & Navigation</h3>
+      <ul>
+        <li>Search all lists or within a single category.</li>
+        <li>Category-aware search filters (Movies, Music, Books, and Places).</li>
+        <li>Places category integrates with Apple Maps and shows map previews.</li>
+      </ul>
+
+      <h3>🧭 Item Detail Views</h3>
+      <ul>
+        <li><strong>Movies & TV:</strong> Poster, release year, rating slider.</li>
+        <li><strong>Music:</strong> Album art, artist, and user score.</li>
+        <li><strong>Books:</strong> Author info, cover image, and notes.</li>
+        <li><strong>Places:</strong> Apple Maps preview and directions link.</li>
+        <li><strong>Checklists:</strong> Reminders, completion toggles, and reordering.</li>
+      </ul>
+
+      <h3>☁️ Sync & Supporter Perks</h3>
+      <ul>
+        <li>Bronze, Silver, and Gold supporter tiers available via in-app purchase.</li>
+        <li>Gold tier removes ads, enables iCloud sync, and unlocks export features.</li>
+        <li>Automatic iCloud backup keeps lists synced securely.</li>
+      </ul>
+
+      <h3>🧠 Smart Details</h3>
+      <ul>
+        <li>Offline-ready — access your lists anytime, anywhere.</li>
+        <li>Long-press for reorder mode or quick list actions.</li>
+        <li>Dark mode native UI that adapts beautifully on iPhone & iPad.</li>
+        <li>Privacy-first: no account or data tracking required.</li>
       </ul>
     </section>
 
@@ -68,7 +141,6 @@
         <code>Places to Visit</code>
       </div>
     </section>
-
   </main>
 
   <footer class="foot">
