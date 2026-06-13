@@ -328,6 +328,17 @@ h3 { font-size: 1.25rem; margin: 0 0 .35em; }
 .footer-brand { font-family: var(--serif); font-size: 1.2rem; color: var(--cream); }
 .footer-small { color: rgba(251,244,228,.55); font-size: .85rem; margin-top: 14px; }
 
+/* ---------- Real logo assets ---------- */
+.appicon {
+  border-radius: 22.5%;            /* iOS-style squircle approximation */
+  box-shadow: var(--shadow);
+  display: block;
+  margin: 0 auto;
+}
+.wordmark { display: block; height: auto; width: 100%; max-width: 280px; }
+.wordmark-sm { max-width: 200px; }
+.hero-art .wordmark { margin: 0 auto 6px; }
+
 /* ---------- Misc ---------- */
 .hr { height: 1px; background: var(--line); border: 0; margin: 0; }
 .tag-row { display: flex; flex-wrap: wrap; gap: 8px; }
