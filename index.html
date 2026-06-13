@@ -1,103 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Listworthy — Like Anything, Share Everthing!</title>
-  <meta name="description" content="Listworthy helps you track, rank, and share your favorites — movies, TV, music, books, comics, products, links and places — with iCloud sync and built-in location search for places." />
-  <style>
-    :root{--bg:#0e0f12;--panel:#14161b;--text:#e8ecf1;--muted:#aab3bf;--brand:#6ee7ff;--brand2:#a78bfa}
-    *{box-sizing:border-box}
-    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
-    a{color:var(--brand);text-decoration:none}
-    a:hover{text-decoration:underline}
-    header,main,footer{max-width:1000px;margin:0 auto;padding:24px}
-    nav{display:flex;gap:16px;align-items:center;justify-content:flex-end}
-    .badge{display:inline-block;padding:4px 10px;border:1px solid #2a2f39;border-radius:999px;color:var(--muted);font-size:12px}
-    .hero{display:grid;gap:16px;padding:48px 0}
-    .title{font-size:40px;line-height:1.1;margin:0}
-    .subtitle{font-size:18px;color:var(--muted);margin:6px 0 0}
-    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
-    .btn{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,var(--brand),var(--brand2));color:#0d0f14;border:none;border-radius:14px;padding:12px 18px;font-weight:700}
-    .panel{background:var(--panel);border:1px solid #262a35;border-radius:16px;padding:18px}
-    .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:10px}
-    .foot{color:var(--muted);font-size:13px;padding:24px 0 48px}
-    .small{font-size:13px;color:var(--muted)}
-    .product-card{margin-top:48px;display:flex;flex-direction:column;align-items:center;text-align:center;background:var(--panel);border:1px solid #262a35;border-radius:18px;padding:20px;transition:transform .2s ease, box-shadow .2s ease;}
-    .product-card:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,0.3);}
-    .product-card img{width:220px;height:auto;border-radius:12px;margin-bottom:12px;}
-    .product-card h3{margin:8px 0 4px;font-size:20px;}
-    .product-card p{color:var(--muted);font-size:14px;margin:0 0 12px;}
-    .funny-title{text-align:center;margin-top:36px;font-size:16px;color:var(--muted);}
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KillerAppz — Independent iOS apps, crafted with care</title>
+  <meta name="description" content="KillerAppz is an independent app studio. Maker of Listworthy, the app to track, rank, and share everything you love — with free iCloud sync.">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="/index.html" class="badge">Home</a>
-      <a href="/listworthy.html" class="badge">Listworthy</a>
-      <a href="/affiliate.html" class="badge">Affiliates</a>
-      <a href="/support.html" class="badge">Support</a>
-      <a href="/privacy.html" class="badge">Privacy</a>
-    </nav>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="mark">K</span> KillerAppz</a>
+      <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
+      <nav class="nav-links" id="nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="listworthy.html">Listworthy</a>
+        <a href="affiliate.html">Recommends</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <h1 class="title">Listworthy</h1>
-      <p class="subtitle">Like Anything, Share Everything!</p>
-      <p class="small">Search a massive library for movies, TV shows, music, books, comics, products and places. Discover where to stream your next obsession, create definitive rankings, and build the bucket list you’ll actually complete.</p>
-      <div class="cta">
-        <a class="btn" href="https://apps.apple.com/app/listworthy/id6752911163" rel="noopener">Get it on the App Store</a>
-        <a class="badge" href="/listworthy.html">Learn more</a>
-      </div>
-    </section>
-
-    <section class="panel">
-      <h2 style="margin:0 0 8px">What you can do</h2>
-      <div class="grid">
-        <div class="panel">
-          <strong>Create checklists & ranked lists</strong>
-          <p class="small">Get things done or unleash your inner critic with tiered rankings.</p>
-        </div>
-        <div class="panel">
-          <strong>Find places near you</strong>
-          <p class="small">Built-in location search to discover restaurants, bakeries, parks, venues, cities, and more.</p>
-        </div>
-        <div class="panel">
-          <strong>Auto-ranking scores</strong>
-          <p class="small">Add your scores and watch Listworthy shuffle your rankings to reveal true favorites.</p>
-        </div>
-        <div class="panel">
-          <strong>Share & discover</strong>
-          <p class="small">Share lists with friends and discover new favorites together.</p>
-        </div>
-        <div class="panel">
-          <strong>Reminders that stick</strong>
-          <p class="small">Set reminders so you finally watch that movie you swore you’d get to back in 2011.</p>
-        </div>
-        <div class="panel">
-          <strong>iCloud sync</strong>
-          <p class="small">Sync all your lists seamlessly across your Apple devices. Your data stays in your iCloud.</p>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow">Independent app studio</span>
+        <h1>Small apps,<br>made with care.</h1>
+        <p class="lead">KillerAppz builds focused, privacy-first iOS apps that do one thing well. No accounts, no tracking, no clutter — just tools you'll actually use.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="listworthy.html">Meet Listworthy →</a>
+          <a class="btn btn-ghost" href="https://apps.apple.com/app/listworthy/id6752911163">Get it on the App Store</a>
         </div>
       </div>
-    </section>
+      <div class="hero-art">
+        <div class="card" style="text-align:center; max-width:300px; padding:34px;">
+          <div class="mark" style="width:84px;height:84px;border-radius:20px;font-size:2.6rem;margin:0 auto 16px;">L</div>
+          <h3 style="margin-bottom:.2em;">Listworthy</h3>
+          <p style="margin-bottom:16px;">Like anything. Share everything.</p>
+          <div class="tag-row" style="justify-content:center;">
+            <span class="tag">Movies</span><span class="tag">TV</span><span class="tag">Books</span>
+            <span class="tag">Places</span><span class="tag">Products</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <p class="funny-title">If these affiliate links ever sell anything, this will be my first purchase 😅</p>
+  <hr class="hr">
 
-    <section class="product-card">
-      <a href="https://amzn.to/4ozwP6b" target="_blank" rel="noopener">
-        <img src="/assets/AUltra3.png" alt="Apple Watch Ultra 3" loading="lazy" />
-      </a>
-      <h3><a href="https://amzn.to/4ozwP6b" target="_blank" rel="noopener">Apple Watch Ultra 3</a></h3>
-      <p>The ultimate adventure smartwatch — precision-engineered for performance, endurance, and style.</p>
-      <a class="badge" href="/affiliate.html">See more recommendations →</a>
-    </section>
-  </main>
+  <!-- FEATURED APP -->
+  <section>
+    <div class="container">
+      <div class="center" style="margin-bottom:40px;">
+        <span class="eyebrow">Now available</span>
+        <h2>Our apps</h2>
+      </div>
 
-  <footer class="foot">
-    <div>© <span id="y"></span> KillerAppz — <a href="/support.html">Support</a> · <a href="/privacy.html">Privacy</a></div>
+      <div class="feature-app">
+        <div style="text-align:center;">
+          <div class="mark" style="width:110px;height:110px;border-radius:26px;font-size:3.4rem;margin:0 auto;">L</div>
+        </div>
+        <div>
+          <span class="pill">iPhone · iPad</span>
+          <h2 style="margin-bottom:.25em;">Listworthy</h2>
+          <p class="lead" style="font-size:1.08rem;margin-bottom:18px;">Track, rank, and share everything you love — movies, TV, music, books, comics, places, products, and links. Score them, auto-rank your favorites, and share clean branded list images with friends. Free iCloud sync across all your devices.</p>
+          <div class="tag-row" style="margin-bottom:22px;">
+            <span class="tag">Ranked lists</span>
+            <span class="tag">Watchlists</span>
+            <span class="tag">Wishlists</span>
+            <span class="tag">Bucket lists</span>
+            <span class="tag">Save links from any app</span>
+          </div>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="https://apps.apple.com/app/listworthy/id6752911163">Download free</a>
+            <a class="btn btn-ghost" href="listworthy.html">See features</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-2" style="margin-top:22px;">
+        <div class="soon">
+          <h3 style="color:var(--ink);">More on the way</h3>
+          <p>New KillerAppz projects are in the workshop. Same focus on speed, privacy, and craft.</p>
+        </div>
+        <div class="soon">
+          <h3 style="color:var(--ink);">Have an idea or bug?</h3>
+          <p><a href="support.html">Reach out on the support page</a> — feedback shapes what gets built next.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="hr">
+
+  <!-- VALUES -->
+  <section>
+    <div class="container">
+      <div class="center" style="margin-bottom:40px;">
+        <span class="eyebrow">How we build</span>
+        <h2>Built a little differently</h2>
+      </div>
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="ico">🔒</div>
+          <h3>Privacy first</h3>
+          <p>No accounts to create and no data collection. Your content stays on your device and in your personal iCloud.</p>
+        </div>
+        <div class="card">
+          <div class="ico">⚡️</div>
+          <h3>Fast and focused</h3>
+          <p>Lightweight, native, and quick. Every app is designed to do its job without getting in your way.</p>
+        </div>
+        <div class="card">
+          <div class="ico">🛠️</div>
+          <h3>Always improving</h3>
+          <p>Frequent updates driven by real feedback from people who actually use the apps every day.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">KillerAppz</div>
+        <nav class="footer-links">
+          <a href="listworthy.html">Listworthy</a>
+          <a href="affiliate.html">Recommends</a>
+          <a href="support.html">Support</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+      </div>
+      <p class="footer-small">© <span id="yr"></span> KillerAppz. Made with care.</p>
+    </div>
   </footer>
-  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
 </body>
 </html>

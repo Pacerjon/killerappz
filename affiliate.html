@@ -1,57 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Affiliate Links — KillerAppz</title>
-  <meta name="description" content="Affiliate links and recommendations curated by KillerAppz and Listworthy. As an Amazon Associate, I earn from qualifying purchases." />
-  <style>
-    :root{--bg:#0e0f12;--panel:#14161b;--text:#e8ecf1;--muted:#aab3bf;--brand:#6ee7ff;--brand2:#a78bfa}
-    *{box-sizing:border-box}
-    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
-    a{color:var(--brand);text-decoration:none}
-    a:hover{text-decoration:underline}
-    header,main,footer{max-width:1000px;margin:0 auto;padding:24px}
-    nav{display:flex;gap:16px;align-items:center;justify-content:flex-end}
-    .badge{display:inline-block;padding:4px 10px;border:1px solid #2a2f39;border-radius:999px;color:var(--muted);font-size:12px}
-    .panel{background:var(--panel);border:1px solid #262a35;border-radius:16px;padding:18px;margin-top:20px}
-    .foot{color:var(--muted);font-size:13px;padding:24px 0 48px}
-    .small{font-size:13px;color:var(--muted)}
-    h1{font-size:32px;margin-bottom:8px}
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recommends — KillerAppz</title>
+  <meta name="description" content="Products and gear recommended by KillerAppz and Listworthy. As an Amazon Associate, we earn from qualifying purchases.">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="/index.html" class="badge">Home</a>
-      <a href="/listworthy.html" class="badge">Listworthy</a>
-      <a href="/affiliate.html" class="badge">Affiliates</a>
-      <a href="/support.html" class="badge">Support</a>
-      <a href="/privacy.html" class="badge">Privacy</a>
-    </nav>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="mark">K</span> KillerAppz</a>
+      <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
+      <nav class="nav-links" id="nav">
+        <a href="index.html">Home</a>
+        <a href="listworthy.html">Listworthy</a>
+        <a href="affiliate.html" class="active">Recommends</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <h1>Affiliate Links</h1>
-    <p class="small">
-      KillerAppz and the Listworthy app occasionally share affiliate links to products and services we genuinely recommend. 
-      As an <strong>Amazon Associate</strong>, we earn from qualifying purchases.
-    </p>
+  <section class="hero" style="padding-bottom:32px;">
+    <div class="container">
+      <span class="eyebrow">Gear we like</span>
+      <h1>Recommends</h1>
+      <p class="lead">A short, honest list of products we actually like. If you grab something through these links, it helps fund Listworthy's development at no extra cost to you.</p>
+    </div>
+  </section>
 
-    <section class="panel">
-      <h2 style="margin-top:0;">Listworthy Approved Products</h2>
-      <ul>
-        <li><a href="https://amzn.to/3WQIFfT" target="_blank" rel="noopener">USB to USB C Adapter</a></li>
-        <li><a href="https://amzn.to/49idBgB" target="_blank" rel="noopener">Laptop Screen Extender Dual/Triple Monitor</a></li>
-        <li><a href="https://amzn.to/49JujW3" target="_blank" rel="noopener">Magnetic Phone Ring Holder for MagSafe</a></li>
-      </ul>
-      <p class="small">These links use our official Amazon Associates tracking code. Purchases made through them help support ongoing Listworthy app development.</p>
-    </section>
-  </main>
+  <section class="section-tight" style="padding-top:0;">
+    <div class="container">
 
-  <footer class="foot">
-    <div>© <span id="y"></span> KillerAppz — <a href="/support.html">Support</a> · <a href="/privacy.html">Privacy</a></div>
+      <div class="disclosure" style="margin-bottom:30px;">
+        As an <strong>Amazon Associate</strong>, KillerAppz earns from qualifying purchases. The Listworthy app may also earn from qualifying Amazon and eBay purchases made through links inside the app. These programs never change the price you pay.
+      </div>
+
+      <h2 style="margin-bottom:22px;">Listworthy-approved products</h2>
+      <div class="aff-grid">
+        <div class="aff">
+          <div class="thumb"><img src="assets/AUltra3.png" alt="Apple Watch Ultra 3" onerror="this.style.display='none';this.parentNode.textContent='⌚️';"></div>
+          <h3>Apple Watch Ultra 3</h3>
+          <p style="color:var(--ink-soft);flex:1;">The ultimate adventure smartwatch — built for performance, endurance, and style.</p>
+          <a class="btn btn-primary" href="https://amzn.to/4ozwP6b">View on Amazon</a>
+        </div>
+        <div class="aff">
+          <div class="thumb">🔌</div>
+          <h3>USB to USB-C Adapter</h3>
+          <p style="color:var(--ink-soft);flex:1;">Keep your older USB accessories working with modern USB-C devices.</p>
+          <a class="btn btn-primary" href="https://amzn.to/3WQIFfT">View on Amazon</a>
+        </div>
+        <div class="aff">
+          <div class="thumb">🖥️</div>
+          <h3>Dual/Triple Monitor Extender</h3>
+          <p style="color:var(--ink-soft);flex:1;">A laptop screen extender for a portable multi-monitor workspace.</p>
+          <a class="btn btn-primary" href="https://amzn.to/49idBgB">View on Amazon</a>
+        </div>
+        <div class="aff">
+          <div class="thumb">📱</div>
+          <h3>MagSafe Phone Ring Holder</h3>
+          <p style="color:var(--ink-soft);flex:1;">Magnetic grip and stand that snaps onto MagSafe phones and cases.</p>
+          <a class="btn btn-primary" href="https://amzn.to/49JujW3">View on Amazon</a>
+        </div>
+      </div>
+
+      <p style="color:var(--muted);font-size:.92rem;margin-top:26px;">These links use our official Amazon Associates tracking code. Purchases made through them help support ongoing Listworthy development. Thank you.</p>
+
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">KillerAppz</div>
+        <nav class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="listworthy.html">Listworthy</a>
+          <a href="support.html">Support</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+      </div>
+      <p class="footer-small">© <span id="yr"></span> KillerAppz.</p>
+    </div>
   </footer>
-  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
 </body>
 </html>

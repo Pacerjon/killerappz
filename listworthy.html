@@ -1,158 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Listworthy — Like Anything, Share Everything!</title>
-  <meta name="description" content="Listworthy is the app to track, rank and share all your favorites — from movies and TV to books, music, comics, products and places — all synced with iCloud." />
-  <style>
-    :root{--bg:#0e0f12;--panel:#14161b;--text:#e8ecf1;--muted:#aab3bf;--brand:#6ee7ff;--brand2:#a78bfa}
-    *{box-sizing:border-box}
-    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6}
-    a{color:var(--brand);text-decoration:none}
-    a:hover{text-decoration:underline}
-    header,main,footer{max-width:900px;margin:0 auto;padding:24px}
-    nav{display:flex;gap:16px;align-items:center;justify-content:flex-end}
-    h1{font-size:36px;margin:0 0 8px}
-    h2{margin-top:0}
-    .muted{color:var(--muted)}
-    .panel{background:var(--panel);border:1px solid #262a35;border-radius:16px;padding:18px;margin-top:18px}
-    ul{margin:0;padding-left:18px}
-    li{margin:6px 0}
-    code{display:inline-block;margin:4px 6px 0 0;padding:6px 10px;background:#0c0d11;border:1px solid #252a33;border-radius:10px;color:var(--muted);font-size:13px}
-    .badge{display:inline-block;padding:6px 12px;border:1px solid #2a2f39;border-radius:999px;color:var(--muted);font-size:12px}
-    .cta{display:inline-block;background:linear-gradient(135deg,var(--brand),var(--brand2));color:#0d0f14;padding:12px 16px;border-radius:12px;font-weight:700;margin:10px 0}
-    .foot{color:var(--muted);font-size:13px;padding:24px 0 48px}
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Listworthy — Like Anything, Share Everything</title>
+  <meta name="description" content="Listworthy lets you track, rank, and share everything you love — movies, TV, music, books, comics, places, products, and links. Free iCloud sync, save links from any app, and shareable list images.">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="/index.html" class="badge">Home</a>
-      <a href="/listworthy.html" class="badge" aria-current="page">Listworthy</a>
-      <a href="/affiliate.html" class="badge">Affiliates</a>
-      <a href="/support.html" class="badge">Support</a>
-      <a href="/privacy.html" class="badge">Privacy</a>
-    </nav>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="mark">K</span> KillerAppz</a>
+      <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
+      <nav class="nav-links" id="nav">
+        <a href="index.html">Home</a>
+        <a href="listworthy.html" class="active">Listworthy</a>
+        <a href="affiliate.html">Recommends</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <h1>Listworthy</h1>
-    <p class="muted">Like Anything, Share Everything!</p>
-    <p>Listworthy helps you track, rank, and share everything you love. Create custom lists for movies, TV shows, music, books, comics, places, and products — all beautifully organized and synced across devices with iCloud.</p>
-    <a class="cta" href="https://apps.apple.com/app/listworthy/id6752911163" rel="noopener">Get it on the App Store</a>
-
-    <!-- Comprehensive Features -->
-    <section class="panel">
-      <h2>Features</h2>
-
-      <h3>📋 Core Features</h3>
-      <ul>
-        <li>Create unlimited lists across categories like Movies, Music, Books, Games, Comics, Places, Products and Links.</li>
-        <li>Category-specific detail views — Movies show posters, Places show zoomable maps, Checklists allow reminders.</li>
-        <li>Built-in templates to get started fast (e.g. Favorite Restaurants, Bucket List Trips, or Shows To Wach Next).</li>
-        <li>One-tap add buttons to quickly create new lists or add new items.</li>
-      </ul>
-
-      <h3>⚡️ List & Item Controls</h3>
-      <ul>
-        <li>Swipe left on lists to Rename or Delete.</li>
-        <li>Tap Gear Button to Set Default Lists for each category.</li>
-        <li>Swipe left on items to Rename, Move, or Delete.</li>
-        <li>Swipe right on items to Set Reminder (for checklists) or Mark Complete.</li>
-        <li>Drag and drop to reorder and rank items instantly.</li>
-      </ul>
-
-      <h3>⭐️ Rating & Ranking</h3>
-      <ul>
-        <li>Rate items 1–10 using a smooth haptic slider.</li>
-        <li>Auto-sort lists by rating to reveal your top favorites.</li>
-        <li>Quickly adjust ranks by dragging or re-rating items.</li>
-      </ul>
-
-      <h3>🔗 Sharing & Imports</h3>
-      <ul>
-        <li>Share lists as branded images to post online or send to friends.</li>
-        <li>Share product lists to also show a QR Code to purchase products.</li>
-        <li>Share from any app using the iOS Share Sheet (YouTube, Safari, TikTok, Reddit, X, Bluesky, etc.).</li>
-        <li>Automatic title and image detection for shared links.</li>
-        <li>Export full lists to <code>.listworthy</code> files for backup or sharing, including notes and images.</li>
-        <li>Import shared lists back into the app with one tap.</li>
-      </ul>
-
-      <h3>🗂 Customization</h3>
-      <ul>
-        <li>Change list icons with emojis or category images.</li>
-        <li>Rename lists and items anytime.</li>
-        <li>Move items between lists seamlessly.</li>
-        <li>Set default lists per category for faster sharing.</li>
-      </ul>
-
-      <h3>⏰ Reminders & Checklists</h3>
-      <ul>
-        <li>Add reminders to checklist items with a simple swipe.</li>
-        <li>Receive local notifications — no sign-in required.</li>
-        <li>Mark tasks complete with a tap.</li>
-      </ul>
-
-      <h3>🔍 Search & Navigation</h3>
-      <ul>
-        <li>Category-aware search filters (Movies, Music, Books, and Places).</li>
-        <li>Places category integrates with Apple Maps and shows map previews.</li>
-        <li>Search for comic series or issues by using the # symbol</li>
-        <li>When searching for movies, narrow down to Films or Actors</li>
-        <li>When searching for music, narrow down to Songs, Albums or Artists</li>
-        <li>When searching for books, narrow down to Books or Authors</li>
-        
-      </ul>
-
-      <h3>🧭 Item Detail Views</h3>
-      <ul>
-        <li><strong>Movies & TV:</strong> Poster, release year, rating slider.</li>
-        <li><strong>Music:</strong> Album art, artist, and user score.</li>
-        <li><strong>Books:</strong> Author info, cover image, and notes.</li>
-        <li><strong>Places:</strong> Apple Maps preview and directions link.</li>
-        <li><strong>Checklists:</strong> Reminders, completion toggles, and reordering.</li>
-      </ul>
-
-      <h3>☁️ Sync & Supporter Perks</h3>
-      <ul>
-        <li>Bronze, Silver, and Gold supporter tiers available via in-app purchase.</li>
-        <li>Gold tier removes ads, enables iCloud sync, and unlocks export features.</li>
-        <li>Automatic iCloud backup keeps lists synced securely.</li>
-      </ul>
-
-      <h3>🧠 Smart Details</h3>
-      <ul>
-        <li>Offline-ready — access your lists anytime, anywhere.</li>
-        <li>Long-press for reorder mode or quick list actions.</li>
-        <li>Dark mode native UI that adapts beautifully on iPhone & iPad.</li>
-        <li>Privacy-first: no account or data tracking required.</li>
-      </ul>
-    </section>
-
-    <section class="panel">
-      <h2>Popular list ideas</h2>
-      <p class="muted">Jump-start your taste-tracking:</p>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
       <div>
-        <code>Top 10 Movies</code>
-        <code>Best TV Shows</code>
-        <code>Albums of the Year</code>
-        <code>Books to Read</code>
-        <code>Comics to Collect</code>
-        <code>Bucket List</code>
-        <code>Favorite Restaurants</code>
-        <code>Best Bakeries</code>
-        <code>Stores I Love</code>
-        <code>Places to Visit</code>
+        <span class="eyebrow">Track · Rank · Share</span>
+        <h1>Like anything.<br>Share everything.</h1>
+        <p class="lead">The easiest way to track, rank, and share everything you love — movies, TV, music, books, comics, places, products, and links, all in one app. Score them, watch your favorites rise to the top, and share clean branded lists with friends.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="https://apps.apple.com/app/listworthy/id6752911163">Download free</a>
+          <a class="btn btn-ghost" href="#features">Explore features</a>
+        </div>
       </div>
-    </section>
-  </main>
+      <div class="hero-art">
+        <div class="card" style="text-align:center;max-width:300px;padding:34px;">
+          <div class="mark" style="width:96px;height:96px;border-radius:24px;font-size:3rem;margin:0 auto 18px;">L</div>
+          <h3 style="margin-bottom:.15em;">Listworthy</h3>
+          <p style="margin-bottom:18px;">Your favorites, ranked and ready to share.</p>
+          <div class="tag-row" style="justify-content:center;">
+            <span class="tag">Movies</span><span class="tag">TV</span><span class="tag">Music</span>
+            <span class="tag">Books</span><span class="tag">Comics</span><span class="tag">Places</span>
+            <span class="tag">Products</span><span class="tag">Links</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <footer class="foot">
-    <div>© <span id="y"></span> KillerAppz — <a href="/support.html">Support</a> · <a href="/privacy.html">Privacy</a></div>
+  <!-- FREE SYNC BANNER -->
+  <section class="section-tight">
+    <div class="container">
+      <div class="free-banner">
+        <span class="big">☁️</span>
+        <div><strong>iCloud sync is free for everyone.</strong> Your lists back up and sync across all your Apple devices automatically — no account, no subscription, no purchase required.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT YOU CAN DO -->
+  <section id="features">
+    <div class="container">
+      <div class="center" style="margin-bottom:44px;">
+        <span class="eyebrow">What you can do</span>
+        <h2>One app for every list</h2>
+        <p class="lead center">Checklists to get things done, ranked lists to settle the debate, and a fast way to capture anything worth remembering.</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="ico">⭐️</div>
+          <h3>Rank your favorites</h3>
+          <p>Score items 1 to 10 with a smooth slider and let Listworthy auto-sort your list to reveal your true top picks.</p>
+        </div>
+        <div class="card">
+          <div class="ico">🔗</div>
+          <h3>Save links from anywhere</h3>
+          <p>Tap Share in TikTok, YouTube, Safari, Reddit, or X and send posts straight into a list — title and preview image pulled in automatically.</p>
+        </div>
+        <div class="card">
+          <div class="ico">📍</div>
+          <h3>Find places near you</h3>
+          <p>Built-in location search with maps for restaurants, bakeries, parks, venues, cities, and more.</p>
+        </div>
+        <div class="card">
+          <div class="ico">📺</div>
+          <h3>Know where to stream</h3>
+          <p>See which services carry a movie or show before you commit, so you spend less time hunting and more time watching.</p>
+        </div>
+        <div class="card">
+          <div class="ico">🖼️</div>
+          <h3>Share as an image</h3>
+          <p>Turn any list into a clean, branded image to post online or send to friends, family, and coworkers.</p>
+        </div>
+        <div class="card">
+          <div class="ico">🛒</div>
+          <h3>Shop smarter</h3>
+          <p>Product lists include direct buy links and QR codes for both Amazon and eBay, so wishlists are ready to share and shop.</p>
+        </div>
+        <div class="card">
+          <div class="ico">⏰</div>
+          <h3>Reminders that stick</h3>
+          <p>Add reminders to checklist items so you finally watch that movie you swore you'd get to back in 2011.</p>
+        </div>
+        <div class="card">
+          <div class="ico">🗂️</div>
+          <h3>Smart templates</h3>
+          <p>Start fast with prefilled templates for common lists, or build your own from scratch in seconds.</p>
+        </div>
+        <div class="card">
+          <div class="ico">☁️</div>
+          <h3>Free iCloud sync</h3>
+          <p>All your lists sync seamlessly across your Apple devices. Your data stays in your personal iCloud.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="hr">
+
+  <!-- CATEGORIES DETAIL -->
+  <section>
+    <div class="container">
+      <div class="center" style="margin-bottom:40px;">
+        <span class="eyebrow">Built for each category</span>
+        <h2>Details that fit what you're tracking</h2>
+      </div>
+      <div class="grid grid-2 doc">
+        <div class="card">
+          <h3>🎬 Movies &amp; TV</h3>
+          <p>Posters, release year, cast and directors, a rating slider, and streaming availability so you know where to watch.</p>
+        </div>
+        <div class="card">
+          <h3>🎵 Music</h3>
+          <p>Album art and artist info. Rank songs, albums, or artists and watch your charts take shape.</p>
+        </div>
+        <div class="card">
+          <h3>📚 Books &amp; Comics</h3>
+          <p>Covers, authors, and notes. Search comic series and issues to build the perfect collection list.</p>
+        </div>
+        <div class="card">
+          <h3>📍 Places</h3>
+          <p>Apple Maps preview, phone, website, and one-tap directions for restaurants, venues, and bucket-list trips.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="hr">
+
+  <!-- SUPPORT TIERS -->
+  <section>
+    <div class="container">
+      <div class="center" style="margin-bottom:40px;">
+        <span class="eyebrow">Free, with optional support</span>
+        <h2>Everything core is free</h2>
+        <p class="lead center">Unlimited lists, ranking, sharing, link saving, and iCloud sync cost nothing. Supporter tiers are an optional way to fund development and unlock a few power features.</p>
+      </div>
+
+      <div class="tiers">
+        <div class="tier">
+          <h3>🥈 Silver</h3>
+          <div class="price">$4.99 <small>one-time</small></div>
+          <p style="color:var(--ink-soft);margin:0;">For power users who manage lists across apps.</p>
+          <ul>
+            <li>Everything in the free app</li>
+            <li>Advanced export (.listworthy, JSON, text, and image)</li>
+            <li>Import lists shared by other users</li>
+          </ul>
+        </div>
+        <div class="tier featured">
+          <h3>🥇 Gold</h3>
+          <div class="price">$9.99 <small>one-time</small></div>
+          <p style="color:var(--ink-soft);margin:0;">The full experience, ad-free.</p>
+          <ul>
+            <li>Everything in Silver</li>
+            <li>Removes all banner ads</li>
+            <li>Supports ongoing development the most</li>
+          </ul>
+        </div>
+      </div>
+      <p class="center" style="color:var(--muted);font-size:.92rem;margin-top:18px;">iCloud sync is free for everyone and is no longer tied to any tier.</p>
+
+      <div class="center" style="margin-top:30px;">
+        <a class="btn btn-primary" href="https://apps.apple.com/app/listworthy/id6752911163">Download Listworthy free</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">KillerAppz</div>
+        <nav class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="affiliate.html">Recommends</a>
+          <a href="support.html">Support</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+      </div>
+      <p class="footer-small">© <span id="yr"></span> KillerAppz. Listworthy is a trademark of KillerAppz.</p>
+    </div>
   </footer>
 
-  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
 </body>
 </html>

@@ -1,143 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Listworthy — Support</title>
-  <meta name="description" content="Get help with Listworthy. FAQs, troubleshooting, and contact info." />
-  <style>
-    :root{--bg:#0e0f12;--panel:#14161b;--text:#e8ecf1;--muted:#aab3bf;--brand:#6ee7ff;--brand2:#a78bfa}
-    *{box-sizing:border-box}
-    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6}
-    a{color:var(--brand);text-decoration:none}
-    a:hover{text-decoration:underline}
-    header,main,footer{max-width:900px;margin:0 auto;padding:24px}
-    nav{display:flex;gap:16px;align-items:center;justify-content:flex-end}
-    h1,h2,h3{margin:0 0 8px}
-    .muted{color:var(--muted)}
-    .panel{background:var(--panel);border:1px solid #262a35;border-radius:16px;padding:18px;margin:16px 0}
-    .foot{color:var(--muted);font-size:13px;padding:24px 0 48px}
-    code{background:#0c0d11;border:1px solid #252a33;border-radius:6px;padding:2px 6px}
-    .badge{display:inline-block;padding:6px 12px;border:1px solid #2a2f39;border-radius:999px;color:var(--muted);font-size:12px}
-    ul{margin:0 0 0 20px}
-  </style>
+  <meta name="description" content="Get help with Listworthy. Getting started, list and item actions, sharing, reminders, and contact info.">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="/index.html" class="badge">Home</a>
-      <a href="/listworthy.html" class="badge">Listworthy</a>
-      <a href="/affiliate.html" class="badge">Affiliates</a>
-      <a href="/support.html" class="badge" aria-current="page">Support</a>
-      <a href="/privacy.html" class="badge">Privacy</a>
-    </nav>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="mark">K</span> KillerAppz</a>
+      <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
+      <nav class="nav-links" id="nav">
+        <a href="index.html">Home</a>
+        <a href="listworthy.html">Listworthy</a>
+        <a href="affiliate.html">Recommends</a>
+        <a href="support.html" class="active">Support</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <h1>Support</h1>
-    <p class="muted">Track · Rank · Share Favorites</p>
-
-    <div class="panel">
-      <h2>Quick links</h2>
-      <ul>
-        <li><a href="https://apps.apple.com/app/listworthy/id6752911163">Download on the App Store</a></li>
-        <li><a href="/privacy.html">Privacy Policy</a></li>
-        <li><a href="mailto:listworthy_support@icloud.com">Email support</a></li>
-      </ul>
+  <section class="hero" style="padding-bottom:32px;">
+    <div class="container">
+      <span class="eyebrow">Help &amp; FAQ</span>
+      <h1>Support</h1>
+      <p class="lead">Everything you need to get the most out of Listworthy. Still stuck? Email is the fastest way to reach a human.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="mailto:listworthy_support@icloud.com">Email support</a>
+        <a class="btn btn-ghost" href="https://apps.apple.com/app/listworthy/id6752911163">App Store</a>
+      </div>
     </div>
+  </section>
 
-    <div class="panel">
-      <h2>Getting Started</h2>
-      <p>Create your first list by tapping the <strong>+</strong> button on the Home screen. Choose a category (Movies, Music, Books, Places, Checklists, etc.), give it a title, and start adding items.</p>
-      <p>Each category has unique item fields and detail views — movies show posters, places show maps, and checklists support reminders.</p>
+  <section class="section-tight" style="padding-top:0;">
+    <div class="container doc">
+
+      <div class="card">
+        <h2 style="margin-top:0;">Getting started</h2>
+        <p>Create your first list by tapping the <strong>+</strong> button on the Home screen. Choose a category (Movies, Music, Books, Places, Checklists, and more), give it a title, and start adding items. Each category has its own fields and detail views — movies show posters, places show maps, and checklists support reminders.</p>
+      </div>
+
+      <div class="card" style="margin-top:22px;">
+        <h2 style="margin-top:0;">List &amp; item actions</h2>
+        <ul>
+          <li><strong>Swipe left on a list</strong> to <em>Rename</em> or <em>Delete</em>.</li>
+          <li><strong>Swipe right on a list</strong> to <em>Set Default</em> for that category.</li>
+          <li><strong>Swipe left on an item</strong> to <em>Rename</em>, <em>Move</em>, or <em>Delete</em>.</li>
+          <li><strong>Swipe right on an item</strong> to <em>Set Reminder</em> (checklists only) or <em>Mark Complete</em>.</li>
+          <li><strong>Drag</strong> items up or down to reorder and re-rank instantly.</li>
+        </ul>
+      </div>
+
+      <div class="card" style="margin-top:22px;">
+        <h2 style="margin-top:0;">Adding &amp; rating items</h2>
+        <p>Add items with the <strong>+</strong> button inside a list. Tap an item to open its detail view, where you can rate it with the 1–10 slider, add notes or tags, and attach images or map locations for Places.</p>
+      </div>
+
+      <div class="card" style="margin-top:22px;">
+        <h2 style="margin-top:0;">Sharing from other apps</h2>
+        <p>Listworthy supports the iOS Share Sheet. From apps like Safari, YouTube, TikTok, Reddit, or Maps, choose <strong>Share → Listworthy</strong> to instantly create a new item or list with the shared link, title, and image filled in automatically. You can also paste a link directly into any Links, Products, or Miscellaneous list.</p>
+      </div>
+
+      <div class="card" style="margin-top:22px;">
+        <h2 style="margin-top:0;">Sharing, exporting &amp; importing</h2>
+        <ul>
+          <li><strong>Share as image:</strong> Open a list → <em>Share</em> → <em>Share as Image</em> to post your ranked list as a graphic.</li>
+          <li><strong>Export as file:</strong> Tap <em>Share → Export</em> to save a <code>.listworthy</code> file with all your list data (Silver and Gold).</li>
+          <li><strong>Import:</strong> Tap a shared <code>.listworthy</code> file in any app, then choose “Open in Listworthy” (Silver and Gold).</li>
+        </ul>
+      </div>
+
+      <div class="card" style="margin-top:22px;">
+        <h2 style="margin-top:0;">Reminders</h2>
+        <p>Reminders are available in Checklists. Swipe right on an item and tap the bell to pick a date and time. Notifications are local — no sign-in required.</p>
+      </div>
+
+      <div class="card" style="margin-top:22px;">
+        <h2 style="margin-top:0;">Shopping links</h2>
+        <p>On product items, Listworthy shows direct buy buttons for both <strong>Amazon</strong> and <strong>eBay</strong>, and shared product lists include a QR code so friends can jump straight to the item.</p>
+      </div>
+
+      <div class="card" style="margin-top:22px;">
+        <h2 style="margin-top:0;">iCloud sync &amp; supporter tiers</h2>
+        <p><strong>iCloud sync is free for everyone</strong> and keeps your lists backed up across your Apple devices automatically. Optional one-time supporter tiers help fund development: <strong>Silver</strong> unlocks advanced export and import, and <strong>Gold</strong> includes everything in Silver plus removes banner ads.</p>
+      </div>
+
+      <div class="card" style="margin-top:22px;">
+        <h2 style="margin-top:0;">Contact</h2>
+        <p>Questions, bugs, or ideas? Email <a href="mailto:listworthy_support@icloud.com">listworthy_support@icloud.com</a> and you'll hear back. Feedback genuinely shapes what gets built next.</p>
+      </div>
+
     </div>
+  </section>
 
-    <div class="panel">
-      <h2>List & Item Actions</h2>
-      <ul>
-        <li><strong>Swipe left on a list</strong> to <em>Rename</em> or <em>Delete</em>.</li>
-        <li><strong>Swipe right on a list</strong> to <em>Set Default</em> for that category.</li>
-        <li><strong>Swipe left on an item</strong> to <em>Rename</em>, <em>Move</em>, or <em>Delete</em>.</li>
-        <li><strong>Swipe right on an item</strong> to <em>Set Reminder</em> (checklists only) or <em>Mark Complete</em>.</li>
-      </ul>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">KillerAppz</div>
+        <nav class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="listworthy.html">Listworthy</a>
+          <a href="affiliate.html">Recommends</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
+      </div>
+      <p class="footer-small">© <span id="yr"></span> KillerAppz.</p>
     </div>
+  </footer>
 
-    <div class="panel">
-      <h2>Adding & Rating Items</h2>
-      <p>Add new items using the <strong>+</strong> button inside a list. Tap an item to open its detail view, where you can:</p>
-      <ul>
-        <li>Rate it with the 1–10 slider.</li>
-        <li>Add optional notes or tags.</li>
-        <li>Attach images or map locations (for Places).</li>
-      </ul>
-    </div>
-
-    <div class="panel">
-      <h2>Sharing from Other Apps</h2>
-      <p>Listworthy supports the iOS Share Sheet. From apps like Safari, YouTube, TikTok, or Maps, choose <strong>Share → Listworthy</strong> to instantly create a new item or list with the shared link, title, and image automatically filled in.</p>
-    </div>
-
-    <div class="panel">
-      <h2>Customizing Lists</h2>
-      <ul>
-        <li><strong>Change icons:</strong> Tap the list’s icon to pick a new emoji or category image.</li>
-        <li><strong>Rename:</strong> Swipe left on a list or open the list and tap its title.</li>
-        <li><strong>Reorder items:</strong> Drag items up or down to change rank order.</li>
-        <li><strong>Move items:</strong> Swipe left on an item → <em>Move</em> → choose a destination list.</li>
-      </ul>
-    </div>
-
-    <div class="panel">
-      <h2>Sharing, Exporting & Importing</h2>
-      <ul>
-        <li><strong>Share as Image:</strong> Open a list → tap <em>Share</em> → <em>Share as Image</em> to post your ranked list as a graphic.</li>
-        <li><strong>Export as File:</strong> Tap <em>Share → Export</em> to save a <code>.listworthy</code> file that includes all list data.</li>
-        <li><strong>Import:</strong> Tap a shared <code>.listworthy</code> file in any app, then choose “Open in Listworthy” to add it to your lists.</li>
-      </ul>
-    </div>
-
-    <div class="panel">
-      <h2>Reminders</h2>
-      <p>Reminders are available only in Checklists. Swipe right on an item and tap the bell icon to pick a date and time. Notifications appear locally — no sign-in required.</p>
-    </div>
-
-    <div class="panel">
-      <h2>Search & Categories</h2>
-      <p>Use the magnifying glass icon to search your lists:</p>
-      <ul>
-        <li><strong>All Lists:</strong> Search titles and notes across everything.</li>
-        <li><strong>Category Tabs:</strong> Each category shows lists related to that topic only (Movies, Music, Books, etc.).</li>
-        <li><strong>Places:</strong> Searches include names and map results.</li>
-      </ul>
-    </div>
-
-    <div class="panel">
-      <h2>Item Detail Views</h2>
-      <ul>
-        <li><strong>Movies & TV:</strong> Show poster, release year, and rating slider.</li>
-        <li><strong>Music:</strong> Displays album art and lets you rank tracks or albums.</li>
-        <li><strong>Books:</strong> Includes author, cover, and notes.</li>
-        <li><strong>Places:</strong> Shows Apple Maps preview and directions link.</li>
-        <li><strong>Checklists:</strong> Support reminders, completion toggles, and reorderable tasks.</li>
-      </ul>
-    </div>
-
-    <div class="panel">
-      <h2>Tips</h2>
-      <ul>
-        <li>Tap and hold items for quick reorder mode.</li>
-        <li>Use the <em>Set Default List</em> option to make sharing faster — new shares go straight into your chosen list.</li>
-        <li>Gold supporters can disable ads and unlock iCloud sync + export options.</li>
-      </ul>
-    </div>
-
-    <footer class="foot">
-      <div>© <span id="y"></span> KillerAppz — <a href="/privacy.html">Privacy</a></div>
-    </footer>
-  </main>
-
-  <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
 </body>
 </html>
