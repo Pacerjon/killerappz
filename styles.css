@@ -378,3 +378,7 @@ h3 { font-size: 1.25rem; margin: 0 0 .35em; }
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto; transition: none !important; }
 }
+
+.aff .thumb.photo { background: #fff; overflow: hidden; }
+.aff .thumb.photo img { max-width: 88%; max-height: 88%; object-fit: contain; }
+.deal-asof { font-size: .85rem; opacity: .7; }

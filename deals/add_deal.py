@@ -48,19 +48,23 @@ PAGE = """<!DOCTYPE html>
 <body>
   <header class="site-header"><div class="container nav">
     <a class="brand" href="../index.html"><span class="mark">K</span> KillerAppz</a>
-    <nav class="nav-links"><a href="index.html">Deals</a><a href="../listworthy.html">Listworthy</a></nav>
+    <nav class="nav-links"><a href="../index.html">Home</a><a href="index.html">Deals</a><a href="../affiliate.html">Recommends</a><a href="../listworthy.html">Listworthy</a></nav>
   </div></header>
   <main class="deal">
     <img class="product" src="{image}" alt="{title}">
     <h1>{title}</h1>
     <p>{body}</p>
     <p><a class="btn btn-primary" href="{link}" rel="sponsored nofollow noopener">View deal on Amazon &rarr;</a></p>
-    <p class="disc">Prices and availability can change. As an Amazon Associate I earn from qualifying purchases.</p>
+    <p class="disc">Price as of {asof}. Prices and availability can change; check Amazon for the current price. As an Amazon Associate I earn from qualifying purchases.</p>
     <p class="more"><a href="index.html">See more daily deals</a></p>
   </main>
 </body>
 </html>
 """
+
+def asof(d):
+    dt = datetime.fromisoformat(d["date"]).astimezone()
+    return dt.strftime("%b %-d, %Y %-I:%M %p ") + (dt.tzname() or "")
 
 def page_url(d):
     return f"{SITE}/deals/{d['asin']}.html"
@@ -69,7 +73,7 @@ def write_page(d):
     body = d["description"].split(" #")[0]
     with open(os.path.join(HERE, f"{d['asin']}.html"), "w", encoding="utf-8") as f:
         f.write(PAGE.format(title=esc(d["title"]), desc=esc(body), body=esc(body),
-                            image=esc(d["image"]), link=esc(d["link"])))
+                            image=esc(d["image"]), link=esc(d["link"]), asof=esc(asof(d))))
 
 def write_index(deals):
     rows = []
@@ -80,7 +84,8 @@ def write_index(deals):
         seen.add(d["asin"])
         rows.append(f'<a class="card" href="{esc(d["asin"])}.html" style="display:block;text-align:center">'
                     f'<img src="{esc(d["image"])}" alt="" style="max-width:100%;height:180px;object-fit:contain;background:#fff;border-radius:8px">'
-                    f'<h3 style="font-size:1rem;margin-top:10px">{esc(d["title"])}</h3></a>')
+                    f'<h3 style="font-size:1rem;margin-top:10px">{esc(d["title"])}</h3>'
+                    f'<p class="deal-asof">Price as of {esc(asof(d))}</p></a>')
         if len(rows) >= 60:
             break
     html_out = f"""<!DOCTYPE html>
@@ -89,13 +94,46 @@ def write_index(deals):
 <meta name="description" content="Hand-picked Amazon deals, updated daily.">
 <link rel="icon" type="image/png" href="../assets/appicon.png"><link rel="stylesheet" href="../styles.css"></head>
 <body><header class="site-header"><div class="container nav"><a class="brand" href="../index.html"><span class="mark">K</span> KillerAppz</a>
-<nav class="nav-links"><a href="index.html" class="active">Deals</a><a href="../listworthy.html">Listworthy</a></nav></div></header>
+<nav class="nav-links"><a href="../index.html">Home</a><a href="index.html" class="active">Deals</a><a href="../affiliate.html">Recommends</a><a href="../listworthy.html">Listworthy</a></nav></div></header>
 <section><div class="container"><div class="center" style="margin-bottom:30px"><span class="eyebrow">Updated daily</span><h2>Listworthy Daily Deals</h2>
 <p>Hand-picked Amazon deals on brands worth buying. As an Amazon Associate I earn from qualifying purchases.</p></div>
 <div class="grid grid-3">{''.join(rows)}</div></div></section></body></html>
 """
     with open(os.path.join(HERE, "index.html"), "w", encoding="utf-8") as f:
         f.write(html_out)
+
+def write_recommends(deals):
+    path = os.path.join(HERE, "..", "affiliate.html")
+    if not os.path.exists(path):
+        return
+    page = open(path, encoding="utf-8").read()
+    a, b = "<!-- DEALS:START -->", "<!-- DEALS:END -->"
+    if a not in page or b not in page:
+        return
+    latest, seen = [], set()
+    for d in reversed(deals):
+        if d["asin"] in seen:
+            continue
+        seen.add(d["asin"])
+        latest.append(d)
+        if len(latest) == 3:
+            break
+    cards = "".join(
+        f'''
+        <div class="aff">
+          <div class="thumb photo"><img src="{esc(d["image"])}" alt="" loading="lazy"></div>
+          <h3>{esc(d["title"])}</h3>
+          <p class="deal-asof" style="flex:1;">Price as of {esc(asof(d))}</p>
+          <a class="btn btn-primary" href="deals/{esc(d["asin"])}.html">See the deal</a>
+        </div>''' for d in latest)
+    block = (a + '''
+      <h2 style="margin-bottom:8px;">Today's deals</h2>
+      <p style="color:var(--ink-soft);margin-bottom:22px;">Hand-picked Amazon deals, updated every morning. <a href="deals/">See all deals &rarr;</a></p>
+      <div class="aff-grid" style="margin-bottom:44px;">''' + cards + '''
+      </div>
+      ''' + b)
+    page = page[:page.index(a)] + block + page[page.index(b) + len(b):]
+    open(path, "w", encoding="utf-8").write(page)
 
 def build(board, deals):
     items = [d for d in deals if d["board"] == board][-KEEP:]
@@ -136,6 +174,7 @@ def main():
     for d in deals:
         write_page(d)
     write_index(deals)
+    write_recommends(deals)
     for b in BOARDS:
         build(b, deals)
 
