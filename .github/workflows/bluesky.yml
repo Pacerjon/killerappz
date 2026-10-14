@@ -1,0 +1,30 @@
+name: Post deals to Bluesky
+on:
+  push:
+    branches: [main]
+    paths: ["deals/deals.json"]
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Test login and preview the post without publishing"
+        type: boolean
+        default: true
+permissions:
+  contents: read
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Post new deals
+        env:
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          BEFORE_SHA: ${{ github.event.before }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
+        run: python3 deals/post_bluesky.py
