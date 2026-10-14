@@ -145,13 +145,13 @@ def write_recommends(deals):
     open(path, "w", encoding="utf-8").write(page)
 
 def build(board, deals):
-    items = [d for d in deals if d["board"] == board][-KEEP:]
+    items = (deals if board == "all" else [d for d in deals if d["board"] == board])[-KEEP:]
     out = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">',
            '<channel>',
-           f'<title>Listworthy | {esc(BOARDS[board])}</title>',
+           f'<title>Listworthy | {esc(BOARDS.get(board, "Daily Deals"))}</title>',
            f'<link>{SITE}/</link>',
-           f'<description>Hand-picked Amazon and eBay deals: {esc(BOARDS[board])}. I may earn a commission from qualifying purchases.</description>',
+           f'<description>Hand-picked Amazon and eBay deals: {esc(BOARDS.get(board, "Daily Deals"))}. I may earn a commission from qualifying purchases.</description>',
            '<language>en-us</language>']
     for d in reversed(items):
         out += ['<item>',
@@ -186,6 +186,7 @@ def main():
     write_recommends(deals)
     for b in BOARDS:
         build(b, deals)
+    build("all", deals)
 
 if __name__ == "__main__":
     main()
