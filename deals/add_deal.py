@@ -48,7 +48,7 @@ PAGE = """<!DOCTYPE html>
 <body>
   <header class="site-header"><div class="container nav">
     <a class="brand" href="../index.html"><span class="mark">K</span> KillerAppz</a>
-    <nav class="nav-links"><a href="../index.html">Home</a><a href="index.html">Deals</a><a href="../affiliate.html">Recommends</a><a href="../listworthy.html">Listworthy</a></nav>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('nav').classList.toggle('open')">☰</button><nav class="nav-links" id="nav"><a href="../index.html">Home</a><a href="../listworthy.html">Listworthy</a><a href="../affiliate.html">Recommends</a><a href="index.html" class="active">Deals</a><a href="../support.html">Support</a><a href="../privacy.html">Privacy</a></nav>
   </div></header>
   <main class="deal">
     <img class="product" src="{image}" alt="{title}">
@@ -103,7 +103,7 @@ def write_index(deals):
 <meta name="description" content="Hand-picked Amazon deals, updated daily.">
 <link rel="icon" type="image/png" href="../assets/appicon.png"><link rel="stylesheet" href="../styles.css"></head>
 <body><header class="site-header"><div class="container nav"><a class="brand" href="../index.html"><span class="mark">K</span> KillerAppz</a>
-<nav class="nav-links"><a href="../index.html">Home</a><a href="index.html" class="active">Deals</a><a href="../affiliate.html">Recommends</a><a href="../listworthy.html">Listworthy</a></nav></div></header>
+<button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('nav').classList.toggle('open')">☰</button><nav class="nav-links" id="nav"><a href="../index.html">Home</a><a href="../listworthy.html">Listworthy</a><a href="../affiliate.html">Recommends</a><a href="index.html" class="active">Deals</a><a href="../support.html">Support</a><a href="../privacy.html">Privacy</a></nav></div></header>
 <section><div class="container"><div class="center" style="margin-bottom:30px"><span class="eyebrow">Updated daily</span><h2>Listworthy Daily Deals</h2>
 <p>Hand-picked Amazon and eBay deals on brands worth buying. As an Amazon Associate and eBay Partner Network affiliate, I earn from qualifying purchases.</p></div>
 <div class="grid grid-3">{''.join(rows)}</div></div></section></body></html>
