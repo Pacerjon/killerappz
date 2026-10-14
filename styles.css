@@ -382,3 +382,6 @@ h3 { font-size: 1.25rem; margin: 0 0 .35em; }
 .aff .thumb.photo { background: #fff; overflow: hidden; }
 .aff .thumb.photo img { max-width: 88%; max-height: 88%; object-fit: contain; }
 .deal-asof { font-size: .85rem; opacity: .7; }
+
+.footer-social { display: flex; gap: 16px; flex-wrap: wrap; align-items: center; margin-top: 18px; font-size: .95rem; }
+.footer-social span { opacity: .7; }
