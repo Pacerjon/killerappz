@@ -28,9 +28,24 @@
     <img class="product" src="https://m.media-amazon.com/images/I/71ew5pFViAL._AC_SL1500_.jpg" alt="29% Off Skullcandy Crusher ANC 2 Noise Cancelling Headphones - $169.99">
     <h1>29% Off Skullcandy Crusher ANC 2 Noise Cancelling Headphones - $169.99</h1>
     <p>Skullcandy&#x27;s Crusher ANC 2 wireless headphones with adjustable haptic bass you can feel, 4-mic active noise cancelling and up to 60 hours of battery with rapid charge. Now $169.99 (List $239.99), 29% off, sold by Amazon.</p>
-    <p><a class="btn btn-primary" href="https://www.amazon.com/dp/B0C9L8ZR6Q?tag=listworthy-20" rel="sponsored nofollow noopener">View deal on Amazon &rarr;</a></p>
+    <p><a class="btn btn-primary" id="deal-btn" href="https://www.amazon.com/dp/B0C9L8ZR6Q?tag=listworthy-20" rel="sponsored nofollow noopener">View deal on Amazon &rarr;</a></p>
     <p class="disc">Price as of Oct 13, 2026 7:44 PM EDT. Prices and availability can change; check Amazon for the current price. As an Amazon Associate I earn from qualifying purchases.</p>
     <p class="more"><a href="index.html">See more daily deals</a></p>
   </main>
+  <script>
+    // Per-channel tracking: ?src=fb|pin|social|rd swaps the Amazon tag (or eBay customid).
+    (function(){
+      try {
+        var tags = {fb: "listworthy-fb-20", pin: "listworthy-pin-20", social: "listworthy-social-20", rd: "listworthy-rd-20"};
+        var src = new URLSearchParams(location.search).get("src");
+        if (!src || !tags[src]) return;
+        var a = document.getElementById("deal-btn");
+        var u = new URL(a.href);
+        if (u.hostname.indexOf("ebay.") !== -1) u.searchParams.set("customid", src);
+        else if (u.hostname.indexOf("amazon.") !== -1) u.searchParams.set("tag", tags[src]);
+        a.href = u.toString();
+      } catch (e) {}
+    })();
+  </script>
 </body>
 </html>

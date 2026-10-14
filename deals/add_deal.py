@@ -54,10 +54,25 @@ PAGE = """<!DOCTYPE html>
     <img class="product" src="{image}" alt="{title}">
     <h1>{title}</h1>
     <p>{body}</p>
-    <p><a class="btn btn-primary" href="{link}" rel="sponsored nofollow noopener">View deal on {store} &rarr;</a></p>
+    <p><a class="btn btn-primary" id="deal-btn" href="{link}" rel="sponsored nofollow noopener">View deal on {store} &rarr;</a></p>
     <p class="disc">Price as of {asof}. Prices and availability can change; check {store} for the current price. {disclosure}</p>
     <p class="more"><a href="index.html">See more daily deals</a></p>
   </main>
+  <script>
+    // Per-channel tracking: ?src=fb|pin|social|rd swaps the Amazon tag (or eBay customid).
+    (function(){{
+      try {{
+        var tags = {{fb: "listworthy-fb-20", pin: "listworthy-pin-20", social: "listworthy-social-20", rd: "listworthy-rd-20"}};
+        var src = new URLSearchParams(location.search).get("src");
+        if (!src || !tags[src]) return;
+        var a = document.getElementById("deal-btn");
+        var u = new URL(a.href);
+        if (u.hostname.indexOf("ebay.") !== -1) u.searchParams.set("customid", src);
+        else if (u.hostname.indexOf("amazon.") !== -1) u.searchParams.set("tag", tags[src]);
+        a.href = u.toString();
+      }} catch (e) {{}}
+    }})();
+  </script>
 </body>
 </html>
 """
@@ -153,10 +168,12 @@ def build(board, deals):
            f'<link>{SITE}/</link>',
            f'<description>Hand-picked Amazon and eBay deals: {esc(BOARDS.get(board, "Daily Deals"))}. I may earn a commission from qualifying purchases.</description>',
            '<language>en-us</language>']
+    # all.xml is read by the Make -> Facebook scenario; board feeds are read by Pinterest.
+    src = "fb" if board == "all" else "pin"
     for d in reversed(items):
         out += ['<item>',
                 f'<title>{esc(d["title"])}</title>',
-                f'<link>{esc(page_url(d))}</link>',
+                f'<link>{esc(page_url(d))}?src={src}</link>',
                 f'<guid isPermaLink="false">{esc(d["asin"])}-{esc(d["date"][:10])}</guid>',
                 f'<pubDate>{esc(d["pubDate"])}</pubDate>',
                 f'<description>{esc(d["description"])}</description>',
