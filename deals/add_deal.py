@@ -54,8 +54,8 @@ PAGE = """<!DOCTYPE html>
     <img class="product" src="{image}" alt="{title}">
     <h1>{title}</h1>
     <p>{body}</p>
-    <p><a class="btn btn-primary" href="{link}" rel="sponsored nofollow noopener">View deal on Amazon &rarr;</a></p>
-    <p class="disc">Price as of {asof}. Prices and availability can change; check Amazon for the current price. As an Amazon Associate I earn from qualifying purchases.</p>
+    <p><a class="btn btn-primary" href="{link}" rel="sponsored nofollow noopener">View deal on {store} &rarr;</a></p>
+    <p class="disc">Price as of {asof}. Prices and availability can change; check {store} for the current price. {disclosure}</p>
     <p class="more"><a href="index.html">See more daily deals</a></p>
   </main>
 </body>
@@ -66,6 +66,14 @@ def asof(d):
     dt = datetime.fromisoformat(d["date"]).astimezone()
     return dt.strftime("%b %-d, %Y %-I:%M %p ") + (dt.tzname() or "")
 
+def store_name(d):
+    return "eBay" if d.get("store") == "ebay" else "Amazon"
+
+def disclosure(d):
+    if d.get("store") == "ebay":
+        return "As an eBay Partner Network affiliate, I may earn a commission from qualifying purchases."
+    return "As an Amazon Associate I earn from qualifying purchases."
+
 def page_url(d):
     return f"{SITE}/deals/{d['asin']}.html"
 
@@ -73,7 +81,8 @@ def write_page(d):
     body = d["description"].split(" #")[0]
     with open(os.path.join(HERE, f"{d['asin']}.html"), "w", encoding="utf-8") as f:
         f.write(PAGE.format(title=esc(d["title"]), desc=esc(body), body=esc(body),
-                            image=esc(d["image"]), link=esc(d["link"]), asof=esc(asof(d))))
+                            image=esc(d["image"]), link=esc(d["link"]), asof=esc(asof(d)),
+                            store=store_name(d), disclosure=disclosure(d)))
 
 def write_index(deals):
     rows = []
@@ -96,7 +105,7 @@ def write_index(deals):
 <body><header class="site-header"><div class="container nav"><a class="brand" href="../index.html"><span class="mark">K</span> KillerAppz</a>
 <nav class="nav-links"><a href="../index.html">Home</a><a href="index.html" class="active">Deals</a><a href="../affiliate.html">Recommends</a><a href="../listworthy.html">Listworthy</a></nav></div></header>
 <section><div class="container"><div class="center" style="margin-bottom:30px"><span class="eyebrow">Updated daily</span><h2>Listworthy Daily Deals</h2>
-<p>Hand-picked Amazon deals on brands worth buying. As an Amazon Associate I earn from qualifying purchases.</p></div>
+<p>Hand-picked Amazon and eBay deals on brands worth buying. As an Amazon Associate and eBay Partner Network affiliate, I earn from qualifying purchases.</p></div>
 <div class="grid grid-3">{''.join(rows)}</div></div></section></body></html>
 """
     with open(os.path.join(HERE, "index.html"), "w", encoding="utf-8") as f:
@@ -142,7 +151,7 @@ def build(board, deals):
            '<channel>',
            f'<title>Listworthy | {esc(BOARDS[board])}</title>',
            f'<link>{SITE}/</link>',
-           f'<description>Hand-picked Amazon deals: {esc(BOARDS[board])}. As an Amazon Associate I earn from qualifying purchases.</description>',
+           f'<description>Hand-picked Amazon and eBay deals: {esc(BOARDS[board])}. I may earn a commission from qualifying purchases.</description>',
            '<language>en-us</language>']
     for d in reversed(items):
         out += ['<item>',
@@ -163,7 +172,7 @@ def main():
     if len(sys.argv) > 1:
         d = json.loads(sys.argv[1])
         assert d["board"] in BOARDS, f"board must be one of {list(BOARDS)}"
-        for k in ("title", "description", "link", "image", "asin"):
+        for k in ("title", "description", "link", "image", "asin"):  # asin = Amazon ASIN or "ebay-<itemId>"; optional "store": "ebay"
             assert d.get(k), f"missing {k}"
         now = datetime.now(timezone.utc)
         d["date"] = now.isoformat()
