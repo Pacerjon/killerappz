@@ -6,6 +6,9 @@ JSON keys: board (kitchen|home|travel|tech|gifts), title, description,
 link, image, asin. Optional: store ("ebay"), social, social_link, and for the
 app feed: price, list_price, pct_off, category, coupon, condition, price_checked.
 Rebuilds deals/<board>.xml, the deal pages, and deals/feed.json (Listworthy app).
+
+App-only category deals (no social posting, no RSS):
+  python3 deals/add_deal.py --app '<json object or list>'
 """
 import json, sys, os, html
 from datetime import datetime, timezone, timedelta
@@ -27,6 +30,15 @@ FEED = os.path.join(HERE, "feed.json")  # read by the Listworthy iOS app
 FEED_DAYS = 14
 APP_TAG = "listworthy-app-20"
 APP_EBAY_CUSTOMID = "app"
+# App-only category deals (weekly task). Never posted to Bluesky/Facebook/Pinterest:
+# they live in app.json, not deals.json, and are not in any RSS feed.
+APP_DATA = os.path.join(HERE, "app.json")
+APP_DAYS = 21
+# Values match MediaCategory raw values in the Listworthy app.
+APP_CATEGORIES = {
+    "Movies": "media", "TV Shows": "media", "Music": "media", "Books": "media",
+    "Games": "media", "Comics": "media", "Places": "travel",
+}
 
 def esc(s):
     return html.escape(str(s), quote=True)
@@ -209,16 +221,9 @@ def app_link(d):
         return urlunparse(u._replace(query=urlencode(q)))
     return f"https://www.amazon.com/dp/{d['asin']}?tag={APP_TAG}"
 
-def write_feed(deals):
-    """Stable, versioned JSON contract for the Listworthy app (newest first)."""
-    cutoff = datetime.now(timezone.utc) - timedelta(days=FEED_DAYS)
-    items, seen = [], set()
-    for d in reversed(deals):
-        if d["asin"] in seen or datetime.fromisoformat(d["date"]) < cutoff:
-            continue
-        seen.add(d["asin"])
-        store = d.get("store", "amazon")
-        items.append({
+def feed_item(d):
+    store = d.get("store", "amazon")
+    return {
             "id": f'{d["asin"]}-{d["date"][:10]}',
             "store": store,
             "asin": d["asin"] if store == "amazon" else None,
@@ -237,13 +242,61 @@ def write_feed(deals):
             "page": page_url(d) + "?src=app",
             "price_checked": d.get("price_checked") or d["date"],
             "posted": d["date"],
-        })
-    out = {"version": 1, "generated": datetime.now(timezone.utc).isoformat(),
-           "boards": BOARDS, "deals": items}
+            "app_category": d.get("app_category"),
+        }
+
+def load_app():
+    return json.load(open(APP_DATA)) if os.path.exists(APP_DATA) else []
+
+def write_feed(deals):
+    """Stable, versioned JSON contract for the Listworthy app (newest first).
+    Daily deals have app_category null; weekly category deals carry one."""
+    now = datetime.now(timezone.utc)
+    items, seen = [], set()
+    for d in reversed(deals):
+        if d["asin"] in seen or datetime.fromisoformat(d["date"]) < now - timedelta(days=FEED_DAYS):
+            continue
+        seen.add(d["asin"])
+        items.append(feed_item(dict(d, app_category=None)))
+    for d in load_app():
+        if datetime.fromisoformat(d["date"]) >= now - timedelta(days=APP_DAYS):
+            items.append(feed_item(d))
+    items.sort(key=lambda i: i["posted"], reverse=True)
+    out = {"version": 1, "generated": now.isoformat(),
+           "boards": dict(BOARDS, media="Entertainment Deals"), "deals": items}
     with open(FEED, "w", encoding="utf-8") as f:
         json.dump(out, f, indent=1, ensure_ascii=False)
 
+def add_app_deals(arg):
+    """--app mode: one deal or a list. Each needs app_category (a MediaCategory
+    raw value), asin, title, description, image; price fields optional.
+    Replaces the previous deal for that category. Touches only app.json,
+    the deal's landing page, and feed.json."""
+    new = json.loads(arg)
+    new = new if isinstance(new, list) else [new]
+    current = {d["app_category"]: d for d in load_app()}
+    now = datetime.now(timezone.utc)
+    for d in new:
+        cat = d.get("app_category")
+        assert cat in APP_CATEGORIES, f"app_category must be one of {list(APP_CATEGORIES)}"
+        for k in ("title", "description", "image", "asin"):
+            assert d.get(k), f"missing {k} ({cat})"
+        for k in ("price", "list_price", "pct_off"):
+            if k in d:
+                d[k] = num(d[k])
+        d.setdefault("store", "amazon")
+        d["board"] = APP_CATEGORIES[cat]
+        d.setdefault("link", f"https://www.amazon.com/dp/{d['asin']}?tag=listworthy-20")
+        d["date"] = now.isoformat()
+        d["pubDate"] = format_datetime(now)
+        current[cat] = d
+        write_page(d)
+    json.dump(list(current.values()), open(APP_DATA, "w"), indent=1)
+    write_feed(json.load(open(DATA)) if os.path.exists(DATA) else [])
+
 def main():
+    if len(sys.argv) > 2 and sys.argv[1] == "--app":
+        return add_app_deals(sys.argv[2])
     deals = json.load(open(DATA)) if os.path.exists(DATA) else []
     if len(sys.argv) > 1:
         d = json.loads(sys.argv[1])

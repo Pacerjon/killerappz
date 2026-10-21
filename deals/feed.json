@@ -1,12 +1,13 @@
 {
  "version": 1,
- "generated": "2026-10-21T15:02:23.180647+00:00",
+ "generated": "2026-10-21T18:44:37.799436+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
   "travel": "Travel Deals",
   "tech": "Tech Deals",
-  "gifts": "Holiday Gift Deals"
+  "gifts": "Holiday Gift Deals",
+  "media": "Entertainment Deals"
  },
  "deals": [
   {
@@ -27,7 +28,8 @@
    "url": "https://www.ebay.com/itm/126448889446?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339222266&customid=app&toolid=10001&mkevt=1",
    "page": "https://killerappz.dev/deals/ebay-126448889446.html?src=app",
    "price_checked": "2026-10-21T12:31:40.256444+00:00",
-   "posted": "2026-10-21T12:31:40.256444+00:00"
+   "posted": "2026-10-21T12:31:40.256444+00:00",
+   "app_category": null
   },
   {
    "id": "B0GVTPKJVT-2026-10-21",
@@ -47,7 +49,8 @@
    "url": "https://www.amazon.com/dp/B0GVTPKJVT?tag=listworthy-app-20",
    "page": "https://killerappz.dev/deals/B0GVTPKJVT.html?src=app",
    "price_checked": "2026-10-21T12:31:10.161610+00:00",
-   "posted": "2026-10-21T12:31:10.161610+00:00"
+   "posted": "2026-10-21T12:31:10.161610+00:00",
+   "app_category": null
   },
   {
    "id": "B0HBC7XPCT-2026-10-20",
@@ -67,7 +70,8 @@
    "url": "https://www.amazon.com/dp/B0HBC7XPCT?tag=listworthy-app-20",
    "page": "https://killerappz.dev/deals/B0HBC7XPCT.html?src=app",
    "price_checked": "2026-10-20T12:28:02.093605+00:00",
-   "posted": "2026-10-20T12:28:02.093605+00:00"
+   "posted": "2026-10-20T12:28:02.093605+00:00",
+   "app_category": null
   },
   {
    "id": "B0D8LXRHQ8-2026-10-19",
@@ -87,7 +91,8 @@
    "url": "https://www.amazon.com/dp/B0D8LXRHQ8?tag=listworthy-app-20",
    "page": "https://killerappz.dev/deals/B0D8LXRHQ8.html?src=app",
    "price_checked": "2026-10-19T12:31:18.947468+00:00",
-   "posted": "2026-10-19T12:31:18.947468+00:00"
+   "posted": "2026-10-19T12:31:18.947468+00:00",
+   "app_category": null
   },
   {
    "id": "B01728NLRG-2026-10-18",
@@ -107,7 +112,8 @@
    "url": "https://www.amazon.com/dp/B01728NLRG?tag=listworthy-app-20",
    "page": "https://killerappz.dev/deals/B01728NLRG.html?src=app",
    "price_checked": "2026-10-18T13:04:23.411853+00:00",
-   "posted": "2026-10-18T13:04:23.411853+00:00"
+   "posted": "2026-10-18T13:04:23.411853+00:00",
+   "app_category": null
   },
   {
    "id": "B07VHFMZHJ-2026-10-17",
@@ -127,7 +133,8 @@
    "url": "https://www.amazon.com/dp/B07VHFMZHJ?tag=listworthy-app-20",
    "page": "https://killerappz.dev/deals/B07VHFMZHJ.html?src=app",
    "price_checked": "2026-10-17T12:54:45.514551+00:00",
-   "posted": "2026-10-17T12:54:45.514551+00:00"
+   "posted": "2026-10-17T12:54:45.514551+00:00",
+   "app_category": null
   },
   {
    "id": "B0H7R9JLLR-2026-10-16",
@@ -147,7 +154,8 @@
    "url": "https://www.amazon.com/dp/B0H7R9JLLR?tag=listworthy-app-20",
    "page": "https://killerappz.dev/deals/B0H7R9JLLR.html?src=app",
    "price_checked": "2026-10-16T12:33:43.075740+00:00",
-   "posted": "2026-10-16T12:33:43.075740+00:00"
+   "posted": "2026-10-16T12:33:43.075740+00:00",
+   "app_category": null
   },
   {
    "id": "B0GZSST8ZT-2026-10-15",
@@ -167,7 +175,8 @@
    "url": "https://www.amazon.com/dp/B0GZSST8ZT?tag=listworthy-app-20",
    "page": "https://killerappz.dev/deals/B0GZSST8ZT.html?src=app",
    "price_checked": "2026-10-15T12:36:04.820827+00:00",
-   "posted": "2026-10-15T12:36:04.820827+00:00"
+   "posted": "2026-10-15T12:36:04.820827+00:00",
+   "app_category": null
   },
   {
    "id": "ebay-325669322138-2026-10-14",
@@ -187,7 +196,8 @@
    "url": "https://www.ebay.com/itm/325669322138?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339222266&customid=app&toolid=10001&mkevt=1",
    "page": "https://killerappz.dev/deals/ebay-325669322138.html?src=app",
    "price_checked": "2026-10-14T12:27:39.433484+00:00",
-   "posted": "2026-10-14T12:27:39.433484+00:00"
+   "posted": "2026-10-14T12:27:39.433484+00:00",
+   "app_category": null
   },
   {
    "id": "B0BZR6YBHK-2026-10-13",
@@ -207,7 +217,8 @@
    "url": "https://www.amazon.com/dp/B0BZR6YBHK?tag=listworthy-app-20",
    "page": "https://killerappz.dev/deals/B0BZR6YBHK.html?src=app",
    "price_checked": "2026-10-13T23:44:01.671316+00:00",
-   "posted": "2026-10-13T23:44:01.671316+00:00"
+   "posted": "2026-10-13T23:44:01.671316+00:00",
+   "app_category": null
   },
   {
    "id": "B0C9L8ZR6Q-2026-10-13",
@@ -227,7 +238,8 @@
    "url": "https://www.amazon.com/dp/B0C9L8ZR6Q?tag=listworthy-app-20",
    "page": "https://killerappz.dev/deals/B0C9L8ZR6Q.html?src=app",
    "price_checked": "2026-10-13T23:44:01.561006+00:00",
-   "posted": "2026-10-13T23:44:01.561006+00:00"
+   "posted": "2026-10-13T23:44:01.561006+00:00",
+   "app_category": null
   },
   {
    "id": "B0CDBFLV4J-2026-10-13",
@@ -247,7 +259,8 @@
    "url": "https://www.amazon.com/dp/B0CDBFLV4J?tag=listworthy-app-20",
    "page": "https://killerappz.dev/deals/B0CDBFLV4J.html?src=app",
    "price_checked": "2026-10-13T23:44:01.456094+00:00",
-   "posted": "2026-10-13T23:44:01.456094+00:00"
+   "posted": "2026-10-13T23:44:01.456094+00:00",
+   "app_category": null
   },
   {
    "id": "B003OAJGJO-2026-10-13",
@@ -267,7 +280,8 @@
    "url": "https://www.amazon.com/dp/B003OAJGJO?tag=listworthy-app-20",
    "page": "https://killerappz.dev/deals/B003OAJGJO.html?src=app",
    "price_checked": "2026-10-13T23:44:01.331384+00:00",
-   "posted": "2026-10-13T23:44:01.331384+00:00"
+   "posted": "2026-10-13T23:44:01.331384+00:00",
+   "app_category": null
   },
   {
    "id": "B0H4DSMJ8J-2026-10-13",
@@ -287,7 +301,8 @@
    "url": "https://www.amazon.com/dp/B0H4DSMJ8J?tag=listworthy-app-20",
    "page": "https://killerappz.dev/deals/B0H4DSMJ8J.html?src=app",
    "price_checked": "2026-10-13T23:25:37.786604+00:00",
-   "posted": "2026-10-13T23:25:37.786604+00:00"
+   "posted": "2026-10-13T23:25:37.786604+00:00",
+   "app_category": null
   }
  ]
 }
