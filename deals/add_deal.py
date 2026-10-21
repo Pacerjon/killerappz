@@ -3,10 +3,13 @@
 
 Usage: python3 deals/add_deal.py '<json>'
 JSON keys: board (kitchen|home|travel|tech|gifts), title, description,
-link, image, asin. Rebuilds deals/<board>.xml from deals/deals.json.
+link, image, asin. Optional: store ("ebay"), social, social_link, and for the
+app feed: price, list_price, pct_off, category, coupon, condition, price_checked.
+Rebuilds deals/<board>.xml, the deal pages, and deals/feed.json (Listworthy app).
 """
 import json, sys, os, html
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
+from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode
 from email.utils import format_datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -20,6 +23,10 @@ BOARDS = {
     "gifts": "Holiday Gift Deals",
 }
 KEEP = 50
+FEED = os.path.join(HERE, "feed.json")  # read by the Listworthy iOS app
+FEED_DAYS = 14
+APP_TAG = "listworthy-app-20"
+APP_EBAY_CUSTOMID = "app"
 
 def esc(s):
     return html.escape(str(s), quote=True)
@@ -62,7 +69,7 @@ PAGE = """<!DOCTYPE html>
     // Per-channel tracking: ?src=fb|pin|social|rd swaps the Amazon tag (or eBay customid).
     (function(){{
       try {{
-        var tags = {{fb: "listworthy-fb-20", pin: "listworthy-pin-20", social: "listworthy-social-20", rd: "listworthy-rd-20"}};
+        var tags = {{fb: "listworthy-fb-20", pin: "listworthy-pin-20", social: "listworthy-social-20", rd: "listworthy-rd-20", app: "listworthy-app-20"}};
         var src = new URLSearchParams(location.search).get("src");
         if (!src || !tags[src]) return;
         var a = document.getElementById("deal-btn");
@@ -184,6 +191,58 @@ def build(board, deals):
     with open(os.path.join(HERE, f"{board}.xml"), "w", encoding="utf-8") as f:
         f.write("\n".join(out))
 
+def num(v):
+    """Coerce '$1,299.99', '41%', 41 or None to a float or None."""
+    if v is None or v == "":
+        return None
+    try:
+        return float(str(v).replace("$", "").replace(",", "").replace("%", "").strip())
+    except ValueError:
+        return None
+
+def app_link(d):
+    """Affiliate link the app opens directly, tagged for the app channel."""
+    if d.get("store") == "ebay":
+        u = urlparse(d["link"])
+        q = dict(parse_qsl(u.query))
+        q["customid"] = APP_EBAY_CUSTOMID
+        return urlunparse(u._replace(query=urlencode(q)))
+    return f"https://www.amazon.com/dp/{d['asin']}?tag={APP_TAG}"
+
+def write_feed(deals):
+    """Stable, versioned JSON contract for the Listworthy app (newest first)."""
+    cutoff = datetime.now(timezone.utc) - timedelta(days=FEED_DAYS)
+    items, seen = [], set()
+    for d in reversed(deals):
+        if d["asin"] in seen or datetime.fromisoformat(d["date"]) < cutoff:
+            continue
+        seen.add(d["asin"])
+        store = d.get("store", "amazon")
+        items.append({
+            "id": f'{d["asin"]}-{d["date"][:10]}',
+            "store": store,
+            "asin": d["asin"] if store == "amazon" else None,
+            "ebay_item_id": d["asin"][5:] if store == "ebay" else None,
+            "board": d["board"],
+            "category": d.get("category"),
+            "title": d["title"],
+            "summary": d["description"].split(" #")[0],
+            "price": num(d.get("price")),
+            "list_price": num(d.get("list_price")),
+            "pct_off": num(d.get("pct_off")),
+            "coupon": bool(d.get("coupon", False)),
+            "condition": d.get("condition"),
+            "image": d["image"],
+            "url": app_link(d),
+            "page": page_url(d) + "?src=app",
+            "price_checked": d.get("price_checked") or d["date"],
+            "posted": d["date"],
+        })
+    out = {"version": 1, "generated": datetime.now(timezone.utc).isoformat(),
+           "boards": BOARDS, "deals": items}
+    with open(FEED, "w", encoding="utf-8") as f:
+        json.dump(out, f, indent=1, ensure_ascii=False)
+
 def main():
     deals = json.load(open(DATA)) if os.path.exists(DATA) else []
     if len(sys.argv) > 1:
@@ -191,6 +250,9 @@ def main():
         assert d["board"] in BOARDS, f"board must be one of {list(BOARDS)}"
         for k in ("title", "description", "link", "image", "asin"):  # asin = Amazon ASIN or "ebay-<itemId>"; optional "store": "ebay"
             assert d.get(k), f"missing {k}"
+        for k in ("price", "list_price", "pct_off"):  # optional structured fields for the app feed
+            if k in d:
+                d[k] = num(d[k])
         now = datetime.now(timezone.utc)
         d["date"] = now.isoformat()
         d["pubDate"] = format_datetime(now)
@@ -204,6 +266,7 @@ def main():
     for b in BOARDS:
         build(b, deals)
     build("all", deals)
+    write_feed(deals)
 
 if __name__ == "__main__":
     main()

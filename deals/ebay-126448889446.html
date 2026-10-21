@@ -36,7 +36,7 @@
     // Per-channel tracking: ?src=fb|pin|social|rd swaps the Amazon tag (or eBay customid).
     (function(){
       try {
-        var tags = {fb: "listworthy-fb-20", pin: "listworthy-pin-20", social: "listworthy-social-20", rd: "listworthy-rd-20"};
+        var tags = {fb: "listworthy-fb-20", pin: "listworthy-pin-20", social: "listworthy-social-20", rd: "listworthy-rd-20", app: "listworthy-app-20"};
         var src = new URLSearchParams(location.search).get("src");
         if (!src || !tags[src]) return;
         var a = document.getElementById("deal-btn");
