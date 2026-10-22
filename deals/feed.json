@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-10-21T18:44:37.799436+00:00",
+ "generated": "2026-10-22T10:58:43.775366+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B0GF68F2H6-2026-10-22",
+   "store": "amazon",
+   "asin": "B0GF68F2H6",
+   "ebay_item_id": null,
+   "board": "home",
+   "category": "SMART HOME",
+   "title": "44% Off Ring Wired Doorbell 2K Plus (Newest Model) - $99.99",
+   "summary": "Ring Wired Doorbell 2K Plus with Retinal 2K video, wide-angle view, color night vision and motion alerts with video descriptions. Hardwires to your existing doorbell system. $99.99 vs $179.99 list.",
+   "price": 99.99,
+   "list_price": 179.99,
+   "pct_off": 44.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/71i+e2QguoL._SL1500_.jpg",
+   "url": "https://www.amazon.com/dp/B0GF68F2H6?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B0GF68F2H6.html?src=app",
+   "price_checked": "2026-10-22T06:57:00-04:00",
+   "posted": "2026-10-22T10:58:43.763800+00:00",
+   "app_category": null
+  },
   {
    "id": "ebay-126448889446-2026-10-21",
    "store": "ebay",
