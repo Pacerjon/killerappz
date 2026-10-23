@@ -196,12 +196,16 @@ def build(board, deals):
                 f'<guid isPermaLink="false">{esc(d["asin"])}-{esc(d["date"][:10])}</guid>',
                 f'<pubDate>{esc(d["pubDate"])}</pubDate>',
                 f'<description>{esc(d["description"])}</description>',
-                f'<enclosure url="{esc(d["image"])}" type="image/jpeg" length="0"/>',
-                f'<media:content url="{esc(d["image"])}" medium="image" type="image/jpeg"/>',
+                f'<enclosure url="{esc(feed_img(d["image"]))}" type="image/jpeg" length="0"/>',
+                f'<media:content url="{esc(feed_img(d["image"]))}" medium="image" type="image/jpeg"/>',
                 '</item>']
     out += ['</channel>', '</rss>', '']
     with open(os.path.join(HERE, f"{board}.xml"), "w", encoding="utf-8") as f:
         f.write("\n".join(out))
+
+def feed_img(u):
+    """Percent-encode + in image URLs so feed readers (Pinterest) do not decode it as a space."""
+    return str(u).replace("+", "%2B")
 
 def num(v):
     """Coerce '$1,299.99', '41%', 41 or None to a float or None."""
