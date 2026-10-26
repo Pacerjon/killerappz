@@ -1,0 +1,2035 @@
+{
+ "version": 1,
+ "updated": "2026-10-26",
+ "packs": [
+  {
+   "id": "halloween-movies",
+   "title": "Halloween Movies",
+   "emoji": "🎃",
+   "category": "movies",
+   "start": "10-01",
+   "end": "11-02",
+   "items": [
+    {
+     "title": "Halloween",
+     "year": "1978"
+    },
+    {
+     "title": "A Nightmare on Elm Street",
+     "year": "1984"
+    },
+    {
+     "title": "The Exorcist",
+     "year": "1973"
+    },
+    {
+     "title": "The Shining",
+     "year": "1980"
+    },
+    {
+     "title": "Scream",
+     "year": "1996"
+    },
+    {
+     "title": "Hocus Pocus",
+     "year": "1993"
+    },
+    {
+     "title": "Beetlejuice",
+     "year": "1988"
+    },
+    {
+     "title": "Ghostbusters",
+     "year": "1984"
+    },
+    {
+     "title": "The Nightmare Before Christmas",
+     "year": "1993"
+    },
+    {
+     "title": "Friday the 13th",
+     "year": "1980"
+    },
+    {
+     "title": "The Texas Chain Saw Massacre",
+     "year": "1974"
+    },
+    {
+     "title": "Poltergeist",
+     "year": "1982"
+    },
+    {
+     "title": "The Conjuring",
+     "year": "2013"
+    },
+    {
+     "title": "Hereditary",
+     "year": "2018"
+    },
+    {
+     "title": "Get Out",
+     "year": "2017"
+    },
+    {
+     "title": "It",
+     "year": "2017"
+    },
+    {
+     "title": "A Quiet Place",
+     "year": "2018"
+    },
+    {
+     "title": "The Ring",
+     "year": "2002"
+    },
+    {
+     "title": "Saw",
+     "year": "2004"
+    },
+    {
+     "title": "Psycho",
+     "year": "1960"
+    },
+    {
+     "title": "Rosemary's Baby",
+     "year": "1968"
+    },
+    {
+     "title": "Carrie",
+     "year": "1976"
+    },
+    {
+     "title": "The Thing",
+     "year": "1982"
+    },
+    {
+     "title": "Alien",
+     "year": "1979"
+    },
+    {
+     "title": "The Silence of the Lambs",
+     "year": "1991"
+    },
+    {
+     "title": "The Sixth Sense",
+     "year": "1999"
+    },
+    {
+     "title": "Coraline",
+     "year": "2009"
+    },
+    {
+     "title": "Corpse Bride",
+     "year": "2005"
+    },
+    {
+     "title": "Casper",
+     "year": "1995"
+    },
+    {
+     "title": "The Addams Family",
+     "year": "1991"
+    },
+    {
+     "title": "Hotel Transylvania",
+     "year": "2012"
+    },
+    {
+     "title": "Trick 'r Treat",
+     "year": "2007"
+    },
+    {
+     "title": "Halloweentown",
+     "year": "1998"
+    },
+    {
+     "title": "Practical Magic",
+     "year": "1998"
+    },
+    {
+     "title": "The Craft",
+     "year": "1996"
+    },
+    {
+     "title": "Us",
+     "year": "2019"
+    },
+    {
+     "title": "Smile",
+     "year": "2022"
+    },
+    {
+     "title": "Talk to Me",
+     "year": "2023"
+    },
+    {
+     "title": "Nope",
+     "year": "2022"
+    },
+    {
+     "title": "Barbarian",
+     "year": "2022"
+    },
+    {
+     "title": "Beetlejuice Beetlejuice",
+     "year": "2024"
+    },
+    {
+     "title": "Longlegs",
+     "year": "2024"
+    },
+    {
+     "title": "The Witch",
+     "year": "2015"
+    },
+    {
+     "title": "Midsommar",
+     "year": "2019"
+    },
+    {
+     "title": "Evil Dead II",
+     "year": "1987"
+    },
+    {
+     "title": "An American Werewolf in London",
+     "year": "1981"
+    },
+    {
+     "title": "Frankenstein",
+     "year": "1931"
+    },
+    {
+     "title": "Dracula",
+     "year": "1931"
+    }
+   ],
+   "question": "Which Halloween movie is better?"
+  },
+  {
+   "id": "halloween-tv",
+   "title": "Spooky Shows",
+   "emoji": "👻",
+   "category": "tv",
+   "start": "10-01",
+   "end": "11-02",
+   "items": [
+    {
+     "title": "Stranger Things",
+     "year": "2016"
+    },
+    {
+     "title": "The Walking Dead",
+     "year": "2010"
+    },
+    {
+     "title": "American Horror Story",
+     "year": "2011"
+    },
+    {
+     "title": "The Haunting of Hill House",
+     "year": "2018"
+    },
+    {
+     "title": "Wednesday",
+     "year": "2022"
+    },
+    {
+     "title": "Supernatural",
+     "year": "2005"
+    },
+    {
+     "title": "The X-Files",
+     "year": "1993"
+    },
+    {
+     "title": "Buffy the Vampire Slayer",
+     "year": "1997"
+    },
+    {
+     "title": "Twin Peaks",
+     "year": "1990"
+    },
+    {
+     "title": "Midnight Mass",
+     "year": "2021"
+    },
+    {
+     "title": "The Haunting of Bly Manor",
+     "year": "2020"
+    },
+    {
+     "title": "What We Do in the Shadows",
+     "year": "2019"
+    },
+    {
+     "title": "Goosebumps",
+     "year": "1995"
+    },
+    {
+     "title": "Are You Afraid of the Dark?",
+     "year": "1990"
+    },
+    {
+     "title": "Tales from the Crypt",
+     "year": "1989"
+    },
+    {
+     "title": "The Twilight Zone",
+     "year": "1959"
+    },
+    {
+     "title": "Penny Dreadful",
+     "year": "2014"
+    },
+    {
+     "title": "Hannibal",
+     "year": "2013"
+    },
+    {
+     "title": "Castlevania",
+     "year": "2017"
+    },
+    {
+     "title": "Chilling Adventures of Sabrina",
+     "year": "2018"
+    },
+    {
+     "title": "The Fall of the House of Usher",
+     "year": "2023"
+    },
+    {
+     "title": "From",
+     "year": "2022"
+    },
+    {
+     "title": "Yellowjackets",
+     "year": "2021"
+    },
+    {
+     "title": "Ash vs Evil Dead",
+     "year": "2015"
+    },
+    {
+     "title": "Bates Motel",
+     "year": "2013"
+    },
+    {
+     "title": "True Blood",
+     "year": "2008"
+    },
+    {
+     "title": "The Vampire Diaries",
+     "year": "2009"
+    },
+    {
+     "title": "Teen Wolf",
+     "year": "2011"
+    },
+    {
+     "title": "Scream Queens",
+     "year": "2015"
+    },
+    {
+     "title": "Dexter",
+     "year": "2006"
+    }
+   ],
+   "question": "Which spooky show is better?"
+  },
+  {
+   "id": "halloween-games",
+   "title": "Horror Games",
+   "emoji": "🧟",
+   "category": "games",
+   "start": "10-01",
+   "end": "11-02",
+   "items": [
+    {
+     "title": "Resident Evil 4",
+     "year": "2005"
+    },
+    {
+     "title": "Resident Evil 2",
+     "year": "2019"
+    },
+    {
+     "title": "Silent Hill 2",
+     "year": "2001"
+    },
+    {
+     "title": "Dead Space",
+     "year": "2008"
+    },
+    {
+     "title": "Alan Wake 2",
+     "year": "2023"
+    },
+    {
+     "title": "Luigi's Mansion 3",
+     "year": "2019"
+    },
+    {
+     "title": "Five Nights at Freddy's",
+     "year": "2014"
+    },
+    {
+     "title": "Outlast",
+     "year": "2013"
+    },
+    {
+     "title": "Amnesia: The Dark Descent",
+     "year": "2010"
+    },
+    {
+     "title": "Until Dawn",
+     "year": "2015"
+    },
+    {
+     "title": "The Last of Us",
+     "year": "2013"
+    },
+    {
+     "title": "Bloodborne",
+     "year": "2015"
+    },
+    {
+     "title": "Phasmophobia",
+     "year": "2020"
+    },
+    {
+     "title": "Lethal Company",
+     "year": "2023"
+    },
+    {
+     "title": "Dead by Daylight",
+     "year": "2016"
+    },
+    {
+     "title": "Left 4 Dead 2",
+     "year": "2009"
+    },
+    {
+     "title": "Little Nightmares",
+     "year": "2017"
+    },
+    {
+     "title": "Inscryption",
+     "year": "2021"
+    },
+    {
+     "title": "Alien: Isolation",
+     "year": "2014"
+    },
+    {
+     "title": "Resident Evil Village",
+     "year": "2021"
+    },
+    {
+     "title": "The Evil Within",
+     "year": "2014"
+    },
+    {
+     "title": "Dying Light",
+     "year": "2015"
+    },
+    {
+     "title": "Castlevania: Symphony of the Night",
+     "year": "1997"
+    },
+    {
+     "title": "Costume Quest",
+     "year": "2010"
+    },
+    {
+     "title": "Plants vs. Zombies",
+     "year": "2009"
+    }
+   ],
+   "question": "Which horror game is better?"
+  },
+  {
+   "id": "christmas-movies",
+   "title": "Christmas Movies",
+   "emoji": "🎄",
+   "category": "movies",
+   "start": "11-15",
+   "end": "12-31",
+   "items": [
+    {
+     "title": "Home Alone",
+     "year": "1990"
+    },
+    {
+     "title": "Elf",
+     "year": "2003"
+    },
+    {
+     "title": "A Christmas Story",
+     "year": "1983"
+    },
+    {
+     "title": "National Lampoon's Christmas Vacation",
+     "year": "1989"
+    },
+    {
+     "title": "The Polar Express",
+     "year": "2004"
+    },
+    {
+     "title": "Die Hard",
+     "year": "1988"
+    },
+    {
+     "title": "It's a Wonderful Life",
+     "year": "1946"
+    },
+    {
+     "title": "Miracle on 34th Street",
+     "year": "1947"
+    },
+    {
+     "title": "How the Grinch Stole Christmas",
+     "year": "2000"
+    },
+    {
+     "title": "The Grinch",
+     "year": "2018"
+    },
+    {
+     "title": "The Santa Clause",
+     "year": "1994"
+    },
+    {
+     "title": "Love Actually",
+     "year": "2003"
+    },
+    {
+     "title": "The Holiday",
+     "year": "2006"
+    },
+    {
+     "title": "Home Alone 2: Lost in New York",
+     "year": "1992"
+    },
+    {
+     "title": "Jingle All the Way",
+     "year": "1996"
+    },
+    {
+     "title": "The Muppet Christmas Carol",
+     "year": "1992"
+    },
+    {
+     "title": "A Christmas Carol",
+     "year": "2009"
+    },
+    {
+     "title": "Scrooged",
+     "year": "1988"
+    },
+    {
+     "title": "Gremlins",
+     "year": "1984"
+    },
+    {
+     "title": "Klaus",
+     "year": "2019"
+    },
+    {
+     "title": "Arthur Christmas",
+     "year": "2011"
+    },
+    {
+     "title": "Bad Santa",
+     "year": "2003"
+    },
+    {
+     "title": "Four Christmases",
+     "year": "2008"
+    },
+    {
+     "title": "Fred Claus",
+     "year": "2007"
+    },
+    {
+     "title": "The Night Before",
+     "year": "2015"
+    },
+    {
+     "title": "Last Christmas",
+     "year": "2019"
+    },
+    {
+     "title": "Happiest Season",
+     "year": "2020"
+    },
+    {
+     "title": "Violent Night",
+     "year": "2022"
+    },
+    {
+     "title": "Spirited",
+     "year": "2022"
+    },
+    {
+     "title": "Red One",
+     "year": "2024"
+    },
+    {
+     "title": "The Christmas Chronicles",
+     "year": "2018"
+    },
+    {
+     "title": "Noelle",
+     "year": "2019"
+    },
+    {
+     "title": "White Christmas",
+     "year": "1954"
+    },
+    {
+     "title": "Holiday Inn",
+     "year": "1942"
+    },
+    {
+     "title": "The Family Stone",
+     "year": "2005"
+    },
+    {
+     "title": "Office Christmas Party",
+     "year": "2016"
+    },
+    {
+     "title": "Christmas with the Kranks",
+     "year": "2004"
+    },
+    {
+     "title": "The Nightmare Before Christmas",
+     "year": "1993"
+    },
+    {
+     "title": "Krampus",
+     "year": "2015"
+    },
+    {
+     "title": "The Best Christmas Pageant Ever",
+     "year": "2024"
+    },
+    {
+     "title": "Jack Frost",
+     "year": "1998"
+    }
+   ],
+   "question": "Which Christmas movie is better?"
+  },
+  {
+   "id": "holiday-specials",
+   "title": "Holiday TV Specials",
+   "emoji": "📺",
+   "category": "movies",
+   "start": "11-15",
+   "end": "12-31",
+   "items": [
+    {
+     "title": "A Charlie Brown Christmas",
+     "year": "1965"
+    },
+    {
+     "title": "How the Grinch Stole Christmas!",
+     "year": "1966"
+    },
+    {
+     "title": "Rudolph the Red-Nosed Reindeer",
+     "year": "1964"
+    },
+    {
+     "title": "Frosty the Snowman",
+     "year": "1969"
+    },
+    {
+     "title": "Santa Claus Is Comin' to Town",
+     "year": "1970"
+    },
+    {
+     "title": "The Year Without a Santa Claus",
+     "year": "1974"
+    },
+    {
+     "title": "The Little Drummer Boy",
+     "year": "1968"
+    },
+    {
+     "title": "Mickey's Christmas Carol",
+     "year": "1983"
+    },
+    {
+     "title": "The Snowman",
+     "year": "1982"
+    },
+    {
+     "title": "A Garfield Christmas Special",
+     "year": "1987"
+    },
+    {
+     "title": "Prep & Landing",
+     "year": "2009"
+    },
+    {
+     "title": "Shrek the Halls",
+     "year": "2007"
+    },
+    {
+     "title": "Merry Madagascar",
+     "year": "2009"
+    },
+    {
+     "title": "Toy Story That Time Forgot",
+     "year": "2014"
+    },
+    {
+     "title": "Olive, the Other Reindeer",
+     "year": "1999"
+    },
+    {
+     "title": "'Twas the Night Before Christmas",
+     "year": "1974"
+    },
+    {
+     "title": "Mr. Magoo's Christmas Carol",
+     "year": "1962"
+    },
+    {
+     "title": "A Flintstones Christmas Carol",
+     "year": "1994"
+    },
+    {
+     "title": "A Muppet Family Christmas",
+     "year": "1987"
+    },
+    {
+     "title": "Kung Fu Panda Holiday",
+     "year": "2010"
+    },
+    {
+     "title": "A Very Murray Christmas",
+     "year": "2015"
+    },
+    {
+     "title": "Nestor, the Long-Eared Christmas Donkey",
+     "year": "1977"
+    }
+   ],
+   "question": "Which holiday special is better?"
+  },
+  {
+   "id": "christmas-songs",
+   "title": "Christmas Songs",
+   "emoji": "🎅",
+   "category": "music",
+   "start": "11-15",
+   "end": "12-31",
+   "items": [
+    {
+     "title": "All I Want for Christmas Is You",
+     "byline": "Mariah Carey",
+     "year": "1994"
+    },
+    {
+     "title": "Last Christmas",
+     "byline": "Wham!",
+     "year": "1984"
+    },
+    {
+     "title": "Jingle Bell Rock",
+     "byline": "Bobby Helms",
+     "year": "1957"
+    },
+    {
+     "title": "Rockin' Around the Christmas Tree",
+     "byline": "Brenda Lee",
+     "year": "1958"
+    },
+    {
+     "title": "It's the Most Wonderful Time of the Year",
+     "byline": "Andy Williams",
+     "year": "1963"
+    },
+    {
+     "title": "Feliz Navidad",
+     "byline": "José Feliciano",
+     "year": "1970"
+    },
+    {
+     "title": "A Holly Jolly Christmas",
+     "byline": "Burl Ives",
+     "year": "1964"
+    },
+    {
+     "title": "White Christmas",
+     "byline": "Bing Crosby",
+     "year": "1942"
+    },
+    {
+     "title": "The Christmas Song",
+     "byline": "Nat King Cole",
+     "year": "1961"
+    },
+    {
+     "title": "Let It Snow! Let It Snow! Let It Snow!",
+     "byline": "Dean Martin",
+     "year": "1959"
+    },
+    {
+     "title": "It's Beginning to Look a Lot Like Christmas",
+     "byline": "Michael Bublé",
+     "year": "2011"
+    },
+    {
+     "title": "Santa Tell Me",
+     "byline": "Ariana Grande",
+     "year": "2014"
+    },
+    {
+     "title": "Underneath the Tree",
+     "byline": "Kelly Clarkson",
+     "year": "2013"
+    },
+    {
+     "title": "Christmas (Baby Please Come Home)",
+     "byline": "Darlene Love",
+     "year": "1963"
+    },
+    {
+     "title": "Sleigh Ride",
+     "byline": "The Ronettes",
+     "year": "1963"
+    },
+    {
+     "title": "Run Rudolph Run",
+     "byline": "Chuck Berry",
+     "year": "1958"
+    },
+    {
+     "title": "Blue Christmas",
+     "byline": "Elvis Presley",
+     "year": "1957"
+    },
+    {
+     "title": "Happy Xmas (War Is Over)",
+     "byline": "John Lennon",
+     "year": "1971"
+    },
+    {
+     "title": "Wonderful Christmastime",
+     "byline": "Paul McCartney",
+     "year": "1979"
+    },
+    {
+     "title": "Do They Know It's Christmas?",
+     "byline": "Band Aid",
+     "year": "1984"
+    },
+    {
+     "title": "Fairytale of New York",
+     "byline": "The Pogues",
+     "year": "1987"
+    },
+    {
+     "title": "Christmas Tree Farm",
+     "byline": "Taylor Swift",
+     "year": "2019"
+    },
+    {
+     "title": "Mistletoe",
+     "byline": "Justin Bieber",
+     "year": "2011"
+    },
+    {
+     "title": "Snowman",
+     "byline": "Sia",
+     "year": "2017"
+    },
+    {
+     "title": "Santa Baby",
+     "byline": "Eartha Kitt",
+     "year": "1953"
+    },
+    {
+     "title": "Little Saint Nick",
+     "byline": "The Beach Boys",
+     "year": "1963"
+    },
+    {
+     "title": "Have Yourself a Merry Little Christmas",
+     "byline": "Judy Garland",
+     "year": "1944"
+    },
+    {
+     "title": "Silver Bells",
+     "byline": "Bing Crosby",
+     "year": "1950"
+    },
+    {
+     "title": "You're a Mean One, Mr. Grinch",
+     "byline": "Thurl Ravenscroft",
+     "year": "1966"
+    },
+    {
+     "title": "Rudolph the Red-Nosed Reindeer",
+     "byline": "Gene Autry",
+     "year": "1949"
+    },
+    {
+     "title": "Here Comes Santa Claus",
+     "byline": "Gene Autry",
+     "year": "1947"
+    },
+    {
+     "title": "Christmas Wrapping",
+     "byline": "The Waitresses",
+     "year": "1981"
+    },
+    {
+     "title": "Step into Christmas",
+     "byline": "Elton John",
+     "year": "1973"
+    },
+    {
+     "title": "Merry Christmas",
+     "byline": "Ed Sheeran",
+     "year": "2021"
+    },
+    {
+     "title": "Mary, Did You Know?",
+     "byline": "Pentatonix",
+     "year": "2014"
+    },
+    {
+     "title": "Hard Candy Christmas",
+     "byline": "Dolly Parton",
+     "year": "1982"
+    },
+    {
+     "title": "Grown-Up Christmas List",
+     "byline": "Amy Grant",
+     "year": "1992"
+    }
+   ],
+   "question": "Which Christmas song is better?",
+   "itemType": "song"
+  },
+  {
+   "id": "holiday-books",
+   "title": "Holiday Books",
+   "emoji": "📖",
+   "category": "books",
+   "start": "11-15",
+   "end": "12-31",
+   "items": [
+    {
+     "title": "A Christmas Carol",
+     "byline": "Charles Dickens",
+     "year": "1843"
+    },
+    {
+     "title": "How the Grinch Stole Christmas!",
+     "byline": "Dr. Seuss",
+     "year": "1957"
+    },
+    {
+     "title": "The Polar Express",
+     "byline": "Chris Van Allsburg",
+     "year": "1985"
+    },
+    {
+     "title": "The Night Before Christmas",
+     "byline": "Clement C. Moore",
+     "year": "1823"
+    },
+    {
+     "title": "The Gift of the Magi",
+     "byline": "O. Henry",
+     "year": "1905"
+    },
+    {
+     "title": "Little Women",
+     "byline": "Louisa May Alcott",
+     "year": "1868"
+    },
+    {
+     "title": "Skipping Christmas",
+     "byline": "John Grisham",
+     "year": "2001"
+    },
+    {
+     "title": "The Best Christmas Pageant Ever",
+     "byline": "Barbara Robinson",
+     "year": "1972"
+    },
+    {
+     "title": "Let It Snow",
+     "byline": "John Green",
+     "year": "2008"
+    },
+    {
+     "title": "Dash & Lily's Book of Dares",
+     "byline": "Rachel Cohn",
+     "year": "2010"
+    },
+    {
+     "title": "The Christmas Box",
+     "byline": "Richard Paul Evans",
+     "year": "1993"
+    },
+    {
+     "title": "A Christmas Memory",
+     "byline": "Truman Capote",
+     "year": "1956"
+    },
+    {
+     "title": "The Snowman",
+     "byline": "Raymond Briggs",
+     "year": "1978"
+    },
+    {
+     "title": "The Lion, the Witch and the Wardrobe",
+     "byline": "C. S. Lewis",
+     "year": "1950"
+    },
+    {
+     "title": "In a Holidaze",
+     "byline": "Christina Lauren",
+     "year": "2020"
+    },
+    {
+     "title": "The Christmas Pig",
+     "byline": "J. K. Rowling",
+     "year": "2021"
+    },
+    {
+     "title": "Hercule Poirot's Christmas",
+     "byline": "Agatha Christie",
+     "year": "1938"
+    },
+    {
+     "title": "One Day in December",
+     "byline": "Josie Silver",
+     "year": "2018"
+    },
+    {
+     "title": "Holidays on Ice",
+     "byline": "David Sedaris",
+     "year": "1997"
+    },
+    {
+     "title": "A Redbird Christmas",
+     "byline": "Fannie Flagg",
+     "year": "2004"
+    },
+    {
+     "title": "The Mitten",
+     "byline": "Jan Brett",
+     "year": "1989"
+    },
+    {
+     "title": "Christmas Jars",
+     "byline": "Jason F. Wright",
+     "year": "2005"
+    },
+    {
+     "title": "The Holiday Swap",
+     "byline": "Maggie Knox",
+     "year": "2021"
+    }
+   ],
+   "question": "Which holiday book is better?"
+  },
+  {
+   "id": "rom-coms",
+   "title": "Rom-Coms",
+   "emoji": "💘",
+   "category": "movies",
+   "start": "02-01",
+   "end": "02-15",
+   "items": [
+    {
+     "title": "When Harry Met Sally...",
+     "year": "1989"
+    },
+    {
+     "title": "Pretty Woman",
+     "year": "1990"
+    },
+    {
+     "title": "Notting Hill",
+     "year": "1999"
+    },
+    {
+     "title": "Sleepless in Seattle",
+     "year": "1993"
+    },
+    {
+     "title": "You've Got Mail",
+     "year": "1998"
+    },
+    {
+     "title": "10 Things I Hate About You",
+     "year": "1999"
+    },
+    {
+     "title": "Crazy, Stupid, Love.",
+     "year": "2011"
+    },
+    {
+     "title": "The Proposal",
+     "year": "2009"
+    },
+    {
+     "title": "27 Dresses",
+     "year": "2008"
+    },
+    {
+     "title": "How to Lose a Guy in 10 Days",
+     "year": "2003"
+    },
+    {
+     "title": "Bridget Jones's Diary",
+     "year": "2001"
+    },
+    {
+     "title": "Love Actually",
+     "year": "2003"
+    },
+    {
+     "title": "Crazy Rich Asians",
+     "year": "2018"
+    },
+    {
+     "title": "To All the Boys I've Loved Before",
+     "year": "2018"
+    },
+    {
+     "title": "Clueless",
+     "year": "1995"
+    },
+    {
+     "title": "My Big Fat Greek Wedding",
+     "year": "2002"
+    },
+    {
+     "title": "The Wedding Singer",
+     "year": "1998"
+    },
+    {
+     "title": "Pride & Prejudice",
+     "year": "2005"
+    },
+    {
+     "title": "La La Land",
+     "year": "2016"
+    },
+    {
+     "title": "The Notebook",
+     "year": "2004"
+    },
+    {
+     "title": "Silver Linings Playbook",
+     "year": "2012"
+    },
+    {
+     "title": "(500) Days of Summer",
+     "year": "2009"
+    },
+    {
+     "title": "Four Weddings and a Funeral",
+     "year": "1994"
+    },
+    {
+     "title": "Hitch",
+     "year": "2005"
+    },
+    {
+     "title": "Friends with Benefits",
+     "year": "2011"
+    },
+    {
+     "title": "Easy A",
+     "year": "2010"
+    },
+    {
+     "title": "Anyone but You",
+     "year": "2023"
+    },
+    {
+     "title": "Set It Up",
+     "year": "2018"
+    },
+    {
+     "title": "The Big Sick",
+     "year": "2017"
+    },
+    {
+     "title": "Sweet Home Alabama",
+     "year": "2002"
+    },
+    {
+     "title": "Maid in Manhattan",
+     "year": "2002"
+    },
+    {
+     "title": "Groundhog Day",
+     "year": "1993"
+    },
+    {
+     "title": "Roman Holiday",
+     "year": "1953"
+    },
+    {
+     "title": "Moonstruck",
+     "year": "1987"
+    },
+    {
+     "title": "The Princess Bride",
+     "year": "1987"
+    },
+    {
+     "title": "Palm Springs",
+     "year": "2020"
+    }
+   ],
+   "question": "Which rom-com is better?"
+  },
+  {
+   "id": "love-songs",
+   "title": "Love Songs",
+   "emoji": "❤️",
+   "category": "music",
+   "start": "02-01",
+   "end": "02-15",
+   "items": [
+    {
+     "title": "Can't Help Falling in Love",
+     "byline": "Elvis Presley",
+     "year": "1961"
+    },
+    {
+     "title": "At Last",
+     "byline": "Etta James",
+     "year": "1960"
+    },
+    {
+     "title": "Unchained Melody",
+     "byline": "The Righteous Brothers",
+     "year": "1965"
+    },
+    {
+     "title": "I Will Always Love You",
+     "byline": "Whitney Houston",
+     "year": "1992"
+    },
+    {
+     "title": "Perfect",
+     "byline": "Ed Sheeran",
+     "year": "2017"
+    },
+    {
+     "title": "Thinking Out Loud",
+     "byline": "Ed Sheeran",
+     "year": "2014"
+    },
+    {
+     "title": "All of Me",
+     "byline": "John Legend",
+     "year": "2013"
+    },
+    {
+     "title": "Make You Feel My Love",
+     "byline": "Adele",
+     "year": "2008"
+    },
+    {
+     "title": "Crazy in Love",
+     "byline": "Beyoncé",
+     "year": "2003"
+    },
+    {
+     "title": "Lover",
+     "byline": "Taylor Swift",
+     "year": "2019"
+    },
+    {
+     "title": "Love Story",
+     "byline": "Taylor Swift",
+     "year": "2008"
+    },
+    {
+     "title": "My Girl",
+     "byline": "The Temptations",
+     "year": "1964"
+    },
+    {
+     "title": "Let's Stay Together",
+     "byline": "Al Green",
+     "year": "1971"
+    },
+    {
+     "title": "Endless Love",
+     "byline": "Diana Ross",
+     "year": "1981"
+    },
+    {
+     "title": "Something",
+     "byline": "The Beatles",
+     "year": "1969"
+    },
+    {
+     "title": "Your Song",
+     "byline": "Elton John",
+     "year": "1970"
+    },
+    {
+     "title": "Wonderful Tonight",
+     "byline": "Eric Clapton",
+     "year": "1977"
+    },
+    {
+     "title": "Just the Way You Are",
+     "byline": "Bruno Mars",
+     "year": "2010"
+    },
+    {
+     "title": "A Thousand Years",
+     "byline": "Christina Perri",
+     "year": "2011"
+    },
+    {
+     "title": "Die with a Smile",
+     "byline": "Lady Gaga",
+     "year": "2024"
+    },
+    {
+     "title": "Adore You",
+     "byline": "Harry Styles",
+     "year": "2019"
+    },
+    {
+     "title": "Kiss Me",
+     "byline": "Sixpence None the Richer",
+     "year": "1997"
+    },
+    {
+     "title": "I'm Yours",
+     "byline": "Jason Mraz",
+     "year": "2008"
+    },
+    {
+     "title": "Iris",
+     "byline": "Goo Goo Dolls",
+     "year": "1998"
+    },
+    {
+     "title": "Truly Madly Deeply",
+     "byline": "Savage Garden",
+     "year": "1997"
+    },
+    {
+     "title": "The Way You Look Tonight",
+     "byline": "Frank Sinatra",
+     "year": "1964"
+    },
+    {
+     "title": "Stand by Me",
+     "byline": "Ben E. King",
+     "year": "1961"
+    },
+    {
+     "title": "Love on Top",
+     "byline": "Beyoncé",
+     "year": "2011"
+    },
+    {
+     "title": "Lucky",
+     "byline": "Jason Mraz",
+     "year": "2008"
+    },
+    {
+     "title": "Tennessee Whiskey",
+     "byline": "Chris Stapleton",
+     "year": "2015"
+    },
+    {
+     "title": "Die a Happy Man",
+     "byline": "Thomas Rhett",
+     "year": "2015"
+    }
+   ],
+   "question": "Which love song is better?",
+   "itemType": "song"
+  },
+  {
+   "id": "best-picture",
+   "title": "Best Picture Winners",
+   "emoji": "🏆",
+   "category": "movies",
+   "start": "02-16",
+   "end": "03-20",
+   "items": [
+    {
+     "title": "The Godfather",
+     "year": "1972"
+    },
+    {
+     "title": "The Godfather Part II",
+     "year": "1974"
+    },
+    {
+     "title": "One Flew Over the Cuckoo's Nest",
+     "year": "1975"
+    },
+    {
+     "title": "Rocky",
+     "year": "1976"
+    },
+    {
+     "title": "Annie Hall",
+     "year": "1977"
+    },
+    {
+     "title": "Kramer vs. Kramer",
+     "year": "1979"
+    },
+    {
+     "title": "Gandhi",
+     "year": "1982"
+    },
+    {
+     "title": "Amadeus",
+     "year": "1984"
+    },
+    {
+     "title": "Out of Africa",
+     "year": "1985"
+    },
+    {
+     "title": "Platoon",
+     "year": "1986"
+    },
+    {
+     "title": "Rain Man",
+     "year": "1988"
+    },
+    {
+     "title": "Driving Miss Daisy",
+     "year": "1989"
+    },
+    {
+     "title": "Dances with Wolves",
+     "year": "1990"
+    },
+    {
+     "title": "The Silence of the Lambs",
+     "year": "1991"
+    },
+    {
+     "title": "Unforgiven",
+     "year": "1992"
+    },
+    {
+     "title": "Schindler's List",
+     "year": "1993"
+    },
+    {
+     "title": "Forrest Gump",
+     "year": "1994"
+    },
+    {
+     "title": "Braveheart",
+     "year": "1995"
+    },
+    {
+     "title": "The English Patient",
+     "year": "1996"
+    },
+    {
+     "title": "Titanic",
+     "year": "1997"
+    },
+    {
+     "title": "Shakespeare in Love",
+     "year": "1998"
+    },
+    {
+     "title": "American Beauty",
+     "year": "1999"
+    },
+    {
+     "title": "Gladiator",
+     "year": "2000"
+    },
+    {
+     "title": "A Beautiful Mind",
+     "year": "2001"
+    },
+    {
+     "title": "Chicago",
+     "year": "2002"
+    },
+    {
+     "title": "The Lord of the Rings: The Return of the King",
+     "year": "2003"
+    },
+    {
+     "title": "Million Dollar Baby",
+     "year": "2004"
+    },
+    {
+     "title": "The Departed",
+     "year": "2006"
+    },
+    {
+     "title": "No Country for Old Men",
+     "year": "2007"
+    },
+    {
+     "title": "Slumdog Millionaire",
+     "year": "2008"
+    },
+    {
+     "title": "The Hurt Locker",
+     "year": "2008"
+    },
+    {
+     "title": "The King's Speech",
+     "year": "2010"
+    },
+    {
+     "title": "The Artist",
+     "year": "2011"
+    },
+    {
+     "title": "Argo",
+     "year": "2012"
+    },
+    {
+     "title": "12 Years a Slave",
+     "year": "2013"
+    },
+    {
+     "title": "Birdman",
+     "year": "2014"
+    },
+    {
+     "title": "Spotlight",
+     "year": "2015"
+    },
+    {
+     "title": "Moonlight",
+     "year": "2016"
+    },
+    {
+     "title": "The Shape of Water",
+     "year": "2017"
+    },
+    {
+     "title": "Green Book",
+     "year": "2018"
+    },
+    {
+     "title": "Parasite",
+     "year": "2019"
+    },
+    {
+     "title": "Nomadland",
+     "year": "2020"
+    },
+    {
+     "title": "CODA",
+     "year": "2021"
+    },
+    {
+     "title": "Everything Everywhere All at Once",
+     "year": "2022"
+    },
+    {
+     "title": "Oppenheimer",
+     "year": "2023"
+    },
+    {
+     "title": "Anora",
+     "year": "2024"
+    }
+   ],
+   "question": "Which Best Picture winner is better?"
+  },
+  {
+   "id": "star-wars",
+   "title": "Star Wars",
+   "emoji": "⭐",
+   "category": "movies",
+   "start": "05-01",
+   "end": "05-06",
+   "items": [
+    {
+     "title": "Star Wars",
+     "year": "1977"
+    },
+    {
+     "title": "The Empire Strikes Back",
+     "year": "1980"
+    },
+    {
+     "title": "Return of the Jedi",
+     "year": "1983"
+    },
+    {
+     "title": "Star Wars: Episode I - The Phantom Menace",
+     "year": "1999"
+    },
+    {
+     "title": "Star Wars: Episode II - Attack of the Clones",
+     "year": "2002"
+    },
+    {
+     "title": "Star Wars: Episode III - Revenge of the Sith",
+     "year": "2005"
+    },
+    {
+     "title": "Star Wars: The Force Awakens",
+     "year": "2015"
+    },
+    {
+     "title": "Star Wars: The Last Jedi",
+     "year": "2017"
+    },
+    {
+     "title": "Star Wars: The Rise of Skywalker",
+     "year": "2019"
+    },
+    {
+     "title": "Rogue One: A Star Wars Story",
+     "year": "2016"
+    },
+    {
+     "title": "Solo: A Star Wars Story",
+     "year": "2018"
+    },
+    {
+     "title": "Star Wars: The Clone Wars",
+     "year": "2008"
+    }
+   ],
+   "question": "Which Star Wars movie is better?"
+  },
+  {
+   "id": "summer-blockbusters",
+   "title": "Summer Blockbusters",
+   "emoji": "☀️",
+   "category": "movies",
+   "start": "06-01",
+   "end": "08-31",
+   "items": [
+    {
+     "title": "Jaws",
+     "year": "1975"
+    },
+    {
+     "title": "Jurassic Park",
+     "year": "1993"
+    },
+    {
+     "title": "Independence Day",
+     "year": "1996"
+    },
+    {
+     "title": "Top Gun: Maverick",
+     "year": "2022"
+    },
+    {
+     "title": "Barbie",
+     "year": "2023"
+    },
+    {
+     "title": "Oppenheimer",
+     "year": "2023"
+    },
+    {
+     "title": "Inside Out 2",
+     "year": "2024"
+    },
+    {
+     "title": "Twisters",
+     "year": "2024"
+    },
+    {
+     "title": "Deadpool & Wolverine",
+     "year": "2024"
+    },
+    {
+     "title": "The Dark Knight",
+     "year": "2008"
+    },
+    {
+     "title": "Avengers: Endgame",
+     "year": "2019"
+    },
+    {
+     "title": "Jurassic World",
+     "year": "2015"
+    },
+    {
+     "title": "Back to the Future",
+     "year": "1985"
+    },
+    {
+     "title": "E.T. the Extra-Terrestrial",
+     "year": "1982"
+    },
+    {
+     "title": "Raiders of the Lost Ark",
+     "year": "1981"
+    },
+    {
+     "title": "Ghostbusters",
+     "year": "1984"
+    },
+    {
+     "title": "Terminator 2: Judgment Day",
+     "year": "1991"
+    },
+    {
+     "title": "Men in Black",
+     "year": "1997"
+    },
+    {
+     "title": "Armageddon",
+     "year": "1998"
+    },
+    {
+     "title": "Spider-Man",
+     "year": "2002"
+    },
+    {
+     "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+     "year": "2003"
+    },
+    {
+     "title": "Transformers",
+     "year": "2007"
+    },
+    {
+     "title": "Iron Man",
+     "year": "2008"
+    },
+    {
+     "title": "Inception",
+     "year": "2010"
+    },
+    {
+     "title": "Toy Story 3",
+     "year": "2010"
+    },
+    {
+     "title": "Guardians of the Galaxy",
+     "year": "2014"
+    },
+    {
+     "title": "Mad Max: Fury Road",
+     "year": "2015"
+    },
+    {
+     "title": "Spider-Man: Across the Spider-Verse",
+     "year": "2023"
+    },
+    {
+     "title": "Mission: Impossible - Fallout",
+     "year": "2018"
+    },
+    {
+     "title": "The Lion King",
+     "year": "1994"
+    },
+    {
+     "title": "Twister",
+     "year": "1996"
+    },
+    {
+     "title": "Speed",
+     "year": "1994"
+    }
+   ],
+   "question": "Which summer blockbuster is better?"
+  },
+  {
+   "id": "beach-reads",
+   "title": "Beach Reads",
+   "emoji": "🏖️",
+   "category": "books",
+   "start": "06-01",
+   "end": "08-31",
+   "items": [
+    {
+     "title": "Beach Read",
+     "byline": "Emily Henry",
+     "year": "2020"
+    },
+    {
+     "title": "People We Meet on Vacation",
+     "byline": "Emily Henry",
+     "year": "2021"
+    },
+    {
+     "title": "Book Lovers",
+     "byline": "Emily Henry",
+     "year": "2022"
+    },
+    {
+     "title": "Happy Place",
+     "byline": "Emily Henry",
+     "year": "2023"
+    },
+    {
+     "title": "Funny Story",
+     "byline": "Emily Henry",
+     "year": "2024"
+    },
+    {
+     "title": "The Seven Husbands of Evelyn Hugo",
+     "byline": "Taylor Jenkins Reid",
+     "year": "2017"
+    },
+    {
+     "title": "Malibu Rising",
+     "byline": "Taylor Jenkins Reid",
+     "year": "2021"
+    },
+    {
+     "title": "Daisy Jones & The Six",
+     "byline": "Taylor Jenkins Reid",
+     "year": "2019"
+    },
+    {
+     "title": "Where the Crawdads Sing",
+     "byline": "Delia Owens",
+     "year": "2018"
+    },
+    {
+     "title": "Big Little Lies",
+     "byline": "Liane Moriarty",
+     "year": "2014"
+    },
+    {
+     "title": "Nine Perfect Strangers",
+     "byline": "Liane Moriarty",
+     "year": "2018"
+    },
+    {
+     "title": "The Guest List",
+     "byline": "Lucy Foley",
+     "year": "2020"
+    },
+    {
+     "title": "The Last Thing He Told Me",
+     "byline": "Laura Dave",
+     "year": "2021"
+    },
+    {
+     "title": "Crazy Rich Asians",
+     "byline": "Kevin Kwan",
+     "year": "2013"
+    },
+    {
+     "title": "Red, White & Royal Blue",
+     "byline": "Casey McQuiston",
+     "year": "2019"
+    },
+    {
+     "title": "The Hating Game",
+     "byline": "Sally Thorne",
+     "year": "2016"
+    },
+    {
+     "title": "It Ends with Us",
+     "byline": "Colleen Hoover",
+     "year": "2016"
+    },
+    {
+     "title": "Verity",
+     "byline": "Colleen Hoover",
+     "year": "2018"
+    },
+    {
+     "title": "Me Before You",
+     "byline": "Jojo Moyes",
+     "year": "2012"
+    },
+    {
+     "title": "The Summer I Turned Pretty",
+     "byline": "Jenny Han",
+     "year": "2009"
+    },
+    {
+     "title": "We Were Liars",
+     "byline": "E. Lockhart",
+     "year": "2014"
+    },
+    {
+     "title": "The Housemaid",
+     "byline": "Freida McFadden",
+     "year": "2022"
+    },
+    {
+     "title": "Lessons in Chemistry",
+     "byline": "Bonnie Garmus",
+     "year": "2022"
+    },
+    {
+     "title": "Fourth Wing",
+     "byline": "Rebecca Yarros",
+     "year": "2023"
+    },
+    {
+     "title": "Remarkably Bright Creatures",
+     "byline": "Shelby Van Pelt",
+     "year": "2022"
+    },
+    {
+     "title": "The Rosie Project",
+     "byline": "Graeme Simsion",
+     "year": "2013"
+    }
+   ],
+   "question": "Which beach read is better?"
+  },
+  {
+   "id": "school-movies",
+   "title": "School Movies",
+   "emoji": "🎒",
+   "category": "movies",
+   "start": "08-10",
+   "end": "09-10",
+   "items": [
+    {
+     "title": "The Breakfast Club",
+     "year": "1985"
+    },
+    {
+     "title": "Ferris Bueller's Day Off",
+     "year": "1986"
+    },
+    {
+     "title": "Mean Girls",
+     "year": "2004"
+    },
+    {
+     "title": "Clueless",
+     "year": "1995"
+    },
+    {
+     "title": "Dead Poets Society",
+     "year": "1989"
+    },
+    {
+     "title": "School of Rock",
+     "year": "2003"
+    },
+    {
+     "title": "Superbad",
+     "year": "2007"
+    },
+    {
+     "title": "Easy A",
+     "year": "2010"
+    },
+    {
+     "title": "10 Things I Hate About You",
+     "year": "1999"
+    },
+    {
+     "title": "Napoleon Dynamite",
+     "year": "2004"
+    },
+    {
+     "title": "Grease",
+     "year": "1978"
+    },
+    {
+     "title": "Fast Times at Ridgemont High",
+     "year": "1982"
+    },
+    {
+     "title": "Lady Bird",
+     "year": "2017"
+    },
+    {
+     "title": "Booksmart",
+     "year": "2019"
+    },
+    {
+     "title": "The Perks of Being a Wallflower",
+     "year": "2012"
+    },
+    {
+     "title": "Harry Potter and the Sorcerer's Stone",
+     "year": "2001"
+    },
+    {
+     "title": "Matilda",
+     "year": "1996"
+    },
+    {
+     "title": "Legally Blonde",
+     "year": "2001"
+    },
+    {
+     "title": "High School Musical",
+     "year": "2006"
+    },
+    {
+     "title": "Remember the Titans",
+     "year": "2000"
+    },
+    {
+     "title": "Freaky Friday",
+     "year": "2003"
+    },
+    {
+     "title": "Pitch Perfect",
+     "year": "2012"
+    },
+    {
+     "title": "21 Jump Street",
+     "year": "2012"
+    },
+    {
+     "title": "Juno",
+     "year": "2007"
+    },
+    {
+     "title": "The Edge of Seventeen",
+     "year": "2016"
+    },
+    {
+     "title": "Sixteen Candles",
+     "year": "1984"
+    },
+    {
+     "title": "Bring It On",
+     "year": "2000"
+    },
+    {
+     "title": "She's the Man",
+     "year": "2006"
+    },
+    {
+     "title": "The Holdovers",
+     "year": "2023"
+    }
+   ],
+   "question": "Which school movie is better?"
+  }
+ ],
+ "templates": {
+  "add": [],
+  "retire": []
+ }
+}
