@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-10-26T10:41:14.181899+00:00",
+ "generated": "2026-10-26T12:19:25.870130+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B0GGB9BV77-2026-10-26",
+   "store": "amazon",
+   "asin": "B0GGB9BV77",
+   "ebay_item_id": null,
+   "board": "home",
+   "category": "FITNESS",
+   "title": "75% Off Vhorilix Under Desk Walking Pad Treadmill - $89.99",
+   "summary": "Compact under-desk walking pad with remote, 2.5HP quiet motor and anti-slip belt. $89.99 vs $359.96 list, 75% off.",
+   "price": 89.99,
+   "list_price": 359.96,
+   "pct_off": 75.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/71E11ozbQhL._AC_SL1500_.jpg",
+   "url": "https://www.amazon.com/dp/B0GGB9BV77?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B0GGB9BV77.html?src=app",
+   "price_checked": "2026-10-26T08:18:00-04:00",
+   "posted": "2026-10-26T12:19:25.823085+00:00",
+   "app_category": null
+  },
   {
    "id": "B09MDGXW8F-2026-10-26",
    "store": "amazon",
