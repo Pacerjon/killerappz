@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-10-26T12:19:25.870130+00:00",
+ "generated": "2026-10-27T12:24:55.138953+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B0BS74M665-2026-10-27",
+   "store": "amazon",
+   "asin": "B0BS74M665",
+   "ebay_item_id": null,
+   "board": "tech",
+   "category": "AUDIO",
+   "title": "51% Off Sony WH-CH720N Noise Cancelling Headphones - $88",
+   "summary": "Sony's lightest wireless noise canceling headphones, 192g with dual noise sensors, up to 35 hours of battery and multipoint Bluetooth. $88 vs $179.99 list, sold by Amazon.",
+   "price": 88.0,
+   "list_price": 179.99,
+   "pct_off": 51.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/41tp0JPPlmL._AC_SL1200_.jpg",
+   "url": "https://www.amazon.com/dp/B0BS74M665?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B0BS74M665.html?src=app",
+   "price_checked": "2026-10-27T08:24:00-04:00",
+   "posted": "2026-10-27T12:24:55.123404+00:00",
+   "app_category": null
+  },
   {
    "id": "B0GGB9BV77-2026-10-26",
    "store": "amazon",
