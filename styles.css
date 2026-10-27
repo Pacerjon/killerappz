@@ -350,6 +350,7 @@ h3 { font-size: 1.25rem; margin: 0 0 .35em; }
   .hero { padding: 64px 0 48px; }
   .hero-grid { grid-template-columns: 1fr; gap: 36px; }
   .hero-art { order: -1; }
+  .hero-art .phone { max-width: 210px; border-width: 7px; border-radius: 28px; }
   .grid-3, .grid-2, .aff-grid { grid-template-columns: 1fr; }
   .tiers { grid-template-columns: 1fr; }
   .feature-app { grid-template-columns: 1fr; padding: 28px; gap: 26px; }
