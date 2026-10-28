@@ -286,5 +286,23 @@
   "price_checked": "2026-10-28T08:19:00-04:00",
   "date": "2026-10-28T12:19:28.374957+00:00",
   "pubDate": "Wed, 28 Oct 2026 12:19:28 +0000"
+ },
+ {
+  "board": "home",
+  "asin": "B0DY95T5HB",
+  "title": "30% Off Chefman 0.7 Cu Ft Countertop Microwave - $69.95",
+  "description": "Compact 700W Chefman countertop microwave with 10 power levels, 6 one-touch presets, child safety lock and a mute button. $69.95 vs $99.99 list, sold by Amazon with free delivery. #AmazonDeals #CommissionsEarned",
+  "link": "https://www.amazon.com/dp/B0DY95T5HB?tag=listworthy-20",
+  "image": "https://m.media-amazon.com/images/I/61YFokQpTcL._AC_SL1500_.jpg",
+  "social": "\u26a1[KITCHEN] 30% off - Chefman 0.7 Cu Ft Countertop Microwave\n$69.95 (List $99.99)\nhttps://link.amazon/B03seDGRh\n#AmazonDeals #CommissionsEarned",
+  "social_link": "https://link.amazon/B03seDGRh",
+  "price": 69.95,
+  "list_price": 99.99,
+  "pct_off": 30.0,
+  "category": "KITCHEN",
+  "coupon": false,
+  "price_checked": "2026-10-28T08:21:00-04:00",
+  "date": "2026-10-28T12:22:14.386729+00:00",
+  "pubDate": "Wed, 28 Oct 2026 12:22:14 +0000"
  }
 ]

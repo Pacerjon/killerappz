@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-10-28T12:19:28.395191+00:00",
+ "generated": "2026-10-28T12:22:14.407135+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B0DY95T5HB-2026-10-28",
+   "store": "amazon",
+   "asin": "B0DY95T5HB",
+   "ebay_item_id": null,
+   "board": "home",
+   "category": "KITCHEN",
+   "title": "30% Off Chefman 0.7 Cu Ft Countertop Microwave - $69.95",
+   "summary": "Compact 700W Chefman countertop microwave with 10 power levels, 6 one-touch presets, child safety lock and a mute button. $69.95 vs $99.99 list, sold by Amazon with free delivery.",
+   "price": 69.95,
+   "list_price": 99.99,
+   "pct_off": 30.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/61YFokQpTcL._AC_SL1500_.jpg",
+   "url": "https://www.amazon.com/dp/B0DY95T5HB?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B0DY95T5HB.html?src=app",
+   "price_checked": "2026-10-28T08:21:00-04:00",
+   "posted": "2026-10-28T12:22:14.386729+00:00",
+   "app_category": null
+  },
   {
    "id": "ebay-277623301371-2026-10-28",
    "store": "ebay",
