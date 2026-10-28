@@ -266,5 +266,25 @@
   "price_checked": "2026-10-27T08:24:00-04:00",
   "date": "2026-10-27T12:24:55.123404+00:00",
   "pubDate": "Tue, 27 Oct 2026 12:24:55 +0000"
+ },
+ {
+  "board": "tech",
+  "asin": "ebay-277623301371",
+  "store": "ebay",
+  "title": "37% Off Acer Aspire 3 15.6\" Laptop 16GB/1TB (Certified Refurbished) - $398",
+  "description": "Acer Aspire 3 15.6 inch FHD touchscreen laptop with AMD Ryzen 5 7520U, 16GB RAM and a 1TB SSD, sold by the official Acer Recertified store with a 2-year warranty and free returns. $398.04 vs $629.99 previous price. #eBayDeals #CommissionsEarned",
+  "link": "https://www.ebay.com/itm/277623301371?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339222266&customid=site&toolid=10001&mkevt=1",
+  "image": "https://i.ebayimg.com/images/g/2ywAAeSwaENp4Rb2/s-l1600.jpg",
+  "social": "\u26a1[COMPUTERS] 37% off - Acer Aspire 3 15.6\" Laptop 16GB/1TB (eBay)\n$398.04 (Was $629.99) - Certified Refurbished\nhttps://killerappz.dev/deals/ebay-277623301371.html?src=social\n#eBayDeals #CommissionsEarned",
+  "social_link": "https://killerappz.dev/deals/ebay-277623301371.html?src=social",
+  "price": 398.04,
+  "list_price": 629.99,
+  "pct_off": 37.0,
+  "category": "COMPUTERS",
+  "coupon": false,
+  "condition": "Certified Refurbished",
+  "price_checked": "2026-10-28T08:19:00-04:00",
+  "date": "2026-10-28T12:19:28.374957+00:00",
+  "pubDate": "Wed, 28 Oct 2026 12:19:28 +0000"
  }
 ]
