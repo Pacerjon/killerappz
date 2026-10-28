@@ -82,6 +82,25 @@ def main(path):
             errors.append(f"template {name}: needs items")
         if ("start" in tpl) != ("end" in tpl):
             errors.append(f"template {name}: give both start and end, or neither")
+    # 4.5+: gift list / recipe templates (empty lists that fill from the share sheet).
+    # Kept under "styled" so 4.1 and older never see them.
+    for tpl in t.get("styled") or []:
+        name = tpl.get("title", "?")
+        if tpl.get("style") not in ("gifts", "recipes"):
+            errors.append(f"styled template {name}: style must be gifts or recipes")
+        want = "Products" if tpl.get("style") == "gifts" else "Links"
+        if tpl.get("category") != want:
+            errors.append(f"styled template {name}: category must be {want} for {tpl.get('style')}")
+        if "items" not in tpl:
+            errors.append(f"styled template {name}: needs an items array (can be empty)")
+        if ("start" in tpl) != ("end" in tpl):
+            errors.append(f"styled template {name}: give both start and end, or neither")
+        for key in ("start", "end"):
+            if key in tpl:
+                try:
+                    md(tpl[key])
+                except Exception:
+                    errors.append(f"styled template {name}: {key} must be MM-dd")
     cur = c.get("curated") or {}
     for key in ("books", "comics", "albums"):
         lst = cur.get(key)

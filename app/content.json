@@ -2030,6 +2030,98 @@
  ],
  "templates": {
   "add": [],
-  "retire": []
+  "retire": [],
+  "styled": [
+   {
+    "emoji": "🎄",
+    "title": "Christmas Gift List",
+    "category": "Products",
+    "style": "gifts",
+    "ranked": false,
+    "items": [],
+    "start": "11-01",
+    "end": "12-25"
+   },
+   {
+    "emoji": "🧦",
+    "title": "Stocking Stuffers",
+    "category": "Products",
+    "style": "gifts",
+    "ranked": false,
+    "items": [],
+    "start": "11-01",
+    "end": "12-24"
+   },
+   {
+    "emoji": "🦃",
+    "title": "Thanksgiving Recipes",
+    "category": "Links",
+    "style": "recipes",
+    "ranked": false,
+    "items": [],
+    "start": "11-01",
+    "end": "11-27"
+   },
+   {
+    "emoji": "🍪",
+    "title": "Holiday Cookie Recipes",
+    "category": "Links",
+    "style": "recipes",
+    "ranked": false,
+    "items": [],
+    "start": "11-15",
+    "end": "12-31"
+   },
+   {
+    "emoji": "💝",
+    "title": "Valentine's Gift Ideas",
+    "category": "Products",
+    "style": "gifts",
+    "ranked": false,
+    "items": [],
+    "start": "01-15",
+    "end": "02-14"
+   },
+   {
+    "emoji": "🌷",
+    "title": "Mother's Day Gift Ideas",
+    "category": "Products",
+    "style": "gifts",
+    "ranked": false,
+    "items": [],
+    "start": "04-20",
+    "end": "05-10"
+   },
+   {
+    "emoji": "🎓",
+    "title": "Graduation Gift Ideas",
+    "category": "Products",
+    "style": "gifts",
+    "ranked": false,
+    "items": [],
+    "start": "04-25",
+    "end": "06-15"
+   },
+   {
+    "emoji": "👔",
+    "title": "Father's Day Gift Ideas",
+    "category": "Products",
+    "style": "gifts",
+    "ranked": false,
+    "items": [],
+    "start": "05-25",
+    "end": "06-21"
+   },
+   {
+    "emoji": "🍔",
+    "title": "Cookout Recipes",
+    "category": "Links",
+    "style": "recipes",
+    "ranked": false,
+    "items": [],
+    "start": "05-20",
+    "end": "07-10"
+   }
+  ]
  }
 }
