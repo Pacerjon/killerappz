@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-10-28T12:22:14.407135+00:00",
+ "generated": "2026-10-29T12:23:44.180237+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B0FZD5STRK-2026-10-29",
+   "store": "amazon",
+   "asin": "B0FZD5STRK",
+   "ebay_item_id": null,
+   "board": "home",
+   "category": "HOME",
+   "title": "46% Off Dr. air Queen Air Mattress with Built-in Pump - $62.99",
+   "summary": "Queen air mattress with a built-in pump that inflates in about 3 minutes, 18-inch raised height and a travel bag. $62.99 vs $115.99 list, 4.3 stars from 1,778 ratings.",
+   "price": 62.99,
+   "list_price": 115.99,
+   "pct_off": 46.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/711KZJymNfL._AC_SL1500_.jpg",
+   "url": "https://www.amazon.com/dp/B0FZD5STRK?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B0FZD5STRK.html?src=app",
+   "price_checked": "2026-10-29T08:22:00-04:00",
+   "posted": "2026-10-29T12:23:44.166439+00:00",
+   "app_category": null
+  },
   {
    "id": "B0DY95T5HB-2026-10-28",
    "store": "amazon",
@@ -491,27 +512,6 @@
    "page": "https://killerappz.dev/deals/B0GZSST8ZT.html?src=app",
    "price_checked": "2026-10-15T12:36:04.820827+00:00",
    "posted": "2026-10-15T12:36:04.820827+00:00",
-   "app_category": null
-  },
-  {
-   "id": "ebay-325669322138-2026-10-14",
-   "store": "ebay",
-   "asin": null,
-   "ebay_item_id": "325669322138",
-   "board": "kitchen",
-   "category": null,
-   "title": "30% Off Ninja CREAMi Deluxe XL Ice Cream Maker (Certified Refurbished) - $179.99",
-   "summary": "The Ninja CREAMi Deluxe NC501 turns frozen bases into ice cream, sorbet, gelato, milkshakes and frozen drinks with 11 one-touch programs and two XL 24 oz pints. Certified Refurbished on eBay with a 2-year warranty and free shipping: $179.99 vs $255.99 list (30% off).",
-   "price": null,
-   "list_price": null,
-   "pct_off": null,
-   "coupon": false,
-   "condition": null,
-   "image": "https://i.ebayimg.com/images/g/nmIAAeSwmhhqzy3K/s-l1600.jpg",
-   "url": "https://www.ebay.com/itm/325669322138?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339222266&customid=app&toolid=10001&mkevt=1",
-   "page": "https://killerappz.dev/deals/ebay-325669322138.html?src=app",
-   "price_checked": "2026-10-14T12:27:39.433484+00:00",
-   "posted": "2026-10-14T12:27:39.433484+00:00",
    "app_category": null
   }
  ]
