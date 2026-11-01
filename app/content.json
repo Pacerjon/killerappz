@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-26",
+ "updated": "2026-11-01",
  "packs": [
   {
    "id": "halloween-movies",
@@ -618,6 +618,26 @@
     {
      "title": "Jack Frost",
      "year": "1998"
+    },
+    {
+     "title": "That Christmas",
+     "year": "2024"
+    },
+    {
+     "title": "Jingle Bell Heist",
+     "year": "2025"
+    },
+    {
+     "title": "My Secret Santa",
+     "year": "2025"
+    },
+    {
+     "title": "Oh. What. Fun.",
+     "year": "2025"
+    },
+    {
+     "title": "Deck the Halls",
+     "year": "2006"
     }
    ],
    "question": "Which Christmas movie is better?"
@@ -717,6 +737,14 @@
     {
      "title": "Nestor, the Long-Eared Christmas Donkey",
      "year": "1977"
+    },
+    {
+     "title": "Olaf's Frozen Adventure",
+     "year": "2017"
+    },
+    {
+     "title": "The Star Wars Holiday Special",
+     "year": "1978"
     }
    ],
    "question": "Which holiday special is better?"
@@ -913,6 +941,26 @@
      "title": "Grown-Up Christmas List",
      "byline": "Amy Grant",
      "year": "1992"
+    },
+    {
+     "title": "Santa Doesn't Know You Like I Do",
+     "year": "2023",
+     "byline": "Sabrina Carpenter"
+    },
+    {
+     "title": "My Only Wish (This Year)",
+     "year": "2000",
+     "byline": "Britney Spears"
+    },
+    {
+     "title": "Santa Claus Is Comin' to Town",
+     "year": "1975",
+     "byline": "Bruce Springsteen"
+    },
+    {
+     "title": "Christmas Eve/Sarajevo 12/24",
+     "year": "1996",
+     "byline": "Trans-Siberian Orchestra"
     }
    ],
    "question": "Which Christmas song is better?",
@@ -1040,6 +1088,16 @@
      "title": "The Holiday Swap",
      "byline": "Maggie Knox",
      "year": "2021"
+    },
+    {
+     "title": "The Elf on the Shelf: A Christmas Tradition",
+     "year": "2005",
+     "byline": "Carol V. Aebersold and Chanda A. Bell"
+    },
+    {
+     "title": "Olive, the Other Reindeer",
+     "year": "1997",
+     "byline": "Vivian Walsh"
     }
    ],
    "question": "Which holiday book is better?"
