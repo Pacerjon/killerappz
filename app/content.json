@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "packs": [
   {
    "id": "halloween-movies",
@@ -446,6 +446,113 @@
     }
    ],
    "question": "Which horror game is better?"
+  },
+  {
+   "id": "thanksgiving-movies",
+   "title": "Thanksgiving Movies",
+   "emoji": "🦃",
+   "category": "movies",
+   "start": "11-03",
+   "end": "11-28",
+   "items": [
+    {
+     "title": "Planes, Trains and Automobiles",
+     "year": "1987"
+    },
+    {
+     "title": "Home for the Holidays",
+     "year": "1995"
+    },
+    {
+     "title": "Addams Family Values",
+     "year": "1993"
+    },
+    {
+     "title": "Pieces of April",
+     "year": "2003"
+    },
+    {
+     "title": "The Ice Storm",
+     "year": "1997"
+    },
+    {
+     "title": "Free Birds",
+     "year": "2013"
+    },
+    {
+     "title": "Dutch",
+     "year": "1991"
+    },
+    {
+     "title": "Scent of a Woman",
+     "year": "1992"
+    },
+    {
+     "title": "Hannah and Her Sisters",
+     "year": "1986"
+    },
+    {
+     "title": "Miracle on 34th Street",
+     "year": "1947"
+    },
+    {
+     "title": "The Blind Side",
+     "year": "2009"
+    },
+    {
+     "title": "Rocky",
+     "year": "1976"
+    },
+    {
+     "title": "Tower Heist",
+     "year": "2011"
+    },
+    {
+     "title": "Son in Law",
+     "year": "1993"
+    },
+    {
+     "title": "Friendsgiving",
+     "year": "2020"
+    },
+    {
+     "title": "The Humans",
+     "year": "2021"
+    },
+    {
+     "title": "Thanksgiving",
+     "year": "2023"
+    },
+    {
+     "title": "Prisoners",
+     "year": "2013"
+    },
+    {
+     "title": "When Harry Met Sally...",
+     "year": "1989"
+    },
+    {
+     "title": "Spider-Man",
+     "year": "2002"
+    },
+    {
+     "title": "Holiday Inn",
+     "year": "1942"
+    },
+    {
+     "title": "Mistress America",
+     "year": "2015"
+    },
+    {
+     "title": "Avalon",
+     "year": "1990"
+    },
+    {
+     "title": "What's Cooking?",
+     "year": "2000"
+    }
+   ],
+   "question": "Which Thanksgiving movie is better?"
   },
   {
    "id": "christmas-movies",
