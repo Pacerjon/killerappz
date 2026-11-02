@@ -29,7 +29,7 @@ def app_link(campaign):
     cfg = json.load(open(CONFIG))
     q = ["ppid=" + cfg["ppid"]]
     if cfg.get("provider_token"):
-        q += ["pt=" + cfg["provider_token"], "ct=" + campaign]
+        q += ["pt=" + cfg["provider_token"], "ct=" + campaign, "mt=8"]
     return "https://apps.apple.com/us/app/listworthy/id6752911163?" + "&".join(q)
 
 def check(p, ids):
