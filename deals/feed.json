@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-02T11:39:07.799412+00:00",
+ "generated": "2026-11-02T13:35:17.991814+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B0G7YQGM2L-2026-11-02",
+   "store": "amazon",
+   "asin": "B0G7YQGM2L",
+   "ebay_item_id": null,
+   "board": "tech",
+   "category": "AUTO",
+   "title": "36% Off HPBS 5000A Jump Starter with Air Compressor - $69.98",
+   "summary": "Portable 5000A car jump starter with a built-in 150 PSI tire inflator, flashlight and USB charging. $69.98 vs $109.99 list, 4.4 stars from 1,200+ reviews.",
+   "price": 69.98,
+   "list_price": 109.99,
+   "pct_off": 36.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/71oov8YbFAL._AC_SL1500_.jpg",
+   "url": "https://www.amazon.com/dp/B0G7YQGM2L?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B0G7YQGM2L.html?src=app",
+   "price_checked": "2026-11-02T08:34:00-05:00",
+   "posted": "2026-11-02T13:35:17.934628+00:00",
+   "app_category": null
+  },
   {
    "id": "B0FJMRJZZ3-2026-11-02",
    "store": "amazon",
@@ -428,27 +449,6 @@
    "page": "https://killerappz.dev/deals/B0HBC7XPCT.html?src=app",
    "price_checked": "2026-10-20T12:28:02.093605+00:00",
    "posted": "2026-10-20T12:28:02.093605+00:00",
-   "app_category": null
-  },
-  {
-   "id": "B0D8LXRHQ8-2026-10-19",
-   "store": "amazon",
-   "asin": "B0D8LXRHQ8",
-   "ebay_item_id": null,
-   "board": "kitchen",
-   "category": null,
-   "title": "41% Off Keurig K-Duo Hot & Iced Coffee Maker - $129.99",
-   "summary": "Keurig K-Duo Gen 2 brews single cups with K-Cup pods or a full 12-cup glass carafe with grounds, plus a brew-over-ice setting. $129.99 vs $219.99 list.",
-   "price": null,
-   "list_price": null,
-   "pct_off": null,
-   "coupon": false,
-   "condition": null,
-   "image": "https://m.media-amazon.com/images/I/717849a6v+L._AC_SL1500_.jpg",
-   "url": "https://www.amazon.com/dp/B0D8LXRHQ8?tag=listworthy-app-20",
-   "page": "https://killerappz.dev/deals/B0D8LXRHQ8.html?src=app",
-   "price_checked": "2026-10-19T12:31:18.947468+00:00",
-   "posted": "2026-10-19T12:31:18.947468+00:00",
    "app_category": null
   }
  ]
