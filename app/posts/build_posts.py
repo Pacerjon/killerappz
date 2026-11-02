@@ -70,11 +70,11 @@ def build(posts):
         when = datetime.strptime(p["date"], "%Y-%m-%d").replace(hour=12, tzinfo=timezone.utc)
         text = p["caption"].rstrip() + "\n\nFree on the App Store: " + link
         out += ['<item>',
-                f'<title>{html.escape(p["title"])}</title>',
+                f'<title>{html.escape(p["title"], quote=False)}</title>',
                 f'<link>{html.escape(link)}</link>',
                 f'<guid isPermaLink="false">lw-post-{html.escape(p["id"])}</guid>',
                 f'<pubDate>{format_datetime(when)}</pubDate>',
-                f'<description>{html.escape(text)}</description>',
+                f'<description>{html.escape(text, quote=False)}</description>',
                 f'<enclosure url="{img}" type="image/jpeg" length="0"/>',
                 f'<media:content url="{img}" medium="image" type="image/jpeg"/>',
                 '</item>']
