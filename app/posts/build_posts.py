@@ -3,7 +3,8 @@
 
 posts.json holds the posts (newest last). This script validates them and
 rebuilds app/posts.xml, the RSS feed a Make scenario reads to post photos to
-the Listworthy App Facebook page.
+the Listworthy App Facebook page, and app/pins.xml, the feed Pinterest reads
+for the Listworthy App board (tall 1000x1500 images from app/posts/pins/).
 
 Add a post:   python3 app/posts/build_posts.py --add '<json object>'
 Rebuild only: python3 app/posts/build_posts.py
@@ -21,6 +22,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 POSTS = os.path.join(HERE, "posts.json")
 CONFIG = os.path.join(HERE, "config.json")
 OUT = os.path.join(os.path.dirname(HERE), "posts.xml")
+PINS_OUT = os.path.join(os.path.dirname(HERE), "pins.xml")   # read by Pinterest (Listworthy App board)
 SITE = "https://killerappz.dev"
 KEEP = 30
 CARDS = sorted(f[:-4] for f in os.listdir(os.path.join(HERE, "cards")) if f.endswith(".jpg"))
@@ -80,6 +82,35 @@ def build(posts):
                 '</item>']
     out += ['</channel>', '</rss>', '']
     open(OUT, "w", encoding="utf-8").write("\n".join(out))
+    build_pins(posts)
+
+def build_pins(posts):
+    """Same posts for Pinterest: tall image, link to the Listworthy page (it
+    carries the tagged App Store buttons), no URL in the description."""
+    page = f"{SITE}/listworthy.html?src=pin"
+    out = ['<?xml version="1.0" encoding="UTF-8"?>',
+           '<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">',
+           '<channel>',
+           '<title>Listworthy | App</title>',
+           f'<link>{SITE}/listworthy.html</link>',
+           '<description>Ranking games, tier lists, gift lists and recipe cards in Listworthy, the free list app for iPhone.</description>',
+           '<language>en-us</language>']
+    for p in reversed(posts[-KEEP:]):
+        tall = os.path.join(HERE, "pins", p["card"] + ".jpg")
+        img = f"{SITE}/app/posts/{'pins' if os.path.exists(tall) else 'cards'}/{p['card']}.jpg"
+        when = datetime.strptime(p["date"], "%Y-%m-%d").replace(hour=12, tzinfo=timezone.utc)
+        desc = (p["caption"].rstrip() + "\n\nFree on the App Store. Search Listworthy.")[:500]
+        out += ['<item>',
+                f'<title>{html.escape(p["title"][:100], quote=False)}</title>',
+                f'<link>{html.escape(page)}</link>',
+                f'<guid isPermaLink="false">lw-pin-{html.escape(p["id"])}</guid>',
+                f'<pubDate>{format_datetime(when)}</pubDate>',
+                f'<description>{html.escape(desc, quote=False)}</description>',
+                f'<enclosure url="{img}" type="image/jpeg" length="0"/>',
+                f'<media:content url="{img}" medium="image" type="image/jpeg"/>',
+                '</item>']
+    out += ['</channel>', '</rss>', '']
+    open(PINS_OUT, "w", encoding="utf-8").write("\n".join(out))
 
 def main():
     posts = json.load(open(POSTS, encoding="utf-8"))

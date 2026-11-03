@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+<title>Listworthy | App</title>
+<link>https://killerappz.dev/listworthy.html</link>
+<description>Ranking games, tier lists, gift lists and recipe cards in Listworthy, the free list app for iPhone.</description>
+<language>en-us</language>
+<item>
+<title>Thanksgiving Movies is live in Quick Rank</title>
+<link>https://killerappz.dev/listworthy.html?src=pin</link>
+<guid isPermaLink="false">lw-pin-thanksgiving-movies-live</guid>
+<pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
+<description>🦃 New in Quick Rank: Thanksgiving Movies.
+
+Planes, Trains and Automobiles or Home for the Holidays? Addams Family Values or Free Birds? Tap the better one, 10 picks, and you've got your Thanksgiving top 10.
+
+Which one do you watch every single year?
+
+Free on the App Store. Search Listworthy.</description>
+<enclosure url="https://killerappz.dev/app/posts/pins/quick-rank.jpg" type="image/jpeg" length="0"/>
+<media:content url="https://killerappz.dev/app/posts/pins/quick-rank.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

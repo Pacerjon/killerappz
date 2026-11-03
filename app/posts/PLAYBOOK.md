@@ -2,7 +2,9 @@
 
 Fun posts about the app, 3 a week (Tue, Thu, Sat), posted as a photo to the
 Listworthy App Facebook page by Make (scenario "Listworthy app posts", reads
-https://killerappz.dev/app/posts.xml at noon Eastern). Deals posts are a
+https://killerappz.dev/app/posts.xml at noon Eastern) and pinned to the
+Listworthy App Pinterest board (Pinterest reads https://killerappz.dev/app/pins.xml,
+tall images from app/posts/pins/). Each card slug has both a wide and a tall image. Deals posts are a
 separate pipeline; never mix them.
 
 ## Voice
@@ -23,7 +25,7 @@ separate pipeline; never mix them.
 6. Hidden tip: a small thing people miss (Keep going, skips in Blind Ranking, long-press menu, Haven't seen it, story cards, the shuffle button on Today's Pick, New island).
 
 ## Cards (image slugs in app/posts/cards/)
-blind-ranking, brackets, quick-rank, rank-tab, head-to-head, podium, tier-list,
+blind-ranking, brackets, quick-rank, head-to-head, podium, tier-list,
 story-card, templates, discover, gift-list, recipe-card, recipes, recipe-duel,
 desert-island, todays-pick.
 Pick the card that matches the post. Don't reuse a card used in the last 3 posts.
