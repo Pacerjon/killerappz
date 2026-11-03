@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-02T13:35:17.991814+00:00",
+ "generated": "2026-11-03T15:01:38.850064+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B0F6TK43JT-2026-11-03",
+   "store": "amazon",
+   "asin": "B0F6TK43JT",
+   "ebay_item_id": null,
+   "board": "home",
+   "category": "PETS",
+   "title": "33% Off Mimfam Automatic Self-Cleaning Litter Box - $99.97",
+   "summary": "Mimfam automatic self-cleaning litter box with a large top entry, four infrared sensor pairs that pause cleaning when a cat is inside, a 10L waste bin and quiet 32 dB operation. $99.97 vs $149.99 list, 33% off.",
+   "price": 99.97,
+   "list_price": 149.99,
+   "pct_off": 33.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/71QyAZI1KFL._AC_SL1500_.jpg",
+   "url": "https://www.amazon.com/dp/B0F6TK43JT?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B0F6TK43JT.html?src=app",
+   "price_checked": "2026-11-03T10:00:00-05:00",
+   "posted": "2026-11-03T15:01:38.811738+00:00",
+   "app_category": null
+  },
   {
    "id": "B0G7YQGM2L-2026-11-02",
    "store": "amazon",
@@ -428,27 +449,6 @@
    "page": "https://killerappz.dev/deals/B0GVTPKJVT.html?src=app",
    "price_checked": "2026-10-21T12:31:10.161610+00:00",
    "posted": "2026-10-21T12:31:10.161610+00:00",
-   "app_category": null
-  },
-  {
-   "id": "B0HBC7XPCT-2026-10-20",
-   "store": "amazon",
-   "asin": "B0HBC7XPCT",
-   "ebay_item_id": null,
-   "board": "gifts",
-   "category": null,
-   "title": "Mantel Stocking Holders & Garland Hangers 4-Pack - $16.99",
-   "summary": "No-drill clamp hooks for hanging Christmas stockings and garland on your mantel. Matte black, holds 10 lbs per hook, fits mantels up to 2.76 in thick. $16.99 with free delivery.",
-   "price": null,
-   "list_price": null,
-   "pct_off": null,
-   "coupon": false,
-   "condition": null,
-   "image": "https://m.media-amazon.com/images/I/71Z76YFeZyL._AC_SL1500_.jpg",
-   "url": "https://www.amazon.com/dp/B0HBC7XPCT?tag=listworthy-app-20",
-   "page": "https://killerappz.dev/deals/B0HBC7XPCT.html?src=app",
-   "price_checked": "2026-10-20T12:28:02.093605+00:00",
-   "posted": "2026-10-20T12:28:02.093605+00:00",
    "app_category": null
   }
  ]
