@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "packs": [
   {
    "id": "halloween-movies",
@@ -448,6 +448,113 @@
    "question": "Which horror game is better?"
   },
   {
+   "id": "fall-movies",
+   "title": "Fall Movies",
+   "emoji": "🍂",
+   "category": "movies",
+   "start": "09-20",
+   "end": "11-25",
+   "items": [
+    {
+     "title": "When Harry Met Sally...",
+     "year": "1989"
+    },
+    {
+     "title": "You've Got Mail",
+     "year": "1998"
+    },
+    {
+     "title": "Dead Poets Society",
+     "year": "1989"
+    },
+    {
+     "title": "Good Will Hunting",
+     "year": "1997"
+    },
+    {
+     "title": "Fantastic Mr. Fox",
+     "year": "2009"
+    },
+    {
+     "title": "Little Women",
+     "year": "2019"
+    },
+    {
+     "title": "Knives Out",
+     "year": "2019"
+    },
+    {
+     "title": "Practical Magic",
+     "year": "1998"
+    },
+    {
+     "title": "Sleepy Hollow",
+     "year": "1999"
+    },
+    {
+     "title": "Autumn in New York",
+     "year": "2000"
+    },
+    {
+     "title": "Sweet Home Alabama",
+     "year": "2002"
+    },
+    {
+     "title": "The Royal Tenenbaums",
+     "year": "2001"
+    },
+    {
+     "title": "Remember the Titans",
+     "year": "2000"
+    },
+    {
+     "title": "Rudy",
+     "year": "1993"
+    },
+    {
+     "title": "Friday Night Lights",
+     "year": "2004"
+    },
+    {
+     "title": "Dan in Real Life",
+     "year": "2007"
+    },
+    {
+     "title": "Elizabethtown",
+     "year": "2005"
+    },
+    {
+     "title": "Mona Lisa Smile",
+     "year": "2003"
+    },
+    {
+     "title": "Legends of the Fall",
+     "year": "1994"
+    },
+    {
+     "title": "Stepmom",
+     "year": "1998"
+    },
+    {
+     "title": "Big Fish",
+     "year": "2003"
+    },
+    {
+     "title": "October Sky",
+     "year": "1999"
+    },
+    {
+     "title": "Sweet November",
+     "year": "2001"
+    },
+    {
+     "title": "Rushmore",
+     "year": "1998"
+    }
+   ],
+   "question": "Which fall movie is better?"
+  },
+  {
    "id": "thanksgiving-movies",
    "title": "Thanksgiving Movies",
    "emoji": "🦃",
@@ -500,14 +607,6 @@
      "year": "1947"
     },
     {
-     "title": "The Blind Side",
-     "year": "2009"
-    },
-    {
-     "title": "Rocky",
-     "year": "1976"
-    },
-    {
      "title": "Tower Heist",
      "year": "2011"
     },
@@ -530,14 +629,6 @@
     {
      "title": "Prisoners",
      "year": "2013"
-    },
-    {
-     "title": "When Harry Met Sally...",
-     "year": "1989"
-    },
-    {
-     "title": "Spider-Man",
-     "year": "2002"
     },
     {
      "title": "Holiday Inn",
@@ -752,6 +843,153 @@
     }
    ],
    "question": "Which Christmas movie is better?"
+  },
+  {
+   "id": "hallmark-christmas",
+   "title": "Hallmark Christmas Movies",
+   "emoji": "☕",
+   "category": "movies",
+   "start": "11-01",
+   "end": "12-31",
+   "items": [
+    {
+     "title": "Christmas Under Wraps",
+     "year": "2014"
+    },
+    {
+     "title": "A Royal Christmas",
+     "year": "2014"
+    },
+    {
+     "title": "Crown for Christmas",
+     "year": "2015"
+    },
+    {
+     "title": "Christmas in Evergreen",
+     "year": "2017"
+    },
+    {
+     "title": "Journey Back to Christmas",
+     "year": "2016"
+    },
+    {
+     "title": "The Christmas Card",
+     "year": "2006"
+    },
+    {
+     "title": "Christmas Town",
+     "year": "2019"
+    },
+    {
+     "title": "A Christmas Detour",
+     "year": "2015"
+    },
+    {
+     "title": "Christmas at Castle Hart",
+     "year": "2021"
+    },
+    {
+     "title": "The Nine Lives of Christmas",
+     "year": "2014"
+    },
+    {
+     "title": "Northpole",
+     "year": "2014"
+    },
+    {
+     "title": "Christmas at Dollywood",
+     "year": "2019"
+    },
+    {
+     "title": "Holiday Date",
+     "year": "2019"
+    },
+    {
+     "title": "Switched for Christmas",
+     "year": "2017"
+    },
+    {
+     "title": "Christmas at Pemberley Manor",
+     "year": "2018"
+    },
+    {
+     "title": "A Christmas Melody",
+     "year": "2015"
+    },
+    {
+     "title": "Christmas Incorporated",
+     "year": "2015"
+    },
+    {
+     "title": "Christmas Land",
+     "year": "2015"
+    },
+    {
+     "title": "Window Wonderland",
+     "year": "2013"
+    },
+    {
+     "title": "Snow Bride",
+     "year": "2013"
+    },
+    {
+     "title": "Christmas Under the Stars",
+     "year": "2019"
+    },
+    {
+     "title": "Let It Snow",
+     "year": "2013"
+    },
+    {
+     "title": "Holiday Engagement",
+     "year": "2011"
+    },
+    {
+     "title": "Matchmaker Santa",
+     "year": "2012"
+    },
+    {
+     "title": "The Mistletoe Promise",
+     "year": "2016"
+    },
+    {
+     "title": "Christmas in Homestead",
+     "year": "2016"
+    },
+    {
+     "title": "Christmas Joy",
+     "year": "2018"
+    },
+    {
+     "title": "Christmas Bells Are Ringing",
+     "year": "2018"
+    },
+    {
+     "title": "Christmas at Holly Lodge",
+     "year": "2017"
+    },
+    {
+     "title": "Hats Off to Christmas!",
+     "year": "2013"
+    },
+    {
+     "title": "The Christmas Ornament",
+     "year": "2013"
+    },
+    {
+     "title": "Christmas in Notting Hill",
+     "year": "2023"
+    },
+    {
+     "title": "Time for Me to Come Home for Christmas",
+     "year": "2018"
+    },
+    {
+     "title": "Christmas Waltz",
+     "year": "2020"
+    }
+   ],
+   "question": "Which Hallmark Christmas movie is better?"
   },
   {
    "id": "holiday-specials",
