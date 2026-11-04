@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "packs": [
   {
    "id": "halloween-movies",
@@ -2437,6 +2437,569 @@
     }
    ],
    "question": "Which school movie is better?"
+  },
+  {
+   "id": "black-history-movies",
+   "title": "Black History Month Movies",
+   "emoji": "✊🏾",
+   "category": "movies",
+   "start": "02-01",
+   "end": "02-29",
+   "items": [
+    {
+     "title": "Black Panther",
+     "year": "2018"
+    },
+    {
+     "title": "Get Out",
+     "year": "2017"
+    },
+    {
+     "title": "Moonlight",
+     "year": "2016"
+    },
+    {
+     "title": "12 Years a Slave",
+     "year": "2013"
+    },
+    {
+     "title": "Selma",
+     "year": "2014"
+    },
+    {
+     "title": "Hidden Figures",
+     "year": "2016"
+    },
+    {
+     "title": "Malcolm X",
+     "year": "1992"
+    },
+    {
+     "title": "Do the Right Thing",
+     "year": "1989"
+    },
+    {
+     "title": "Boyz n the Hood",
+     "year": "1991"
+    },
+    {
+     "title": "The Color Purple",
+     "year": "1985"
+    },
+    {
+     "title": "Glory",
+     "year": "1989"
+    },
+    {
+     "title": "Coming to America",
+     "year": "1988"
+    },
+    {
+     "title": "Friday",
+     "year": "1995"
+    },
+    {
+     "title": "Love & Basketball",
+     "year": "2000"
+    },
+    {
+     "title": "Waiting to Exhale",
+     "year": "1995"
+    },
+    {
+     "title": "Training Day",
+     "year": "2001"
+    },
+    {
+     "title": "Ray",
+     "year": "2004"
+    },
+    {
+     "title": "Dreamgirls",
+     "year": "2006"
+    },
+    {
+     "title": "Fences",
+     "year": "2016"
+    },
+    {
+     "title": "Judas and the Black Messiah",
+     "year": "2021"
+    },
+    {
+     "title": "Creed",
+     "year": "2015"
+    },
+    {
+     "title": "Harriet",
+     "year": "2019"
+    },
+    {
+     "title": "King Richard",
+     "year": "2021"
+    },
+    {
+     "title": "Soul",
+     "year": "2020"
+    },
+    {
+     "title": "Spider-Man: Into the Spider-Verse",
+     "year": "2018"
+    },
+    {
+     "title": "The Pursuit of Happyness",
+     "year": "2006"
+    },
+    {
+     "title": "Sinners",
+     "year": "2025"
+    },
+    {
+     "title": "Us",
+     "year": "2019"
+    }
+   ],
+   "question": "Which movie is better?"
+  },
+  {
+   "id": "women-directors",
+   "title": "Movies Directed by Women",
+   "emoji": "🎬",
+   "category": "movies",
+   "start": "03-01",
+   "end": "03-31",
+   "items": [
+    {
+     "title": "Barbie",
+     "year": "2023"
+    },
+    {
+     "title": "Lady Bird",
+     "year": "2017"
+    },
+    {
+     "title": "Little Women",
+     "year": "2019"
+    },
+    {
+     "title": "Wonder Woman",
+     "year": "2017"
+    },
+    {
+     "title": "Lost in Translation",
+     "year": "2003"
+    },
+    {
+     "title": "The Hurt Locker",
+     "year": "2008"
+    },
+    {
+     "title": "Zero Dark Thirty",
+     "year": "2012"
+    },
+    {
+     "title": "Clueless",
+     "year": "1995"
+    },
+    {
+     "title": "Big",
+     "year": "1988"
+    },
+    {
+     "title": "A League of Their Own",
+     "year": "1992"
+    },
+    {
+     "title": "Twilight",
+     "year": "2008"
+    },
+    {
+     "title": "Frozen",
+     "year": "2013"
+    },
+    {
+     "title": "Mamma Mia!",
+     "year": "2008"
+    },
+    {
+     "title": "Nomadland",
+     "year": "2021"
+    },
+    {
+     "title": "The Power of the Dog",
+     "year": "2021"
+    },
+    {
+     "title": "Promising Young Woman",
+     "year": "2020"
+    },
+    {
+     "title": "Captain Marvel",
+     "year": "2019"
+    },
+    {
+     "title": "Bridget Jones's Diary",
+     "year": "2001"
+    },
+    {
+     "title": "Sleepless in Seattle",
+     "year": "1993"
+    },
+    {
+     "title": "You've Got Mail",
+     "year": "1998"
+    },
+    {
+     "title": "Booksmart",
+     "year": "2019"
+    },
+    {
+     "title": "Past Lives",
+     "year": "2023"
+    },
+    {
+     "title": "CODA",
+     "year": "2021"
+    },
+    {
+     "title": "The Holiday",
+     "year": "2006"
+    },
+    {
+     "title": "Something's Gotta Give",
+     "year": "2003"
+    },
+    {
+     "title": "Selma",
+     "year": "2014"
+    }
+   ],
+   "question": "Which movie is better?"
+  },
+  {
+   "id": "aapi-movies",
+   "title": "AAPI Heritage Month Movies",
+   "emoji": "🏮",
+   "category": "movies",
+   "start": "05-01",
+   "end": "05-31",
+   "items": [
+    {
+     "title": "Everything Everywhere All at Once",
+     "year": "2022"
+    },
+    {
+     "title": "Crazy Rich Asians",
+     "year": "2018"
+    },
+    {
+     "title": "Parasite",
+     "year": "2019"
+    },
+    {
+     "title": "Minari",
+     "year": "2020"
+    },
+    {
+     "title": "The Farewell",
+     "year": "2019"
+    },
+    {
+     "title": "Past Lives",
+     "year": "2023"
+    },
+    {
+     "title": "Spirited Away",
+     "year": "2001"
+    },
+    {
+     "title": "Turning Red",
+     "year": "2022"
+    },
+    {
+     "title": "Shang-Chi and the Legend of the Ten Rings",
+     "year": "2021"
+    },
+    {
+     "title": "Crouching Tiger, Hidden Dragon",
+     "year": "2000"
+    },
+    {
+     "title": "The Joy Luck Club",
+     "year": "1993"
+    },
+    {
+     "title": "Harold & Kumar Go to White Castle",
+     "year": "2004"
+    },
+    {
+     "title": "Searching",
+     "year": "2018"
+    },
+    {
+     "title": "Always Be My Maybe",
+     "year": "2019"
+    },
+    {
+     "title": "To All the Boys I've Loved Before",
+     "year": "2018"
+    },
+    {
+     "title": "Moana",
+     "year": "2016"
+    },
+    {
+     "title": "Oldboy",
+     "year": "2003"
+    },
+    {
+     "title": "Train to Busan",
+     "year": "2016"
+    },
+    {
+     "title": "Seven Samurai",
+     "year": "1954"
+    },
+    {
+     "title": "In the Mood for Love",
+     "year": "2000"
+    },
+    {
+     "title": "Godzilla Minus One",
+     "year": "2023"
+    },
+    {
+     "title": "Your Name.",
+     "year": "2016"
+    },
+    {
+     "title": "RRR",
+     "year": "2022"
+    },
+    {
+     "title": "The Big Sick",
+     "year": "2017"
+    },
+    {
+     "title": "Better Luck Tomorrow",
+     "year": "2003"
+    }
+   ],
+   "question": "Which movie is better?"
+  },
+  {
+   "id": "pride-movies",
+   "title": "Pride Month Movies",
+   "emoji": "🏳️‍🌈",
+   "category": "movies",
+   "start": "06-01",
+   "end": "06-30",
+   "items": [
+    {
+     "title": "Moonlight",
+     "year": "2016"
+    },
+    {
+     "title": "Brokeback Mountain",
+     "year": "2005"
+    },
+    {
+     "title": "Call Me by Your Name",
+     "year": "2017"
+    },
+    {
+     "title": "Love, Simon",
+     "year": "2018"
+    },
+    {
+     "title": "The Birdcage",
+     "year": "1996"
+    },
+    {
+     "title": "Milk",
+     "year": "2008"
+    },
+    {
+     "title": "Carol",
+     "year": "2015"
+    },
+    {
+     "title": "Portrait of a Lady on Fire",
+     "year": "2019"
+    },
+    {
+     "title": "Philadelphia",
+     "year": "1993"
+    },
+    {
+     "title": "Rocketman",
+     "year": "2019"
+    },
+    {
+     "title": "Bohemian Rhapsody",
+     "year": "2018"
+    },
+    {
+     "title": "But I'm a Cheerleader",
+     "year": "2000"
+    },
+    {
+     "title": "The Adventures of Priscilla, Queen of the Desert",
+     "year": "1994"
+    },
+    {
+     "title": "Hedwig and the Angry Inch",
+     "year": "2001"
+    },
+    {
+     "title": "Paris Is Burning",
+     "year": "1991"
+    },
+    {
+     "title": "Fire Island",
+     "year": "2022"
+    },
+    {
+     "title": "Bros",
+     "year": "2022"
+    },
+    {
+     "title": "Red, White & Royal Blue",
+     "year": "2023"
+    },
+    {
+     "title": "Boys Don't Cry",
+     "year": "1999"
+    },
+    {
+     "title": "The Kids Are All Right",
+     "year": "2010"
+    },
+    {
+     "title": "Pride",
+     "year": "2014"
+    },
+    {
+     "title": "The Rocky Horror Picture Show",
+     "year": "1975"
+    },
+    {
+     "title": "To Wong Foo, Thanks for Everything! Julie Newmar",
+     "year": "1995"
+    },
+    {
+     "title": "Booksmart",
+     "year": "2019"
+    }
+   ],
+   "question": "Which movie is better?"
+  },
+  {
+   "id": "hispanic-heritage-movies",
+   "title": "Hispanic Heritage Month Movies",
+   "emoji": "🪅",
+   "category": "movies",
+   "start": "09-15",
+   "end": "10-15",
+   "items": [
+    {
+     "title": "Coco",
+     "year": "2017"
+    },
+    {
+     "title": "Roma",
+     "year": "2018"
+    },
+    {
+     "title": "Pan's Labyrinth",
+     "year": "2006"
+    },
+    {
+     "title": "Selena",
+     "year": "1997"
+    },
+    {
+     "title": "Y Tu Mamá También",
+     "year": "2001"
+    },
+    {
+     "title": "Encanto",
+     "year": "2021"
+    },
+    {
+     "title": "In the Heights",
+     "year": "2021"
+    },
+    {
+     "title": "West Side Story",
+     "year": "2021"
+    },
+    {
+     "title": "La Bamba",
+     "year": "1987"
+    },
+    {
+     "title": "Stand and Deliver",
+     "year": "1988"
+    },
+    {
+     "title": "Real Women Have Curves",
+     "year": "2002"
+    },
+    {
+     "title": "Spy Kids",
+     "year": "2001"
+    },
+    {
+     "title": "Desperado",
+     "year": "1995"
+    },
+    {
+     "title": "Frida",
+     "year": "2002"
+    },
+    {
+     "title": "Instructions Not Included",
+     "year": "2013"
+    },
+    {
+     "title": "Amores Perros",
+     "year": "2000"
+    },
+    {
+     "title": "The Motorcycle Diaries",
+     "year": "2004"
+    },
+    {
+     "title": "Blue Beetle",
+     "year": "2023"
+    },
+    {
+     "title": "The Book of Life",
+     "year": "2014"
+    },
+    {
+     "title": "My Family",
+     "year": "1995"
+    },
+    {
+     "title": "Blood In Blood Out",
+     "year": "1993"
+    },
+    {
+     "title": "The Shape of Water",
+     "year": "2017"
+    },
+    {
+     "title": "Gravity",
+     "year": "2013"
+    },
+    {
+     "title": "El Mariachi",
+     "year": "1993"
+    }
+   ],
+   "question": "Which movie is better?"
   }
  ],
  "templates": {
@@ -2532,6 +3095,812 @@
     "items": [],
     "start": "05-20",
     "end": "07-10"
+   }
+  ]
+ },
+ "curated": {
+  "books": [
+   {
+    "title": "To Kill a Mockingbird",
+    "byline": "Harper Lee",
+    "year": "1960"
+   },
+   {
+    "title": "1984",
+    "byline": "George Orwell",
+    "year": "1949"
+   },
+   {
+    "title": "Animal Farm",
+    "byline": "George Orwell",
+    "year": "1945"
+   },
+   {
+    "title": "Pride and Prejudice",
+    "byline": "Jane Austen",
+    "year": "1813"
+   },
+   {
+    "title": "The Great Gatsby",
+    "byline": "F. Scott Fitzgerald",
+    "year": "1925"
+   },
+   {
+    "title": "The Catcher in the Rye",
+    "byline": "J. D. Salinger",
+    "year": "1951"
+   },
+   {
+    "title": "The Hobbit",
+    "byline": "J. R. R. Tolkien",
+    "year": "1937"
+   },
+   {
+    "title": "The Fellowship of the Ring",
+    "byline": "J. R. R. Tolkien",
+    "year": "1954"
+   },
+   {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "byline": "J. K. Rowling",
+    "year": "1997"
+   },
+   {
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "byline": "J. K. Rowling",
+    "year": "1999"
+   },
+   {
+    "title": "The Hunger Games",
+    "byline": "Suzanne Collins",
+    "year": "2008"
+   },
+   {
+    "title": "Dune",
+    "byline": "Frank Herbert",
+    "year": "1965"
+   },
+   {
+    "title": "Fahrenheit 451",
+    "byline": "Ray Bradbury",
+    "year": "1953"
+   },
+   {
+    "title": "Brave New World",
+    "byline": "Aldous Huxley",
+    "year": "1932"
+   },
+   {
+    "title": "Lord of the Flies",
+    "byline": "William Golding",
+    "year": "1954"
+   },
+   {
+    "title": "Of Mice and Men",
+    "byline": "John Steinbeck",
+    "year": "1937"
+   },
+   {
+    "title": "The Grapes of Wrath",
+    "byline": "John Steinbeck",
+    "year": "1939"
+   },
+   {
+    "title": "East of Eden",
+    "byline": "John Steinbeck",
+    "year": "1952"
+   },
+   {
+    "title": "Jane Eyre",
+    "byline": "Charlotte Brontë",
+    "year": "1847"
+   },
+   {
+    "title": "Wuthering Heights",
+    "byline": "Emily Brontë",
+    "year": "1847"
+   },
+   {
+    "title": "Frankenstein",
+    "byline": "Mary Shelley",
+    "year": "1818"
+   },
+   {
+    "title": "Dracula",
+    "byline": "Bram Stoker",
+    "year": "1897"
+   },
+   {
+    "title": "Little Women",
+    "byline": "Louisa May Alcott",
+    "year": "1868"
+   },
+   {
+    "title": "Moby-Dick",
+    "byline": "Herman Melville",
+    "year": "1851"
+   },
+   {
+    "title": "The Old Man and the Sea",
+    "byline": "Ernest Hemingway",
+    "year": "1952"
+   },
+   {
+    "title": "Slaughterhouse-Five",
+    "byline": "Kurt Vonnegut",
+    "year": "1969"
+   },
+   {
+    "title": "Catch-22",
+    "byline": "Joseph Heller",
+    "year": "1961"
+   },
+   {
+    "title": "One Hundred Years of Solitude",
+    "byline": "Gabriel García Márquez",
+    "year": "1967"
+   },
+   {
+    "title": "Crime and Punishment",
+    "byline": "Fyodor Dostoevsky",
+    "year": "1866"
+   },
+   {
+    "title": "Rebecca",
+    "byline": "Daphne du Maurier",
+    "year": "1938"
+   },
+   {
+    "title": "And Then There Were None",
+    "byline": "Agatha Christie",
+    "year": "1939"
+   },
+   {
+    "title": "The Shining",
+    "byline": "Stephen King",
+    "year": "1977"
+   },
+   {
+    "title": "It",
+    "byline": "Stephen King",
+    "year": "1986"
+   },
+   {
+    "title": "The Stand",
+    "byline": "Stephen King",
+    "year": "1978"
+   },
+   {
+    "title": "Jurassic Park",
+    "byline": "Michael Crichton",
+    "year": "1990"
+   },
+   {
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "byline": "Douglas Adams",
+    "year": "1979"
+   },
+   {
+    "title": "Ender's Game",
+    "byline": "Orson Scott Card",
+    "year": "1985"
+   },
+   {
+    "title": "The Handmaid's Tale",
+    "byline": "Margaret Atwood",
+    "year": "1985"
+   },
+   {
+    "title": "Beloved",
+    "byline": "Toni Morrison",
+    "year": "1987"
+   },
+   {
+    "title": "The Outsiders",
+    "byline": "S. E. Hinton",
+    "year": "1967"
+   },
+   {
+    "title": "The Giver",
+    "byline": "Lois Lowry",
+    "year": "1993"
+   },
+   {
+    "title": "Holes",
+    "byline": "Louis Sachar",
+    "year": "1998"
+   },
+   {
+    "title": "Charlotte's Web",
+    "byline": "E. B. White",
+    "year": "1952"
+   },
+   {
+    "title": "The Secret History",
+    "byline": "Donna Tartt",
+    "year": "1992"
+   },
+   {
+    "title": "The Goldfinch",
+    "byline": "Donna Tartt",
+    "year": "2013"
+   },
+   {
+    "title": "Lonesome Dove",
+    "byline": "Larry McMurtry",
+    "year": "1985"
+   },
+   {
+    "title": "A Game of Thrones",
+    "byline": "George R. R. Martin",
+    "year": "1996"
+   },
+   {
+    "title": "The Name of the Wind",
+    "byline": "Patrick Rothfuss",
+    "year": "2007"
+   },
+   {
+    "title": "The Way of Kings",
+    "byline": "Brandon Sanderson",
+    "year": "2010"
+   },
+   {
+    "title": "Mistborn: The Final Empire",
+    "byline": "Brandon Sanderson",
+    "year": "2006"
+   },
+   {
+    "title": "The Da Vinci Code",
+    "byline": "Dan Brown",
+    "year": "2003"
+   },
+   {
+    "title": "The Kite Runner",
+    "byline": "Khaled Hosseini",
+    "year": "2003"
+   },
+   {
+    "title": "Life of Pi",
+    "byline": "Yann Martel",
+    "year": "2001"
+   },
+   {
+    "title": "The Book Thief",
+    "byline": "Markus Zusak",
+    "year": "2005"
+   },
+   {
+    "title": "The Road",
+    "byline": "Cormac McCarthy",
+    "year": "2006"
+   },
+   {
+    "title": "Never Let Me Go",
+    "byline": "Kazuo Ishiguro",
+    "year": "2005"
+   },
+   {
+    "title": "The Girl with the Dragon Tattoo",
+    "byline": "Stieg Larsson",
+    "year": "2005"
+   },
+   {
+    "title": "The Alchemist",
+    "byline": "Paulo Coelho",
+    "year": "1988"
+   },
+   {
+    "title": "Gone Girl",
+    "byline": "Gillian Flynn",
+    "year": "2012"
+   },
+   {
+    "title": "The Fault in Our Stars",
+    "byline": "John Green",
+    "year": "2012"
+   },
+   {
+    "title": "Ready Player One",
+    "byline": "Ernest Cline",
+    "year": "2011"
+   },
+   {
+    "title": "The Night Circus",
+    "byline": "Erin Morgenstern",
+    "year": "2011"
+   },
+   {
+    "title": "The Martian",
+    "byline": "Andy Weir",
+    "year": "2011"
+   },
+   {
+    "title": "Project Hail Mary",
+    "byline": "Andy Weir",
+    "year": "2021"
+   },
+   {
+    "title": "Station Eleven",
+    "byline": "Emily St. John Mandel",
+    "year": "2014"
+   },
+   {
+    "title": "The Song of Achilles",
+    "byline": "Madeline Miller",
+    "year": "2011"
+   },
+   {
+    "title": "Circe",
+    "byline": "Madeline Miller",
+    "year": "2018"
+   },
+   {
+    "title": "Educated",
+    "byline": "Tara Westover",
+    "year": "2018"
+   },
+   {
+    "title": "Where the Crawdads Sing",
+    "byline": "Delia Owens",
+    "year": "2018"
+   },
+   {
+    "title": "Normal People",
+    "byline": "Sally Rooney",
+    "year": "2018"
+   },
+   {
+    "title": "The Silent Patient",
+    "byline": "Alex Michaelides",
+    "year": "2019"
+   },
+   {
+    "title": "The Seven Husbands of Evelyn Hugo",
+    "byline": "Taylor Jenkins Reid",
+    "year": "2017"
+   },
+   {
+    "title": "The Midnight Library",
+    "byline": "Matt Haig",
+    "year": "2020"
+   },
+   {
+    "title": "Piranesi",
+    "byline": "Susanna Clarke",
+    "year": "2020"
+   },
+   {
+    "title": "Lessons in Chemistry",
+    "byline": "Bonnie Garmus",
+    "year": "2022"
+   },
+   {
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "byline": "Gabrielle Zevin",
+    "year": "2022"
+   },
+   {
+    "title": "A Court of Thorns and Roses",
+    "byline": "Sarah J. Maas",
+    "year": "2015"
+   },
+   {
+    "title": "Fourth Wing",
+    "byline": "Rebecca Yarros",
+    "year": "2023"
+   },
+   {
+    "title": "It Ends with Us",
+    "byline": "Colleen Hoover",
+    "year": "2016"
+   },
+   {
+    "title": "Sapiens",
+    "byline": "Yuval Noah Harari",
+    "year": "2011"
+   },
+   {
+    "title": "Atomic Habits",
+    "byline": "James Clear",
+    "year": "2018"
+   },
+   {
+    "title": "Outlander",
+    "byline": "Diana Gabaldon",
+    "year": "1991"
+   },
+   {
+    "title": "Twilight",
+    "byline": "Stephenie Meyer",
+    "year": "2005"
+   },
+   {
+    "title": "The Notebook",
+    "byline": "Nicholas Sparks",
+    "year": "1996"
+   },
+   {
+    "title": "Little Fires Everywhere",
+    "byline": "Celeste Ng",
+    "year": "2017"
+   },
+   {
+    "title": "Beach Read",
+    "byline": "Emily Henry",
+    "year": "2020"
+   },
+   {
+    "title": "Becoming",
+    "byline": "Michelle Obama",
+    "year": "2018"
+   },
+   {
+    "title": "I Know Why the Caged Bird Sings",
+    "byline": "Maya Angelou",
+    "year": "1969"
+   },
+   {
+    "title": "Their Eyes Were Watching God",
+    "byline": "Zora Neale Hurston",
+    "year": "1937"
+   },
+   {
+    "title": "The Color Purple",
+    "byline": "Alice Walker",
+    "year": "1982"
+   },
+   {
+    "title": "Americanah",
+    "byline": "Chimamanda Ngozi Adichie",
+    "year": "2013"
+   },
+   {
+    "title": "The House on Mango Street",
+    "byline": "Sandra Cisneros",
+    "year": "1984"
+   },
+   {
+    "title": "The Joy Luck Club",
+    "byline": "Amy Tan",
+    "year": "1989"
+   },
+   {
+    "title": "The Duke and I",
+    "byline": "Julia Quinn",
+    "year": "2000"
+   },
+   {
+    "title": "The Help",
+    "byline": "Kathryn Stockett",
+    "year": "2009"
+   }
+  ],
+  "albums": [
+   {
+    "title": "Thriller",
+    "byline": "Michael Jackson",
+    "year": "1982"
+   },
+   {
+    "title": "The Dark Side of the Moon",
+    "byline": "Pink Floyd",
+    "year": "1973"
+   },
+   {
+    "title": "Abbey Road",
+    "byline": "The Beatles",
+    "year": "1969"
+   },
+   {
+    "title": "Sgt. Pepper's Lonely Hearts Club Band",
+    "byline": "The Beatles",
+    "year": "1967"
+   },
+   {
+    "title": "Rumours",
+    "byline": "Fleetwood Mac",
+    "year": "1977"
+   },
+   {
+    "title": "Nevermind",
+    "byline": "Nirvana",
+    "year": "1991"
+   },
+   {
+    "title": "Purple Rain",
+    "byline": "Prince",
+    "year": "1984"
+   },
+   {
+    "title": "Led Zeppelin IV",
+    "byline": "Led Zeppelin",
+    "year": "1971"
+   },
+   {
+    "title": "Back in Black",
+    "byline": "AC/DC",
+    "year": "1980"
+   },
+   {
+    "title": "A Night at the Opera",
+    "byline": "Queen",
+    "year": "1975"
+   },
+   {
+    "title": "OK Computer",
+    "byline": "Radiohead",
+    "year": "1997"
+   },
+   {
+    "title": "Hotel California",
+    "byline": "Eagles",
+    "year": "1976"
+   },
+   {
+    "title": "Born to Run",
+    "byline": "Bruce Springsteen",
+    "year": "1975"
+   },
+   {
+    "title": "The Joshua Tree",
+    "byline": "U2",
+    "year": "1987"
+   },
+   {
+    "title": "Appetite for Destruction",
+    "byline": "Guns N' Roses",
+    "year": "1987"
+   },
+   {
+    "title": "Metallica",
+    "byline": "Metallica",
+    "year": "1991"
+   },
+   {
+    "title": "Ten",
+    "byline": "Pearl Jam",
+    "year": "1991"
+   },
+   {
+    "title": "Californication",
+    "byline": "Red Hot Chili Peppers",
+    "year": "1999"
+   },
+   {
+    "title": "What's Going On",
+    "byline": "Marvin Gaye",
+    "year": "1971"
+   },
+   {
+    "title": "Songs in the Key of Life",
+    "byline": "Stevie Wonder",
+    "year": "1976"
+   },
+   {
+    "title": "Exile on Main St.",
+    "byline": "The Rolling Stones",
+    "year": "1972"
+   },
+   {
+    "title": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+    "byline": "David Bowie",
+    "year": "1972"
+   },
+   {
+    "title": "Highway 61 Revisited",
+    "byline": "Bob Dylan",
+    "year": "1965"
+   },
+   {
+    "title": "Pet Sounds",
+    "byline": "The Beach Boys",
+    "year": "1966"
+   },
+   {
+    "title": "At Folsom Prison",
+    "byline": "Johnny Cash",
+    "year": "1968"
+   },
+   {
+    "title": "The Miseducation of Lauryn Hill",
+    "byline": "Lauryn Hill",
+    "year": "1998"
+   },
+   {
+    "title": "The Marshall Mathers LP",
+    "byline": "Eminem",
+    "year": "2000"
+   },
+   {
+    "title": "2001",
+    "byline": "Dr. Dre",
+    "year": "1999"
+   },
+   {
+    "title": "Speakerboxxx/The Love Below",
+    "byline": "Outkast",
+    "year": "2003"
+   },
+   {
+    "title": "Hybrid Theory",
+    "byline": "Linkin Park",
+    "year": "2000"
+   },
+   {
+    "title": "American Idiot",
+    "byline": "Green Day",
+    "year": "2004"
+   },
+   {
+    "title": "A Rush of Blood to the Head",
+    "byline": "Coldplay",
+    "year": "2002"
+   },
+   {
+    "title": "Hot Fuss",
+    "byline": "The Killers",
+    "year": "2004"
+   },
+   {
+    "title": "Back to Black",
+    "byline": "Amy Winehouse",
+    "year": "2006"
+   },
+   {
+    "title": "21",
+    "byline": "Adele",
+    "year": "2011"
+   },
+   {
+    "title": "Random Access Memories",
+    "byline": "Daft Punk",
+    "year": "2013"
+   },
+   {
+    "title": "AM",
+    "byline": "Arctic Monkeys",
+    "year": "2013"
+   },
+   {
+    "title": "1989",
+    "byline": "Taylor Swift",
+    "year": "2014"
+   },
+   {
+    "title": "To Pimp a Butterfly",
+    "byline": "Kendrick Lamar",
+    "year": "2015"
+   },
+   {
+    "title": "Traveller",
+    "byline": "Chris Stapleton",
+    "year": "2015"
+   },
+   {
+    "title": "Lemonade",
+    "byline": "Beyoncé",
+    "year": "2016"
+   },
+   {
+    "title": "When We All Fall Asleep, Where Do We Go?",
+    "byline": "Billie Eilish",
+    "year": "2019"
+   },
+   {
+    "title": "SOUR",
+    "byline": "Olivia Rodrigo",
+    "year": "2021"
+   },
+   {
+    "title": "SOS",
+    "byline": "SZA",
+    "year": "2022"
+   },
+   {
+    "title": "Harry's House",
+    "byline": "Harry Styles",
+    "year": "2022"
+   },
+   {
+    "title": "Un Verano Sin Ti",
+    "byline": "Bad Bunny",
+    "year": "2022"
+   },
+   {
+    "title": "American Heartbreak",
+    "byline": "Zach Bryan",
+    "year": "2022"
+   },
+   {
+    "title": "Tapestry",
+    "byline": "Carole King",
+    "year": "1971"
+   },
+   {
+    "title": "Blue",
+    "byline": "Joni Mitchell",
+    "year": "1971"
+   },
+   {
+    "title": "Like a Prayer",
+    "byline": "Madonna",
+    "year": "1989"
+   },
+   {
+    "title": "Jagged Little Pill",
+    "byline": "Alanis Morissette",
+    "year": "1995"
+   },
+   {
+    "title": "Whitney Houston",
+    "byline": "Whitney Houston",
+    "year": "1985"
+   },
+   {
+    "title": "...Baby One More Time",
+    "byline": "Britney Spears",
+    "year": "1999"
+   },
+   {
+    "title": "Come Away with Me",
+    "byline": "Norah Jones",
+    "year": "2002"
+   },
+   {
+    "title": "Fearless",
+    "byline": "Taylor Swift",
+    "year": "2008"
+   },
+   {
+    "title": "Renaissance",
+    "byline": "Beyoncé",
+    "year": "2022"
+   },
+   {
+    "title": "Future Nostalgia",
+    "byline": "Dua Lipa",
+    "year": "2020"
+   },
+   {
+    "title": "Golden Hour",
+    "byline": "Kacey Musgraves",
+    "year": "2018"
+   },
+   {
+    "title": "CrazySexyCool",
+    "byline": "TLC",
+    "year": "1994"
+   },
+   {
+    "title": "Ready to Die",
+    "byline": "The Notorious B.I.G.",
+    "year": "1994"
+   },
+   {
+    "title": "Illmatic",
+    "byline": "Nas",
+    "year": "1994"
+   },
+   {
+    "title": "good kid, m.A.A.d city",
+    "byline": "Kendrick Lamar",
+    "year": "2012"
+   },
+   {
+    "title": "Confessions",
+    "byline": "Usher",
+    "year": "2004"
+   },
+   {
+    "title": "Short n' Sweet",
+    "byline": "Sabrina Carpenter",
+    "year": "2024"
+   },
+   {
+    "title": "Hit Me Hard and Soft",
+    "byline": "Billie Eilish",
+    "year": "2024"
    }
   ]
  }
