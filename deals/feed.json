@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-04T13:32:06.308343+00:00",
+ "generated": "2026-11-04T13:48:37.947626+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B0GSZ4H122-2026-11-04",
+   "store": "amazon",
+   "asin": "B0GSZ4H122",
+   "ebay_item_id": null,
+   "board": "home",
+   "category": "OFFICE",
+   "title": "32% Off Veken 63x28 Electric Standing Desk - $149.98",
+   "summary": "Veken 63 x 28 inch electric height-adjustable standing desk with a wide top, dual-beam frame and memory presets. $149.98 vs $219.99 list price, a limited time deal.",
+   "price": 149.98,
+   "list_price": 219.99,
+   "pct_off": 32.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/71wbRLnF1yL._AC_SX679_.jpg",
+   "url": "https://www.amazon.com/dp/B0GSZ4H122?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B0GSZ4H122.html?src=app",
+   "price_checked": "2026-11-04T08:37:00-05:00",
+   "posted": "2026-11-04T13:48:37.899159+00:00",
+   "app_category": null
+  },
   {
    "id": "ebay-387127817079-2026-11-04",
    "store": "ebay",
