@@ -31,8 +31,9 @@ desert-island, todays-pick.
 Pick the card that matches the post. Don't reuse a card used in the last 3 posts.
 
 ## Facts (only claim these)
-- Free on iPhone and iPad. iCloud sync is free. No ads. Optional supporter tiers.
+- Free on iPhone and iPad. Everything is free as of 5.0: no paid tiers, no ads, iCloud sync included. Optional Tip Jar (unlocks nothing). Never mention Silver, Gold or Bronze.
 - Categories: movies, TV, music, books, games, comics, places, products, links.
+- Version 5.0 (Nov 2026) made everything free, added the Tip Jar and the smart paste button, plus Fall Movies and Hallmark Christmas Movies packs.
 - Version 4.8 (Nov 2026) added Desert Island, Food & Drink in Quick Rank, Today's Pick and trending albums and books.
 - Rank tab: Today's Pick at the top suggests a game and category each day (shuffle for another). Below it, "Or pick your own": tap a category tile, then a game tile.
 - Rank categories: Movies, TV, Games, Books, Albums, Comics, Food & Drink, plus seasonal packs while they're live.
