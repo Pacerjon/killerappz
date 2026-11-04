@@ -376,5 +376,25 @@
   "price_checked": "2026-11-03T10:00:00-05:00",
   "date": "2026-11-03T15:01:38.811738+00:00",
   "pubDate": "Tue, 03 Nov 2026 15:01:38 +0000"
+ },
+ {
+  "board": "home",
+  "asin": "ebay-387127817079",
+  "store": "ebay",
+  "title": "72% Off iRobot Roomba Combo j5+ Self-Emptying Vacuum & Mop (Certified Refurbished) - $225",
+  "description": "iRobot Roomba Combo j5+ robot vacuum and mop that empties itself, sold directly by iRobot as Certified Refurbished with a 2-year warranty and free shipping. $224.99 vs $799.99 previous price. #eBayDeals #CommissionsEarned",
+  "link": "https://www.ebay.com/itm/387127817079?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339222266&customid=site&toolid=10001&mkevt=1",
+  "image": "https://i.ebayimg.com/images/g/KPMAAOSwqStmfeER/s-l1600.jpg",
+  "social": "\u26a1[HOME] 72% off - iRobot Roomba Combo j5+ Self-Emptying Vacuum & Mop (eBay)\n$224.99 (Was $799.99) - Certified Refurbished\nhttps://killerappz.dev/deals/ebay-387127817079.html?src=social\n#eBayDeals #CommissionsEarned",
+  "social_link": "https://killerappz.dev/deals/ebay-387127817079.html?src=social",
+  "price": 224.99,
+  "list_price": 799.99,
+  "pct_off": 72.0,
+  "category": "HOME",
+  "coupon": false,
+  "condition": "Certified Refurbished",
+  "price_checked": "2026-11-04T08:31:00-05:00",
+  "date": "2026-11-04T13:32:06.288196+00:00",
+  "pubDate": "Wed, 04 Nov 2026 13:32:06 +0000"
  }
 ]
