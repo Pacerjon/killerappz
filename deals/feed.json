@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-04T13:48:37.947626+00:00",
+ "generated": "2026-11-05T13:09:17.144882+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B01M0A3BKH-2026-11-05",
+   "store": "amazon",
+   "asin": "B01M0A3BKH",
+   "ebay_item_id": null,
+   "board": "travel",
+   "category": "LUGGAGE",
+   "title": "41% Off Samsonite Freeform Hardside Carry-On Luggage - $129.99",
+   "summary": "Samsonite Freeform hardside carry-on with spinner wheels, built-in TSA-approved lock and an expandable shell. $129.99 vs $219.99 list, 41% off.",
+   "price": 129.99,
+   "list_price": 219.99,
+   "pct_off": 41.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/31YKUcisGOL._SL500_.jpg",
+   "url": "https://www.amazon.com/dp/B01M0A3BKH?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B01M0A3BKH.html?src=app",
+   "price_checked": "2026-11-05T08:08:41-05:00",
+   "posted": "2026-11-05T13:09:17.118783+00:00",
+   "app_category": null
+  },
   {
    "id": "B0GSZ4H122-2026-11-04",
    "store": "amazon",
@@ -428,27 +449,6 @@
    "page": "https://killerappz.dev/deals/B0G4XRP464.html?src=app",
    "price_checked": "2026-10-23T09:09:00-04:00",
    "posted": "2026-10-23T13:14:06.415166+00:00",
-   "app_category": null
-  },
-  {
-   "id": "B0GF68F2H6-2026-10-22",
-   "store": "amazon",
-   "asin": "B0GF68F2H6",
-   "ebay_item_id": null,
-   "board": "home",
-   "category": "SMART HOME",
-   "title": "44% Off Ring Wired Doorbell 2K Plus (Newest Model) - $99.99",
-   "summary": "Ring Wired Doorbell 2K Plus with Retinal 2K video, wide-angle view, color night vision and motion alerts with video descriptions. Hardwires to your existing doorbell system. $99.99 vs $179.99 list.",
-   "price": 99.99,
-   "list_price": 179.99,
-   "pct_off": 44.0,
-   "coupon": false,
-   "condition": null,
-   "image": "https://m.media-amazon.com/images/I/71i+e2QguoL._SL1500_.jpg",
-   "url": "https://www.amazon.com/dp/B0GF68F2H6?tag=listworthy-app-20",
-   "page": "https://killerappz.dev/deals/B0GF68F2H6.html?src=app",
-   "price_checked": "2026-10-22T06:57:00-04:00",
-   "posted": "2026-10-22T10:58:43.763800+00:00",
    "app_category": null
   }
  ]
