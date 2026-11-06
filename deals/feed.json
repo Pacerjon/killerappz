@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-05T13:09:17.144882+00:00",
+ "generated": "2026-11-06T14:08:18.618951+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B00IJ0ALYS-2026-11-06",
+   "store": "amazon",
+   "asin": "B00IJ0ALYS",
+   "ebay_item_id": null,
+   "board": "home",
+   "category": "TOOLS",
+   "title": "46% Off DEWALT 20V MAX Drill & Impact Driver Combo Kit - $129",
+   "summary": "DEWALT 20V MAX cordless drill and impact driver combo kit with 2 batteries, charger and bag. Compact tools with LED work lights and up to 1,400 in-lbs of impact torque. $129.00 vs $239.00 list, 46% off.",
+   "price": 129.0,
+   "list_price": 239.0,
+   "pct_off": 46.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/51lJR91RS+L._SL500_.jpg",
+   "url": "https://www.amazon.com/dp/B00IJ0ALYS?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B00IJ0ALYS.html?src=app",
+   "price_checked": "2026-11-06T09:07:00-05:00",
+   "posted": "2026-11-06T14:08:18.589738+00:00",
+   "app_category": null
+  },
   {
    "id": "B01M0A3BKH-2026-11-05",
    "store": "amazon",
@@ -428,27 +449,6 @@
    "page": "https://killerappz.dev/deals/B0F151GFYR.html?src=app",
    "price_checked": "2026-10-24T08:46:00-04:00",
    "posted": "2026-10-24T12:47:09.656099+00:00",
-   "app_category": null
-  },
-  {
-   "id": "B0G4XRP464-2026-10-23",
-   "store": "amazon",
-   "asin": "B0G4XRP464",
-   "ebay_item_id": null,
-   "board": "tech",
-   "category": "TECH",
-   "title": "50% Off Amazon Fire TV Stick 4K (Newest Model) - $29.99",
-   "summary": "Amazon's newest Fire TV Stick 4K streams in 4K with HDR10+ and Wi-Fi 6, powers straight from the TV, and comes with the new Fire TV Remote with TV power and volume buttons. Now $29.99 vs $59.99 list (50% off).",
-   "price": 29.99,
-   "list_price": 59.99,
-   "pct_off": 50.0,
-   "coupon": false,
-   "condition": null,
-   "image": "https://m.media-amazon.com/images/I/61Vo%2B3CNiLL._AC_SL1500_.jpg",
-   "url": "https://www.amazon.com/dp/B0G4XRP464?tag=listworthy-app-20",
-   "page": "https://killerappz.dev/deals/B0G4XRP464.html?src=app",
-   "price_checked": "2026-10-23T09:09:00-04:00",
-   "posted": "2026-10-23T13:14:06.415166+00:00",
    "app_category": null
   }
  ]
