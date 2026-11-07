@@ -33,6 +33,7 @@ Pick the card that matches the post. Don't reuse a card used in the last 3 posts
 ## Facts (only claim these)
 - Free on iPhone and iPad. Everything is free as of 5.0: no paid tiers, no ads, iCloud sync included. Optional Tip Jar (unlocks nothing). Never mention Silver, Gold or Bronze.
 - Categories: movies, TV, music, books, games, comics, places, products, links.
+- Version 5.1 (Nov 2026) added Send a Copy (Share > Send a Copy sends a link; the other person taps it and gets the whole list in their Listworthy, with posters, scores, tiers and notes), 24 new lists to rank (Hunger Games, Twilight, Disney Princess, Jane Austen, Studio Ghibli, Tyler Perry, Spike Lee, Shondaland, Real Housewives, The Bachelor, rom-coms, K-dramas, anime, reality TV, telenovelas, K-pop, Latin albums, Broadway, BookTok, romance novels), poster franchise tiles on Discover, and the TMDB audience score on movie and show pages.
 - Version 5.0 (Nov 2026) made everything free, added the Tip Jar and the smart paste button, plus Fall Movies and Hallmark Christmas Movies packs.
 - Version 4.8 (Nov 2026) added Desert Island, Food & Drink in Quick Rank, Today's Pick and trending albums and books.
 - Rank tab: Today's Pick at the top suggests a game and category each day (shuffle for another). Below it, "Or pick your own": tap a category tile, then a game tile.
@@ -46,7 +47,7 @@ Pick the card that matches the post. Don't reuse a card used in the last 3 posts
 - Head-to-head ranking: in a ranked list, pick between two and Listworthy places each item in the right spot. Long-press a list for "Rank head-to-head".
 - Podium: your top 3 sit on a podium; #1 gets the crown.
 - Tier lists: sort anything into S, A, B, C, D, F. New tier templates: fast food chains, Halloween candy, breakfast cereals, pizza toppings, sodas.
-- Templates: tap + on the Lists tab. Search 150 templates, filter by Ranked, Tier, Checklist, Recipes or Gifts. "Seasonal Lists" row up top.
+- Templates: tap + on the Lists tab. Search 170+ templates, filter by Ranked, Tier, Checklist, Recipes or Gifts. "Seasonal Lists" row up top.
 - Gift lists: track who gets what, prices, what's bought and a budget. Add gifts by pasting a link or sharing from Amazon or another store app.
 - Recipe cards: share a recipe page or a Pinterest pin to Listworthy and get clean ingredients and steps. Cook mode keeps the screen on. Tap "I made this" and give it a score.
 - Which was better?: once 2 or more recipes are marked made, open the Made it filter and tap "Which was better?" to rank them head to head.
