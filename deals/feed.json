@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-06T14:08:18.618951+00:00",
+ "generated": "2026-11-07T13:40:49.998427+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B0CV2HGNY9-2026-11-07",
+   "store": "amazon",
+   "asin": "B0CV2HGNY9",
+   "ebay_item_id": null,
+   "board": "gifts",
+   "category": "TOYS",
+   "title": "40% Off LEGO Speed Champions Mercedes-AMG G 63 & SL 63 - $26.99",
+   "summary": "Two buildable Mercedes-AMG cars (G 63 and SL 63) with driver minifigures, LEGO set 76924 for ages 10+. $26.99 vs $44.99 list, 40% off.",
+   "price": 26.99,
+   "list_price": 44.99,
+   "pct_off": 40.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/517+Gkq3C3L._SL500_.jpg",
+   "url": "https://www.amazon.com/dp/B0CV2HGNY9?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B0CV2HGNY9.html?src=app",
+   "price_checked": "2026-11-07T08:40:15-05:00",
+   "posted": "2026-11-07T13:40:49.945243+00:00",
+   "app_category": null
+  },
   {
    "id": "B00IJ0ALYS-2026-11-06",
    "store": "amazon",
@@ -428,27 +449,6 @@
    "page": "https://killerappz.dev/deals/B0FHJ7TKZM.html?src=app",
    "price_checked": "2026-10-25T08:11:00-04:00",
    "posted": "2026-10-25T12:12:34.861464+00:00",
-   "app_category": null
-  },
-  {
-   "id": "B0F151GFYR-2026-10-24",
-   "store": "amazon",
-   "asin": "B0F151GFYR",
-   "ebay_item_id": null,
-   "board": "home",
-   "category": "SMART HOME",
-   "title": "36% Off Ring Wired Doorbell 4K Pro - $159.99",
-   "summary": "Ring Wired Doorbell 4K Pro with Retinal 4K video, 10x enhanced zoom, two-way talk and color night vision. $159.99 vs $249.99 list.",
-   "price": 159.99,
-   "list_price": 249.99,
-   "pct_off": 36.0,
-   "coupon": false,
-   "condition": null,
-   "image": "https://m.media-amazon.com/images/I/819MRg02R2L._SL1500_.jpg",
-   "url": "https://www.amazon.com/dp/B0F151GFYR?tag=listworthy-app-20",
-   "page": "https://killerappz.dev/deals/B0F151GFYR.html?src=app",
-   "price_checked": "2026-10-24T08:46:00-04:00",
-   "posted": "2026-10-24T12:47:09.656099+00:00",
    "app_category": null
   }
  ]
