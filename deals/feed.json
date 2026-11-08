@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-07T13:40:49.998427+00:00",
+ "generated": "2026-11-08T13:33:17.140968+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B0D1JBBJ6S-2026-11-08",
+   "store": "amazon",
+   "asin": "B0D1JBBJ6S",
+   "ebay_item_id": null,
+   "board": "tech",
+   "category": "AUDIO",
+   "title": "38% Off TCL S55H 2.1 Soundbar with Wireless Subwoofer - $99.99",
+   "summary": "TCL S55H 2.1 soundbar with a wireless subwoofer, Dolby Atmos, DTS Virtual:X and 220W of power. Works with any TV over HDMI eARC, optical or Bluetooth. $99.99 vs $159.99 list.",
+   "price": 99.99,
+   "list_price": 159.99,
+   "pct_off": 38.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/31TWD2J+iRL._SL500_.jpg",
+   "url": "https://www.amazon.com/dp/B0D1JBBJ6S?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B0D1JBBJ6S.html?src=app",
+   "price_checked": "2026-11-08T08:32:00-05:00",
+   "posted": "2026-11-08T13:33:17.092560+00:00",
+   "app_category": null
+  },
   {
    "id": "B0CV2HGNY9-2026-11-07",
    "store": "amazon",
@@ -428,27 +449,6 @@
    "page": "https://killerappz.dev/deals/B0GGB9BV77.html?src=app",
    "price_checked": "2026-10-26T08:18:00-04:00",
    "posted": "2026-10-26T12:19:25.823085+00:00",
-   "app_category": null
-  },
-  {
-   "id": "B0FHJ7TKZM-2026-10-25",
-   "store": "amazon",
-   "asin": "B0FHJ7TKZM",
-   "ebay_item_id": null,
-   "board": "home",
-   "category": "SMART HOME",
-   "title": "55% Off Ring Battery Doorbell 2K (Newest Model) - $44.99",
-   "summary": "Ring Battery Doorbell 2K with Retinal 2K video, 6x Enhanced Zoom, Two-Way Talk and a rechargeable built-in battery. $44.99 vs $99.99 list.",
-   "price": 44.99,
-   "list_price": 99.99,
-   "pct_off": 55.0,
-   "coupon": false,
-   "condition": null,
-   "image": "https://m.media-amazon.com/images/I/71RqdVcRgDL._SL1500_.jpg",
-   "url": "https://www.amazon.com/dp/B0FHJ7TKZM?tag=listworthy-app-20",
-   "page": "https://killerappz.dev/deals/B0FHJ7TKZM.html?src=app",
-   "price_checked": "2026-10-25T08:11:00-04:00",
-   "posted": "2026-10-25T12:12:34.861464+00:00",
    "app_category": null
   }
  ]
