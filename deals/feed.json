@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-09T11:38:53.645598+00:00",
+ "generated": "2026-11-09T13:52:03.377617+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B0855B5Z6F-2026-11-09",
+   "store": "amazon",
+   "asin": "B0855B5Z6F",
+   "ebay_item_id": null,
+   "board": "kitchen",
+   "category": "KITCHEN",
+   "title": "33% Off Ninja Professional Plus Blender BN701 1400W - $79.99",
+   "summary": "Ninja Professional Plus blender with a 1400W motor, 72 oz pitcher and 3 Auto-iQ presets for smoothies and frozen drinks. $79.99 vs $119.99 list on a limited time deal.",
+   "price": 79.99,
+   "list_price": 119.99,
+   "pct_off": 33.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/41DtVBcR1eL._SL500_.jpg",
+   "url": "https://www.amazon.com/dp/B0855B5Z6F?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B0855B5Z6F.html?src=app",
+   "price_checked": "2026-11-09T08:50:00-05:00",
+   "posted": "2026-11-09T13:52:03.335362+00:00",
+   "app_category": null
+  },
   {
    "id": "B09MDGXW8F-2026-11-09",
    "store": "amazon",
@@ -428,27 +449,6 @@
    "page": "https://killerappz.dev/deals/B0BS74M665.html?src=app",
    "price_checked": "2026-10-27T08:24:00-04:00",
    "posted": "2026-10-27T12:24:55.123404+00:00",
-   "app_category": null
-  },
-  {
-   "id": "B0GGB9BV77-2026-10-26",
-   "store": "amazon",
-   "asin": "B0GGB9BV77",
-   "ebay_item_id": null,
-   "board": "home",
-   "category": "FITNESS",
-   "title": "75% Off Vhorilix Under Desk Walking Pad Treadmill - $89.99",
-   "summary": "Compact under-desk walking pad with remote, 2.5HP quiet motor and anti-slip belt. $89.99 vs $359.96 list, 75% off.",
-   "price": 89.99,
-   "list_price": 359.96,
-   "pct_off": 75.0,
-   "coupon": false,
-   "condition": null,
-   "image": "https://m.media-amazon.com/images/I/71E11ozbQhL._AC_SL1500_.jpg",
-   "url": "https://www.amazon.com/dp/B0GGB9BV77?tag=listworthy-app-20",
-   "page": "https://killerappz.dev/deals/B0GGB9BV77.html?src=app",
-   "price_checked": "2026-10-26T08:18:00-04:00",
-   "posted": "2026-10-26T12:19:25.823085+00:00",
    "app_category": null
   }
  ]
