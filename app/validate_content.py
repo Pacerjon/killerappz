@@ -107,6 +107,16 @@ def main(path):
         if lst is not None and len(lst) < 20:
             errors.append(f"curated.{key}: needs at least 20 items or the app ignores it")
 
+    tr = (c.get("trending") or {}).get("comics")
+    if tr is not None:
+        if len(tr) < 3:
+            errors.append("trending.comics: needs at least 3 items or the app ignores it")
+        for it in tr:
+            if not (it.get("title") or "").strip():
+                errors.append("trending.comics: item with no title")
+            if not it.get("byline"):
+                warnings.append(f"trending.comics: {it.get('title')!r} has no byline; cover lookup is less accurate")
+
     today = datetime.date.today()
     live = [p["id"] for p in packs if "start" in p and active(p["start"], p["end"], today)]
     soon = set()
