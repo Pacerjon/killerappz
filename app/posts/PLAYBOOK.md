@@ -27,17 +27,19 @@ separate pipeline; never mix them.
 ## Cards (image slugs in app/posts/cards/)
 blind-ranking, brackets, quick-rank, head-to-head, podium, tier-list,
 story-card, templates, discover, gift-list, recipe-card, recipes, recipe-duel,
-desert-island, todays-pick.
+desert-island, todays-pick, higher-or-lower.
 Pick the card that matches the post. Don't reuse a card used in the last 3 posts.
 
 ## Facts (only claim these)
 - Free on iPhone and iPad. Everything is free as of 5.0: no paid tiers, no ads, iCloud sync included. Optional Tip Jar (unlocks nothing). Never mention Silver, Gold or Bronze.
 - Categories: movies, TV, music, books, games, comics, places, products, links.
+- Version 5.3 (Nov 2026): new Higher or Lower game (does the next movie, show, game or book score higher or lower? Albums and comics play by release year, earlier or later; one miss ends the run; share your streak as a story card with the posters you played); the Rank tab now starts with what to rank (In season packs, Every day categories, My lists) and a sheet to pick the game; every category has its own color; new users start on Lists with one-tap starts (rank your top 10 movies, start a watchlist, make a wishlist). Tagline: "Is it listworthy?" Subtitle: "Watchlists, wishlists, top 10s."
+- Higher or Lower: Rank tab, tap a category (Movies, TV, Games, Books, Albums, Comics), then Higher or Lower. Scores come from TMDB (movies, TV), IGDB (games) and Open Library (books). Best streak is saved per category. Not available for Food & Drink.
 - Version 5.2 (Nov 2026): lists can start with real scores (TMDB for movies and shows, IGDB for games, Open Library for books) and tier lists can sort themselves by score; empty lists fill in seconds by tapping posters and covers; one Share button (Story Card, List Image, Send a Copy); Add lets you search, paste a link, or type your own; template previews show posters; more tier templates (Pixar, Disney Princess, Studio Ghibli, Zelda, anime, K-pop); "Comics everyone is reading" on Discover; redesigned Default Lists.
 - Version 5.1 (Nov 2026) added Send a Copy (Share > Send a Copy sends a link; the other person taps it and gets the whole list in their Listworthy, with posters, scores, tiers and notes), 24 new lists to rank (Hunger Games, Twilight, Disney Princess, Jane Austen, Studio Ghibli, Tyler Perry, Spike Lee, Shondaland, Real Housewives, The Bachelor, rom-coms, K-dramas, anime, reality TV, telenovelas, K-pop, Latin albums, Broadway, BookTok, romance novels), poster franchise tiles on Discover, and the TMDB audience score on movie and show pages.
 - Version 5.0 (Nov 2026) made everything free, added the Tip Jar and the smart paste button, plus Fall Movies and Hallmark Christmas Movies packs.
 - Version 4.8 (Nov 2026) added Desert Island, Food & Drink in Quick Rank, Today's Pick and trending albums and books.
-- Rank tab: Today's Pick at the top suggests a game and category each day (shuffle for another). Below it, "Or pick your own": tap a category tile, then a game tile.
+- Rank tab: Today's Pick at the top suggests a game and category each day (shuffle for another). Below it, "What do you want to rank?": tap a seasonal pack, a category or My lists, then pick a game in the sheet.
 - Rank categories: Movies, TV, Games, Books, Albums, Comics, Food & Drink, plus seasonal packs while they're live.
 - Food & Drink: fast food, snacks, candy, cereal and soda, plus throwbacks like Dunkaroos, Gushers, Surge, Crystal Pepsi, French Toast Crunch, Oreo O's, Push Pops and Choco Taco. Plays in every Rank game. Skip with "Never tried it".
 - Desert Island: you're stranded and can bring only 5. 15 titles are dealt; tap to pack 5, tap again to leave one behind, then "Lock in my 5". Share your island as a story card or save it as a list. "New island" deals a fresh 15. Works on any category, or long-press a list with 8+ items and choose "Desert Island: keep 5".
