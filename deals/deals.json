@@ -540,5 +540,25 @@
   "price_checked": "2026-11-11T08:27:00-05:00",
   "date": "2026-11-11T13:28:53.897468+00:00",
   "pubDate": "Wed, 11 Nov 2026 13:28:53 +0000"
+ },
+ {
+  "board": "home",
+  "asin": "ebay-278210914436",
+  "store": "ebay",
+  "title": "64% Off Dyson Purifier Hot+Cool HP10 (Certified Refurbished) - $190",
+  "description": "Dyson's Hot+Cool HP10 air purifier, heater and fan in one, sold by the Official Dyson Store as Certified Refurbished with a 2-year warranty and free returns. $189.99 vs $529.99 list, 64% off. #eBayDeals #CommissionsEarned",
+  "link": "https://www.ebay.com/itm/278210914436?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339222266&customid=site&toolid=10001&mkevt=1",
+  "image": "https://i.ebayimg.com/images/g/GtwAAeSwH8lq9D69/s-l1600.jpg",
+  "social": "\u26a1[HOME] 64% off - Dyson Purifier Hot+Cool HP10 (eBay)\n$189.99 (Was $529.99) - Certified Refurbished\nhttps://killerappz.dev/deals/ebay-278210914436.html?src=social\n#eBayDeals #CommissionsEarned",
+  "social_link": "https://killerappz.dev/deals/ebay-278210914436.html?src=social",
+  "price": 189.99,
+  "list_price": 529.99,
+  "pct_off": 64.0,
+  "category": "HOME",
+  "coupon": false,
+  "condition": "Certified Refurbished",
+  "price_checked": "2026-11-11T08:36:00-05:00",
+  "date": "2026-11-11T13:29:27.066555+00:00",
+  "pubDate": "Wed, 11 Nov 2026 13:29:27 +0000"
  }
 ]
