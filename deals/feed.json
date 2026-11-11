@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-10T13:55:44.086025+00:00",
+ "generated": "2026-11-11T13:28:53.944300+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B0C7C6WFR1-2026-11-11",
+   "store": "amazon",
+   "asin": "B0C7C6WFR1",
+   "ebay_item_id": null,
+   "board": "home",
+   "category": "PETS",
+   "title": "48% Off Bedsure Orthopedic XL Dog Bed (42\") - $49.99",
+   "summary": "Bedsure's 42 inch orthopedic dog bed with egg-crate foam, bolster sides, waterproof liner and a removable washable cover. $49.99 vs $96.99 list, 48% off.",
+   "price": 49.99,
+   "list_price": 96.99,
+   "pct_off": 48.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/31MQxs0U7nL._SL500_.jpg",
+   "url": "https://www.amazon.com/dp/B0C7C6WFR1?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B0C7C6WFR1.html?src=app",
+   "price_checked": "2026-11-11T08:27:00-05:00",
+   "posted": "2026-11-11T13:28:53.897468+00:00",
+   "app_category": null
+  },
   {
    "id": "B0HG3FYY4D-2026-11-10",
    "store": "amazon",
@@ -407,48 +428,6 @@
    "page": "https://killerappz.dev/deals/B0FZD5STRK.html?src=app",
    "price_checked": "2026-10-29T08:22:00-04:00",
    "posted": "2026-10-29T12:23:44.166439+00:00",
-   "app_category": null
-  },
-  {
-   "id": "B0DY95T5HB-2026-10-28",
-   "store": "amazon",
-   "asin": "B0DY95T5HB",
-   "ebay_item_id": null,
-   "board": "home",
-   "category": "KITCHEN",
-   "title": "30% Off Chefman 0.7 Cu Ft Countertop Microwave - $69.95",
-   "summary": "Compact 700W Chefman countertop microwave with 10 power levels, 6 one-touch presets, child safety lock and a mute button. $69.95 vs $99.99 list, sold by Amazon with free delivery.",
-   "price": 69.95,
-   "list_price": 99.99,
-   "pct_off": 30.0,
-   "coupon": false,
-   "condition": null,
-   "image": "https://m.media-amazon.com/images/I/61YFokQpTcL._AC_SL1500_.jpg",
-   "url": "https://www.amazon.com/dp/B0DY95T5HB?tag=listworthy-app-20",
-   "page": "https://killerappz.dev/deals/B0DY95T5HB.html?src=app",
-   "price_checked": "2026-10-28T08:21:00-04:00",
-   "posted": "2026-10-28T12:22:14.386729+00:00",
-   "app_category": null
-  },
-  {
-   "id": "ebay-277623301371-2026-10-28",
-   "store": "ebay",
-   "asin": null,
-   "ebay_item_id": "277623301371",
-   "board": "tech",
-   "category": "COMPUTERS",
-   "title": "37% Off Acer Aspire 3 15.6\" Laptop 16GB/1TB (Certified Refurbished) - $398",
-   "summary": "Acer Aspire 3 15.6 inch FHD touchscreen laptop with AMD Ryzen 5 7520U, 16GB RAM and a 1TB SSD, sold by the official Acer Recertified store with a 2-year warranty and free returns. $398.04 vs $629.99 previous price.",
-   "price": 398.04,
-   "list_price": 629.99,
-   "pct_off": 37.0,
-   "coupon": false,
-   "condition": "Certified Refurbished",
-   "image": "https://i.ebayimg.com/images/g/2ywAAeSwaENp4Rb2/s-l1600.jpg",
-   "url": "https://www.ebay.com/itm/277623301371?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339222266&customid=app&toolid=10001&mkevt=1",
-   "page": "https://killerappz.dev/deals/ebay-277623301371.html?src=app",
-   "price_checked": "2026-10-28T08:19:00-04:00",
-   "posted": "2026-10-28T12:19:28.374957+00:00",
    "app_category": null
   }
  ]
