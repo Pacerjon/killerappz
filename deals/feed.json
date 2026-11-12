@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-11T13:29:27.092851+00:00",
+ "generated": "2026-11-12T12:19:21.652782+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B0FLF7N1KS-2026-11-12",
+   "store": "amazon",
+   "asin": "B0FLF7N1KS",
+   "ebay_item_id": null,
+   "board": "home",
+   "category": "BEAUTY",
+   "title": "36% Off Shark SpeedStyle Pro Flex Hair Dryer - $179.99",
+   "summary": "Shark SpeedStyle Pro Flex hair dryer with Scalp Shield mode, folding handle, diffuser and concentrator. $179.99 vs $279.99 list, 36% off, sold by Amazon.",
+   "price": 179.99,
+   "list_price": 279.99,
+   "pct_off": 36.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/418ZbPB6N6L._SL500_.jpg",
+   "url": "https://www.amazon.com/dp/B0FLF7N1KS?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B0FLF7N1KS.html?src=app",
+   "price_checked": "2026-11-12T07:18:46-05:00",
+   "posted": "2026-11-12T12:19:21.620891+00:00",
+   "app_category": null
+  },
   {
    "id": "ebay-278210914436-2026-11-11",
    "store": "ebay",
