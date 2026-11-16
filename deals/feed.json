@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-16T11:38:29.431589+00:00",
+ "generated": "2026-11-16T12:19:37.805227+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B0FQFB8FMG-2026-11-16",
+   "store": "amazon",
+   "asin": "B0FQFB8FMG",
+   "ebay_item_id": null,
+   "board": "tech",
+   "category": "AUDIO",
+   "title": "28% Off Apple AirPods Pro 3 Wireless Earbuds - $179.99",
+   "summary": "Apple AirPods Pro 3 with active noise cancellation, spatial audio, heart rate sensing and USB-C charging. $179.99 vs $249.00 list, 28% off, sold by Amazon.",
+   "price": 179.99,
+   "list_price": 249.0,
+   "pct_off": 28.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/218Mmzk0EaL._SL500_.jpg",
+   "url": "https://www.amazon.com/dp/B0FQFB8FMG?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B0FQFB8FMG.html?src=app",
+   "price_checked": "2026-11-16T07:19:00-05:00",
+   "posted": "2026-11-16T12:19:37.749134+00:00",
+   "app_category": null
+  },
   {
    "id": "B0C879DRHW-2026-11-16",
    "store": "amazon",

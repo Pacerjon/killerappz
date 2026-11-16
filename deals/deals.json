@@ -632,5 +632,23 @@
   "price_checked": "2026-11-15T07:15:00-05:00",
   "date": "2026-11-15T12:15:56.479024+00:00",
   "pubDate": "Sun, 15 Nov 2026 12:15:56 +0000"
+ },
+ {
+  "board": "tech",
+  "asin": "B0FQFB8FMG",
+  "title": "28% Off Apple AirPods Pro 3 Wireless Earbuds - $179.99",
+  "description": "Apple AirPods Pro 3 with active noise cancellation, spatial audio, heart rate sensing and USB-C charging. $179.99 vs $249.00 list, 28% off, sold by Amazon. #AmazonDeals #CommissionsEarned",
+  "link": "https://www.amazon.com/dp/B0FQFB8FMG?tag=listworthy-20",
+  "image": "https://m.media-amazon.com/images/I/218Mmzk0EaL._SL500_.jpg",
+  "social": "\u26a1[AUDIO] 28% off - Apple AirPods Pro 3 ANC Earbuds\n$179.99 (List $249.00)\nhttps://www.amazon.com/dp/B0FQFB8FMG?tag=listworthy-social-20\n#AmazonDeals #CommissionsEarned",
+  "social_link": "https://www.amazon.com/dp/B0FQFB8FMG?tag=listworthy-social-20",
+  "price": 179.99,
+  "list_price": 249.0,
+  "pct_off": 28.0,
+  "category": "AUDIO",
+  "coupon": false,
+  "price_checked": "2026-11-16T07:19:00-05:00",
+  "date": "2026-11-16T12:19:37.749134+00:00",
+  "pubDate": "Mon, 16 Nov 2026 12:19:37 +0000"
  }
 ]
