@@ -54,6 +54,22 @@ def main(path):
                 md(p.get(key, ""))
             except Exception:
                 errors.append(f"{pid}: {key} must be MM-dd, got {p.get(key)!r}")
+        # 5.6: critics' "Best of" packs (items in the critics' order).
+        crit = p.get("critics")
+        if crit is not None:
+            src = crit.get("sources") if isinstance(crit, dict) else None
+            if not src or not all(isinstance(x, str) and x.strip() for x in src):
+                errors.append(f"{pid}: critics.sources must be a non-empty list of outlet names")
+            lc = crit.get("listCount") if isinstance(crit, dict) else None
+            if lc is not None and not (isinstance(lc, int) and lc > 0):
+                errors.append(f"{pid}: critics.listCount must be a positive number")
+            if not p.get("until"):
+                warnings.append(f"{pid}: critics pack has no 'until' date; it will come back every year")
+        if p.get("until") is not None:
+            try:
+                datetime.date.fromisoformat(p["until"])
+            except Exception:
+                errors.append(f"{pid}: until must be yyyy-MM-dd, got {p.get('until')!r}")
         items = p.get("items", [])
         if len(items) < 12:
             errors.append(f"{pid}: needs at least 12 items, has {len(items)}")
@@ -70,6 +86,9 @@ def main(path):
             y = it.get("year")
             if y is not None and not (isinstance(y, str) and len(y) == 4 and y.isdigit()):
                 errors.append(f"{pid}: {t!r} year must be a 4-digit string")
+            n = it.get("lists")
+            if n is not None and not (isinstance(n, int) and n > 0):
+                errors.append(f"{pid}: {t!r} lists must be a positive number")
             if p.get("category") in ("books", "music") and not it.get("byline"):
                 warnings.append(f"{pid}: {t!r} has no byline (author/artist); cover lookup is less accurate")
 
