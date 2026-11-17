@@ -650,5 +650,23 @@
   "price_checked": "2026-11-16T07:19:00-05:00",
   "date": "2026-11-16T12:19:37.749134+00:00",
   "pubDate": "Mon, 16 Nov 2026 12:19:37 +0000"
+ },
+ {
+  "board": "kitchen",
+  "asin": "B003OAJGJO",
+  "title": "47% Off Crock-Pot 7-Quart Oval Slow Cooker - $31.99",
+  "description": "Crock-Pot 7-quart oval manual slow cooker with high/low and warm settings, removable stoneware, serves 8+ people. $31.99 vs $59.99 list, 47% off. #AmazonDeals #CommissionsEarned",
+  "link": "https://www.amazon.com/dp/B003OAJGJO?tag=listworthy-20",
+  "image": "https://m.media-amazon.com/images/I/41MUu-B3xIL._SL500_.jpg",
+  "social": "\u26a1[KITCHEN] 47% off - Crock-Pot 7-Quart Oval Manual Slow Cooker\n$31.99 (List $59.99)\nhttps://www.amazon.com/dp/B003OAJGJO?tag=listworthy-social-20\n#AmazonDeals #CommissionsEarned",
+  "social_link": "https://www.amazon.com/dp/B003OAJGJO?tag=listworthy-social-20",
+  "price": 31.99,
+  "list_price": 59.99,
+  "pct_off": 47.0,
+  "category": "KITCHEN",
+  "coupon": false,
+  "price_checked": "2026-11-17T07:18:00-05:00",
+  "date": "2026-11-17T12:19:37.658405+00:00",
+  "pubDate": "Tue, 17 Nov 2026 12:19:37 +0000"
  }
 ]
