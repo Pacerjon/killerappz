@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-17T12:19:37.699176+00:00",
+ "generated": "2026-11-18T12:17:28.601004+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B0BV17VLYG-2026-11-18",
+   "store": "amazon",
+   "asin": "B0BV17VLYG",
+   "ebay_item_id": null,
+   "board": "home",
+   "category": "TOOLS",
+   "title": "45% Off DEWALT 20V MAX Impact Driver Kit - $98.99",
+   "summary": "DEWALT 20V MAX brushless impact driver (DCF787D1) with 2Ah battery, charger and belt hook. $98.99 vs $179.00 list, 45% off.",
+   "price": 98.99,
+   "list_price": 179.0,
+   "pct_off": 45.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/41oQqwmQFOL._SL500_.jpg",
+   "url": "https://www.amazon.com/dp/B0BV17VLYG?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B0BV17VLYG.html?src=app",
+   "price_checked": "2026-11-18T07:16:00-05:00",
+   "posted": "2026-11-18T12:17:28.561344+00:00",
+   "app_category": null
+  },
   {
    "id": "B003OAJGJO-2026-11-17",
    "store": "amazon",
@@ -491,27 +512,6 @@
    "page": "https://killerappz.dev/deals/ebay-387127817079.html?src=app",
    "price_checked": "2026-11-04T08:31:00-05:00",
    "posted": "2026-11-04T13:32:06.288196+00:00",
-   "app_category": null
-  },
-  {
-   "id": "B0F6TK43JT-2026-11-03",
-   "store": "amazon",
-   "asin": "B0F6TK43JT",
-   "ebay_item_id": null,
-   "board": "home",
-   "category": "PETS",
-   "title": "33% Off Mimfam Automatic Self-Cleaning Litter Box - $99.97",
-   "summary": "Mimfam automatic self-cleaning litter box with a large top entry, four infrared sensor pairs that pause cleaning when a cat is inside, a 10L waste bin and quiet 32 dB operation. $99.97 vs $149.99 list, 33% off.",
-   "price": 99.97,
-   "list_price": 149.99,
-   "pct_off": 33.0,
-   "coupon": false,
-   "condition": null,
-   "image": "https://m.media-amazon.com/images/I/71QyAZI1KFL._AC_SL1500_.jpg",
-   "url": "https://www.amazon.com/dp/B0F6TK43JT?tag=listworthy-app-20",
-   "page": "https://killerappz.dev/deals/B0F6TK43JT.html?src=app",
-   "price_checked": "2026-11-03T10:00:00-05:00",
-   "posted": "2026-11-03T15:01:38.811738+00:00",
    "app_category": null
   }
  ]
