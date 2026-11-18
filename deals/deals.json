@@ -686,5 +686,25 @@
   "price_checked": "2026-11-18T07:16:00-05:00",
   "date": "2026-11-18T12:17:28.561344+00:00",
   "pubDate": "Wed, 18 Nov 2026 12:17:28 +0000"
+ },
+ {
+  "board": "tech",
+  "asin": "ebay-257230569576",
+  "store": "ebay",
+  "title": "60% Off Acer Nitro 34\" Curved Ultrawide Monitor (Certified Refurbished) - $180",
+  "description": "Acer Nitro ED340CUR X 34-inch curved ultrawide monitor, 3440x1440, 200Hz, 1ms, certified refurbished and sold by Acer with a 2-year warranty. $179.99 vs $449.99 previous price, 60% off, free shipping. #eBayDeals #CommissionsEarned",
+  "link": "https://www.ebay.com/itm/257230569576?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339222266&customid=site&toolid=10001&mkevt=1",
+  "image": "https://i.ebayimg.com/images/g/5tIAAeSwSQRp4RfB/s-l1600.jpg",
+  "social": "\u26a1[TECH] 60% off - Acer Nitro 34\" Curved Ultrawide Monitor (eBay)\n$179.99 (Was $449.99) - Certified Refurbished\nhttps://killerappz.dev/deals/ebay-257230569576.html?src=social\n#eBayDeals #CommissionsEarned",
+  "social_link": "https://killerappz.dev/deals/ebay-257230569576.html?src=social",
+  "price": 179.99,
+  "list_price": 449.99,
+  "pct_off": 60.0,
+  "category": "TECH",
+  "coupon": false,
+  "condition": "Certified Refurbished",
+  "price_checked": "2026-11-18T07:18:00-05:00",
+  "date": "2026-11-18T12:18:42.643832+00:00",
+  "pubDate": "Wed, 18 Nov 2026 12:18:42 +0000"
  }
 ]
