@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-18T12:18:42.677088+00:00",
+ "generated": "2026-11-19T12:16:40.143175+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B0DWX69JVG-2026-11-19",
+   "store": "amazon",
+   "asin": "B0DWX69JVG",
+   "ebay_item_id": null,
+   "board": "home",
+   "category": "HOME",
+   "title": "44% Off roborock Q7 M5+ Robot Vacuum and Mop - $199.99",
+   "summary": "Self-emptying robot vacuum and mop with 10000Pa suction, LiDAR navigation and anti-tangle brushes for pet hair. $199.99 vs $359.99 list, 44% off.",
+   "price": 199.99,
+   "list_price": 359.99,
+   "pct_off": 44.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/418QVNeplbL._SL500_.jpg",
+   "url": "https://www.amazon.com/dp/B0DWX69JVG?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B0DWX69JVG.html?src=app",
+   "price_checked": "2026-11-19T07:16:00-05:00",
+   "posted": "2026-11-19T12:16:40.097028+00:00",
+   "app_category": null
+  },
   {
    "id": "ebay-257230569576-2026-11-18",
    "store": "ebay",
@@ -491,48 +512,6 @@
    "page": "https://killerappz.dev/deals/B01M0A3BKH.html?src=app",
    "price_checked": "2026-11-05T08:08:41-05:00",
    "posted": "2026-11-05T13:09:17.118783+00:00",
-   "app_category": null
-  },
-  {
-   "id": "B0GSZ4H122-2026-11-04",
-   "store": "amazon",
-   "asin": "B0GSZ4H122",
-   "ebay_item_id": null,
-   "board": "home",
-   "category": "OFFICE",
-   "title": "32% Off Veken 63x28 Electric Standing Desk - $149.98",
-   "summary": "Veken 63 x 28 inch electric height-adjustable standing desk with a wide top, dual-beam frame and memory presets. $149.98 vs $219.99 list price, a limited time deal.",
-   "price": 149.98,
-   "list_price": 219.99,
-   "pct_off": 32.0,
-   "coupon": false,
-   "condition": null,
-   "image": "https://m.media-amazon.com/images/I/71wbRLnF1yL._AC_SX679_.jpg",
-   "url": "https://www.amazon.com/dp/B0GSZ4H122?tag=listworthy-app-20",
-   "page": "https://killerappz.dev/deals/B0GSZ4H122.html?src=app",
-   "price_checked": "2026-11-04T08:37:00-05:00",
-   "posted": "2026-11-04T13:48:37.899159+00:00",
-   "app_category": null
-  },
-  {
-   "id": "ebay-387127817079-2026-11-04",
-   "store": "ebay",
-   "asin": null,
-   "ebay_item_id": "387127817079",
-   "board": "home",
-   "category": "HOME",
-   "title": "72% Off iRobot Roomba Combo j5+ Self-Emptying Vacuum & Mop (Certified Refurbished) - $225",
-   "summary": "iRobot Roomba Combo j5+ robot vacuum and mop that empties itself, sold directly by iRobot as Certified Refurbished with a 2-year warranty and free shipping. $224.99 vs $799.99 previous price.",
-   "price": 224.99,
-   "list_price": 799.99,
-   "pct_off": 72.0,
-   "coupon": false,
-   "condition": "Certified Refurbished",
-   "image": "https://i.ebayimg.com/images/g/KPMAAOSwqStmfeER/s-l1600.jpg",
-   "url": "https://www.ebay.com/itm/387127817079?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339222266&customid=app&toolid=10001&mkevt=1",
-   "page": "https://killerappz.dev/deals/ebay-387127817079.html?src=app",
-   "price_checked": "2026-11-04T08:31:00-05:00",
-   "posted": "2026-11-04T13:32:06.288196+00:00",
    "app_category": null
   }
  ]
