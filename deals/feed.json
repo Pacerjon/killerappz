@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-19T12:16:40.143175+00:00",
+ "generated": "2026-11-20T12:17:08.554357+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B014TBYTES-2026-11-20",
+   "store": "amazon",
+   "asin": "B014TBYTES",
+   "ebay_item_id": null,
+   "board": "travel",
+   "category": "TRAVEL",
+   "title": "36% Off SwissGear Sion Softside Expandable Carry-On Luggage - $79.99",
+   "summary": "SwissGear Sion softside expandable carry-on spinner suitcase with 360-degree wheels, front quick-access pockets and a 10-year limited warranty. $79.99 vs $125.00 list, 36% off, sold by Amazon.",
+   "price": 79.99,
+   "list_price": 125.0,
+   "pct_off": 36.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/415rkCLODxL._SL500_.jpg",
+   "url": "https://www.amazon.com/dp/B014TBYTES?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B014TBYTES.html?src=app",
+   "price_checked": "2026-11-20T07:16:00-05:00",
+   "posted": "2026-11-20T12:17:08.506832+00:00",
+   "app_category": null
+  },
   {
    "id": "B0DWX69JVG-2026-11-19",
    "store": "amazon",
@@ -491,27 +512,6 @@
    "page": "https://killerappz.dev/deals/B00IJ0ALYS.html?src=app",
    "price_checked": "2026-11-06T09:07:00-05:00",
    "posted": "2026-11-06T14:08:18.589738+00:00",
-   "app_category": null
-  },
-  {
-   "id": "B01M0A3BKH-2026-11-05",
-   "store": "amazon",
-   "asin": "B01M0A3BKH",
-   "ebay_item_id": null,
-   "board": "travel",
-   "category": "LUGGAGE",
-   "title": "41% Off Samsonite Freeform Hardside Carry-On Luggage - $129.99",
-   "summary": "Samsonite Freeform hardside carry-on with spinner wheels, built-in TSA-approved lock and an expandable shell. $129.99 vs $219.99 list, 41% off.",
-   "price": 129.99,
-   "list_price": 219.99,
-   "pct_off": 41.0,
-   "coupon": false,
-   "condition": null,
-   "image": "https://m.media-amazon.com/images/I/31YKUcisGOL._SL500_.jpg",
-   "url": "https://www.amazon.com/dp/B01M0A3BKH?tag=listworthy-app-20",
-   "page": "https://killerappz.dev/deals/B01M0A3BKH.html?src=app",
-   "price_checked": "2026-11-05T08:08:41-05:00",
-   "posted": "2026-11-05T13:09:17.118783+00:00",
    "app_category": null
   }
  ]
