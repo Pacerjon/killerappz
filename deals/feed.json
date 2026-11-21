@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-20T12:17:08.554357+00:00",
+ "generated": "2026-11-21T13:38:01.385992+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B0BZR6YBHK-2026-11-21",
+   "store": "amazon",
+   "asin": "B0BZR6YBHK",
+   "ebay_item_id": null,
+   "board": "home",
+   "category": "HOME",
+   "title": "49% Off Bedsure Heated Blanket Throw - $35.12",
+   "summary": "Bedsure electric heated throw, 50x60 in, flannel with sherpa back, 6 heat settings and timers up to 10 hours with auto shut-off. $35.12 vs $68.99 list, a Black Friday Deal.",
+   "price": 35.12,
+   "list_price": 68.99,
+   "pct_off": 49.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/51HH3nDrCDL._SL500_.jpg",
+   "url": "https://www.amazon.com/dp/B0BZR6YBHK?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B0BZR6YBHK.html?src=app",
+   "price_checked": "2026-11-21T08:36:00-05:00",
+   "posted": "2026-11-21T13:38:01.341959+00:00",
+   "app_category": null
+  },
   {
    "id": "B014TBYTES-2026-11-20",
    "store": "amazon",
@@ -491,27 +512,6 @@
    "page": "https://killerappz.dev/deals/B0CV2HGNY9.html?src=app",
    "price_checked": "2026-11-07T08:40:15-05:00",
    "posted": "2026-11-07T13:40:49.945243+00:00",
-   "app_category": null
-  },
-  {
-   "id": "B00IJ0ALYS-2026-11-06",
-   "store": "amazon",
-   "asin": "B00IJ0ALYS",
-   "ebay_item_id": null,
-   "board": "home",
-   "category": "TOOLS",
-   "title": "46% Off DEWALT 20V MAX Drill & Impact Driver Combo Kit - $129",
-   "summary": "DEWALT 20V MAX cordless drill and impact driver combo kit with 2 batteries, charger and bag. Compact tools with LED work lights and up to 1,400 in-lbs of impact torque. $129.00 vs $239.00 list, 46% off.",
-   "price": 129.0,
-   "list_price": 239.0,
-   "pct_off": 46.0,
-   "coupon": false,
-   "condition": null,
-   "image": "https://m.media-amazon.com/images/I/51lJR91RS+L._SL500_.jpg",
-   "url": "https://www.amazon.com/dp/B00IJ0ALYS?tag=listworthy-app-20",
-   "page": "https://killerappz.dev/deals/B00IJ0ALYS.html?src=app",
-   "price_checked": "2026-11-06T09:07:00-05:00",
-   "posted": "2026-11-06T14:08:18.589738+00:00",
    "app_category": null
   }
  ]
