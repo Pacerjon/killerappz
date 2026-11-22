@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-21T13:38:01.385992+00:00",
+ "generated": "2026-11-22T12:15:30.658258+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B0B5HRWH1S-2026-11-22",
+   "store": "amazon",
+   "asin": "B0B5HRWH1S",
+   "ebay_item_id": null,
+   "board": "home",
+   "category": "BEAUTY",
+   "title": "45% Off Oral-B iO Series 3 Electric Toothbrush - $59.99",
+   "summary": "Oral-B iO Series 3 rechargeable electric toothbrush in black with 3 modes, a pressure sensor, 2 brush heads and a travel case. $59.99 vs $109.99 list, a Black Friday deal.",
+   "price": 59.99,
+   "list_price": 109.99,
+   "pct_off": 45.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/415K7geODPL._SL500_.jpg",
+   "url": "https://www.amazon.com/dp/B0B5HRWH1S?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B0B5HRWH1S.html?src=app",
+   "price_checked": "2026-11-22T07:14:50-05:00",
+   "posted": "2026-11-22T12:15:30.616217+00:00",
+   "app_category": null
+  },
   {
    "id": "B0BZR6YBHK-2026-11-21",
    "store": "amazon",
@@ -491,27 +512,6 @@
    "page": "https://killerappz.dev/deals/B0D1JBBJ6S.html?src=app",
    "price_checked": "2026-11-08T08:32:00-05:00",
    "posted": "2026-11-08T13:33:17.092560+00:00",
-   "app_category": null
-  },
-  {
-   "id": "B0CV2HGNY9-2026-11-07",
-   "store": "amazon",
-   "asin": "B0CV2HGNY9",
-   "ebay_item_id": null,
-   "board": "gifts",
-   "category": "TOYS",
-   "title": "40% Off LEGO Speed Champions Mercedes-AMG G 63 & SL 63 - $26.99",
-   "summary": "Two buildable Mercedes-AMG cars (G 63 and SL 63) with driver minifigures, LEGO set 76924 for ages 10+. $26.99 vs $44.99 list, 40% off.",
-   "price": 26.99,
-   "list_price": 44.99,
-   "pct_off": 40.0,
-   "coupon": false,
-   "condition": null,
-   "image": "https://m.media-amazon.com/images/I/517+Gkq3C3L._SL500_.jpg",
-   "url": "https://www.amazon.com/dp/B0CV2HGNY9?tag=listworthy-app-20",
-   "page": "https://killerappz.dev/deals/B0CV2HGNY9.html?src=app",
-   "price_checked": "2026-11-07T08:40:15-05:00",
-   "posted": "2026-11-07T13:40:49.945243+00:00",
    "app_category": null
   }
  ]
