@@ -778,5 +778,23 @@
   "price_checked": "2026-11-22T07:14:50-05:00",
   "date": "2026-11-22T12:15:30.616217+00:00",
   "pubDate": "Sun, 22 Nov 2026 12:15:30 +0000"
+ },
+ {
+  "board": "gifts",
+  "asin": "B0DRW69H11",
+  "title": "50% Off LEGO Creator 3-in-1 Wild Animals Rhino - $29.99",
+  "description": "LEGO Creator 3-in-1 Wild Animals: Majestic Rhino with Birds, 780 pieces that build a rhino, hippo or walrus. A solid gift pick at $29.99 vs $59.99 list. #AmazonDeals #CommissionsEarned",
+  "link": "https://www.amazon.com/dp/B0DRW69H11?tag=listworthy-20",
+  "image": "https://m.media-amazon.com/images/I/51ZzHlPFbgL._SL500_.jpg",
+  "social": "\u26a1[TOYS] 50% off - LEGO Creator 3-in-1 Wild Animals Rhino (31171)\n$29.99 (List $59.99)\nhttps://www.amazon.com/dp/B0DRW69H11?tag=listworthy-social-20\n#AmazonDeals #CommissionsEarned",
+  "social_link": "https://www.amazon.com/dp/B0DRW69H11?tag=listworthy-social-20",
+  "price": 29.99,
+  "list_price": 59.99,
+  "pct_off": 50.0,
+  "category": "TOYS",
+  "coupon": false,
+  "price_checked": "2026-11-23T07:18:03-05:00",
+  "date": "2026-11-23T12:19:18.624255+00:00",
+  "pubDate": "Mon, 23 Nov 2026 12:19:18 +0000"
  }
 ]

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-23T11:37:52.587414+00:00",
+ "generated": "2026-11-23T12:19:18.690526+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B0DRW69H11-2026-11-23",
+   "store": "amazon",
+   "asin": "B0DRW69H11",
+   "ebay_item_id": null,
+   "board": "gifts",
+   "category": "TOYS",
+   "title": "50% Off LEGO Creator 3-in-1 Wild Animals Rhino - $29.99",
+   "summary": "LEGO Creator 3-in-1 Wild Animals: Majestic Rhino with Birds, 780 pieces that build a rhino, hippo or walrus. A solid gift pick at $29.99 vs $59.99 list.",
+   "price": 29.99,
+   "list_price": 59.99,
+   "pct_off": 50.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/51ZzHlPFbgL._SL500_.jpg",
+   "url": "https://www.amazon.com/dp/B0DRW69H11?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B0DRW69H11.html?src=app",
+   "price_checked": "2026-11-23T07:18:03-05:00",
+   "posted": "2026-11-23T12:19:18.624255+00:00",
+   "app_category": null
+  },
   {
    "id": "B09JXWP8N1-2026-11-23",
    "store": "amazon",
