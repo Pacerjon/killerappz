@@ -814,5 +814,23 @@
   "price_checked": "2026-11-24T07:16:00-05:00",
   "date": "2026-11-24T12:17:19.860174+00:00",
   "pubDate": "Tue, 24 Nov 2026 12:17:19 +0000"
+ },
+ {
+  "board": "kitchen",
+  "asin": "B0DQWC47JN",
+  "title": "35% Off De'Longhi Classic Signature Espresso Machine - $149.95",
+  "description": "Compact 15-bar espresso machine with an adjustable milk frother and one-touch single and double espresso presets. $149.95 vs the $229.95 list price, 35% off. #AmazonDeals #CommissionsEarned",
+  "link": "https://www.amazon.com/dp/B0DQWC47JN?tag=listworthy-20",
+  "image": "https://m.media-amazon.com/images/I/41meqsmZQvL._SL500_.jpg",
+  "social": "\u26a1[KITCHEN] 35% off - De'Longhi Classic Signature Espresso Machine\n$149.95 (List $229.95)\nhttps://www.amazon.com/dp/B0DQWC47JN?tag=listworthy-social-20\n#AmazonDeals #CommissionsEarned",
+  "social_link": "https://www.amazon.com/dp/B0DQWC47JN?tag=listworthy-social-20",
+  "price": 149.95,
+  "list_price": 229.95,
+  "pct_off": 35.0,
+  "category": "KITCHEN",
+  "coupon": false,
+  "price_checked": "2026-11-25T08:20:16-05:00",
+  "date": "2026-11-25T13:20:44.038593+00:00",
+  "pubDate": "Wed, 25 Nov 2026 13:20:44 +0000"
  }
 ]

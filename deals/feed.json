@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-24T12:17:19.917797+00:00",
+ "generated": "2026-11-25T13:20:44.122297+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B0DQWC47JN-2026-11-25",
+   "store": "amazon",
+   "asin": "B0DQWC47JN",
+   "ebay_item_id": null,
+   "board": "kitchen",
+   "category": "KITCHEN",
+   "title": "35% Off De'Longhi Classic Signature Espresso Machine - $149.95",
+   "summary": "Compact 15-bar espresso machine with an adjustable milk frother and one-touch single and double espresso presets. $149.95 vs the $229.95 list price, 35% off.",
+   "price": 149.95,
+   "list_price": 229.95,
+   "pct_off": 35.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/41meqsmZQvL._SL500_.jpg",
+   "url": "https://www.amazon.com/dp/B0DQWC47JN?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B0DQWC47JN.html?src=app",
+   "price_checked": "2026-11-25T08:20:16-05:00",
+   "posted": "2026-11-25T13:20:44.038593+00:00",
+   "app_category": null
+  },
   {
    "id": "B0DGKR5MMP-2026-11-24",
    "store": "amazon",
@@ -491,27 +512,6 @@
    "page": "https://killerappz.dev/deals/B0C7C6WFR1.html?src=app",
    "price_checked": "2026-11-11T08:27:00-05:00",
    "posted": "2026-11-11T13:28:53.897468+00:00",
-   "app_category": null
-  },
-  {
-   "id": "B0HG3FYY4D-2026-11-10",
-   "store": "amazon",
-   "asin": "B0HG3FYY4D",
-   "ebay_item_id": null,
-   "board": "tech",
-   "category": "TECH",
-   "title": "40% Off Samsung 32\" Odyssey G5 QHD 180Hz Gaming Monitor - $179.99",
-   "summary": "Samsung 32-inch Odyssey G5 gaming monitor with QHD resolution, 180Hz refresh rate, 1ms response time and AMD FreeSync. $179.99 vs $299.99 list, 40% off in a limited time deal.",
-   "price": 179.99,
-   "list_price": 299.99,
-   "pct_off": 40.0,
-   "coupon": false,
-   "condition": null,
-   "image": "https://m.media-amazon.com/images/I/41u+kcdKicL._SL500_.jpg",
-   "url": "https://www.amazon.com/dp/B0HG3FYY4D?tag=listworthy-app-20",
-   "page": "https://killerappz.dev/deals/B0HG3FYY4D.html?src=app",
-   "price_checked": "2026-11-10T08:54:00-05:00",
-   "posted": "2026-11-10T13:55:44.047532+00:00",
    "app_category": null
   }
  ]
