@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-25T13:20:44.122297+00:00",
+ "generated": "2026-11-25T13:20:52.984605+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "ebay-167031735841-2026-11-25",
+   "store": "ebay",
+   "asin": null,
+   "ebay_item_id": "167031735841",
+   "board": "tech",
+   "category": "AUDIO",
+   "title": "53% Off Bose Solo Soundbar 2 (Certified Refurbished) - $94",
+   "summary": "Bose Solo Soundbar 2 for TV with Bluetooth, remote and optical, coax, AUX and USB inputs. Certified refurbished with a 2-year warranty, free shipping and 30-day returns. $94 vs the $199 previous price, 53% off.",
+   "price": 94.0,
+   "list_price": 199.0,
+   "pct_off": 53.0,
+   "coupon": false,
+   "condition": "Certified Refurbished",
+   "image": "https://i.ebayimg.com/images/g/~~8AAOSwUahnD9VM/s-l1600.jpg",
+   "url": "https://www.ebay.com/itm/167031735841?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339222266&customid=app&toolid=10001&mkevt=1",
+   "page": "https://killerappz.dev/deals/ebay-167031735841.html?src=app",
+   "price_checked": "2026-11-25T08:26:00-05:00",
+   "posted": "2026-11-25T13:20:52.954784+00:00",
+   "app_category": null
+  },
   {
    "id": "B0DQWC47JN-2026-11-25",
    "store": "amazon",

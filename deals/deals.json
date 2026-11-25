@@ -832,5 +832,25 @@
   "price_checked": "2026-11-25T08:20:16-05:00",
   "date": "2026-11-25T13:20:44.038593+00:00",
   "pubDate": "Wed, 25 Nov 2026 13:20:44 +0000"
+ },
+ {
+  "board": "tech",
+  "asin": "ebay-167031735841",
+  "store": "ebay",
+  "title": "53% Off Bose Solo Soundbar 2 (Certified Refurbished) - $94",
+  "description": "Bose Solo Soundbar 2 for TV with Bluetooth, remote and optical, coax, AUX and USB inputs. Certified refurbished with a 2-year warranty, free shipping and 30-day returns. $94 vs the $199 previous price, 53% off. #eBayDeals #CommissionsEarned",
+  "link": "https://www.ebay.com/itm/167031735841?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339222266&customid=site&toolid=10001&mkevt=1",
+  "image": "https://i.ebayimg.com/images/g/~~8AAOSwUahnD9VM/s-l1600.jpg",
+  "social": "\u26a1[AUDIO] 53% off - Bose Solo Soundbar 2 (eBay)\n$94 (Was $199) - Certified Refurbished\nhttps://killerappz.dev/deals/ebay-167031735841.html?src=social\n#eBayDeals #CommissionsEarned",
+  "social_link": "https://killerappz.dev/deals/ebay-167031735841.html?src=social",
+  "price": 94.0,
+  "list_price": 199.0,
+  "pct_off": 53.0,
+  "category": "AUDIO",
+  "coupon": false,
+  "condition": "Certified Refurbished",
+  "price_checked": "2026-11-25T08:26:00-05:00",
+  "date": "2026-11-25T13:20:52.954784+00:00",
+  "pubDate": "Wed, 25 Nov 2026 13:20:52 +0000"
  }
 ]
