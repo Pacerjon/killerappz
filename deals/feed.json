@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-25T13:20:52.984605+00:00",
+ "generated": "2026-11-26T12:16:30.279997+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B0HG98DQCP-2026-11-26",
+   "store": "amazon",
+   "asin": "B0HG98DQCP",
+   "ebay_item_id": null,
+   "board": "home",
+   "category": "FITNESS",
+   "title": "24% Off UREVO Strol 2E Pro Under Desk Treadmill - $168.29",
+   "summary": "Foldable 44 lb walking pad treadmill with 12% incline and app control that slides under a bed or couch. $168.29 vs list $219.99, Black Friday Deal.",
+   "price": 168.29,
+   "list_price": 219.99,
+   "pct_off": 24.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/41E2Pt7L+3L._SL500_.jpg",
+   "url": "https://www.amazon.com/dp/B0HG98DQCP?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B0HG98DQCP.html?src=app",
+   "price_checked": "2026-11-26T07:15:55-05:00",
+   "posted": "2026-11-26T12:16:30.239894+00:00",
+   "app_category": null
+  },
   {
    "id": "ebay-167031735841-2026-11-25",
    "store": "ebay",
@@ -491,48 +512,6 @@
    "page": "https://killerappz.dev/deals/B0FLF7N1KS.html?src=app",
    "price_checked": "2026-11-12T07:18:46-05:00",
    "posted": "2026-11-12T12:19:21.620891+00:00",
-   "app_category": null
-  },
-  {
-   "id": "ebay-278210914436-2026-11-11",
-   "store": "ebay",
-   "asin": null,
-   "ebay_item_id": "278210914436",
-   "board": "home",
-   "category": "HOME",
-   "title": "64% Off Dyson Purifier Hot+Cool HP10 (Certified Refurbished) - $190",
-   "summary": "Dyson's Hot+Cool HP10 air purifier, heater and fan in one, sold by the Official Dyson Store as Certified Refurbished with a 2-year warranty and free returns. $189.99 vs $529.99 list, 64% off.",
-   "price": 189.99,
-   "list_price": 529.99,
-   "pct_off": 64.0,
-   "coupon": false,
-   "condition": "Certified Refurbished",
-   "image": "https://i.ebayimg.com/images/g/GtwAAeSwH8lq9D69/s-l1600.jpg",
-   "url": "https://www.ebay.com/itm/278210914436?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339222266&customid=app&toolid=10001&mkevt=1",
-   "page": "https://killerappz.dev/deals/ebay-278210914436.html?src=app",
-   "price_checked": "2026-11-11T08:36:00-05:00",
-   "posted": "2026-11-11T13:29:27.066555+00:00",
-   "app_category": null
-  },
-  {
-   "id": "B0C7C6WFR1-2026-11-11",
-   "store": "amazon",
-   "asin": "B0C7C6WFR1",
-   "ebay_item_id": null,
-   "board": "home",
-   "category": "PETS",
-   "title": "48% Off Bedsure Orthopedic XL Dog Bed (42\") - $49.99",
-   "summary": "Bedsure's 42 inch orthopedic dog bed with egg-crate foam, bolster sides, waterproof liner and a removable washable cover. $49.99 vs $96.99 list, 48% off.",
-   "price": 49.99,
-   "list_price": 96.99,
-   "pct_off": 48.0,
-   "coupon": false,
-   "condition": null,
-   "image": "https://m.media-amazon.com/images/I/31MQxs0U7nL._SL500_.jpg",
-   "url": "https://www.amazon.com/dp/B0C7C6WFR1?tag=listworthy-app-20",
-   "page": "https://killerappz.dev/deals/B0C7C6WFR1.html?src=app",
-   "price_checked": "2026-11-11T08:27:00-05:00",
-   "posted": "2026-11-11T13:28:53.897468+00:00",
    "app_category": null
   }
  ]
