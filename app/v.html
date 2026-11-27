@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Vote in Listworthy</title>
+<meta name="description" content="Someone started a vote in Listworthy. Get the free app to cast yours.">
+<meta property="og:title" content="Vote in Listworthy">
+<meta property="og:description" content="Someone started a vote in Listworthy. Get the free app to cast yours.">
+<meta property="og:image" content="https://killerappz.dev/assets/appicon@2x.png">
+<link rel="apple-touch-icon" href="../assets/appicon.png">
+<style>
+  :root { --paper:#140D0D; --card:#241819; --cream:#F3EBC8; --ink:#F6EFE6; --muted:#B9AAA2; }
+  * { box-sizing:border-box; }
+  body { margin:0; min-height:100vh; background:var(--paper); color:var(--ink);
+         font:16px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         display:flex; align-items:center; justify-content:center; padding:24px 16px; }
+  main { width:100%; max-width:420px; text-align:center; }
+  img.logo { width:84px; height:84px; border-radius:20px; }
+  h1 { font-size:26px; line-height:1.15; margin:18px 0 6px; }
+  p { color:var(--muted); margin:0 0 22px; }
+  ol { text-align:left; color:var(--muted); background:var(--card); border-radius:18px; padding:14px 18px 14px 36px;
+       margin:18px 0 0; font-size:14px; }
+  ol b { color:var(--ink); }
+  .btn { display:block; width:100%; padding:16px; border-radius:28px; font-weight:700;
+         font-size:17px; text-decoration:none; background:var(--cream); color:#5C1414; }
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="../assets/appicon@2x.png" alt="Listworthy app icon">
+  <h1 id="title">There's a vote going</h1>
+  <p id="sub">Someone in your chat started a vote in Listworthy.</p>
+  <a class="btn" href="https://apps.apple.com/us/app/listworthy/id6752911163?pt=128166069&amp;ct=imessage-vote&amp;mt=8">Get Listworthy free</a>
+  <ol>
+    <li>Get Listworthy on your iPhone or iPad.</li>
+    <li>Go back to the chat in <b>Messages</b>.</li>
+    <li>Tap the vote and pick one. Your vote shows up for everyone.</li>
+  </ol>
+</main>
+<script>
+  // Show the question when the browser can unpack it (Safari 16.4+).
+  (function () {
+    var payload = location.hash.slice(1);
+    if (!payload || !('DecompressionStream' in window)) return;
+    try {
+      var b64 = payload.replace(/-/g, '+').replace(/_/g, '/');
+      while (b64.length % 4) b64 += '=';
+      var bytes = Uint8Array.from(atob(b64), function (c) { return c.charCodeAt(0); });
+      var stream = new Blob([bytes]).stream().pipeThrough(new DecompressionStream('deflate-raw'));
+      new Response(stream).text().then(function (txt) {
+        var v = JSON.parse(txt);
+        if (!v || !v.q) return;
+        document.getElementById('title').textContent = v.q;
+        var n = (v.opts || []).length;
+        document.getElementById('sub').textContent = n + ' picks from “' + (v.list || 'a list') + '”. Get the free app to vote.';
+        document.title = v.q + ' · Listworthy';
+      }).catch(function () {});
+    } catch (e) {}
+  })();
+</script>
+</body>
+</html>

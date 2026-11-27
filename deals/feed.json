@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-26T12:16:30.279997+00:00",
+ "generated": "2026-11-27T12:16:22.267949+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B0CBPNWCVS-2026-11-27",
+   "store": "amazon",
+   "asin": "B0CBPNWCVS",
+   "ebay_item_id": null,
+   "board": "tech",
+   "category": "TECH",
+   "title": "33% Off Logitech MK540 Wireless Keyboard & Mouse Combo - $39.99",
+   "summary": "Logitech MK540 full-size wireless keyboard and mouse combo with a quiet keyboard, number pad, palm rest and up to 36 months of keyboard battery life. $39.99 vs $59.99 list, a Black Friday deal.",
+   "price": 39.99,
+   "list_price": 59.99,
+   "pct_off": 33.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/41AOC-GDWHL._SL500_.jpg",
+   "url": "https://www.amazon.com/dp/B0CBPNWCVS?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B0CBPNWCVS.html?src=app",
+   "price_checked": "2026-11-27T07:15:00-05:00",
+   "posted": "2026-11-27T12:16:22.207483+00:00",
+   "app_category": null
+  },
   {
    "id": "B0HG98DQCP-2026-11-26",
    "store": "amazon",
@@ -491,27 +512,6 @@
    "page": "https://killerappz.dev/deals/B0D7QL1LHC.html?src=app",
    "price_checked": "2026-11-13T07:18:00-05:00",
    "posted": "2026-11-13T12:19:07.969868+00:00",
-   "app_category": null
-  },
-  {
-   "id": "B0FLF7N1KS-2026-11-12",
-   "store": "amazon",
-   "asin": "B0FLF7N1KS",
-   "ebay_item_id": null,
-   "board": "home",
-   "category": "BEAUTY",
-   "title": "36% Off Shark SpeedStyle Pro Flex Hair Dryer - $179.99",
-   "summary": "Shark SpeedStyle Pro Flex hair dryer with Scalp Shield mode, folding handle, diffuser and concentrator. $179.99 vs $279.99 list, 36% off, sold by Amazon.",
-   "price": 179.99,
-   "list_price": 279.99,
-   "pct_off": 36.0,
-   "coupon": false,
-   "condition": null,
-   "image": "https://m.media-amazon.com/images/I/418ZbPB6N6L._SL500_.jpg",
-   "url": "https://www.amazon.com/dp/B0FLF7N1KS?tag=listworthy-app-20",
-   "page": "https://killerappz.dev/deals/B0FLF7N1KS.html?src=app",
-   "price_checked": "2026-11-12T07:18:46-05:00",
-   "posted": "2026-11-12T12:19:21.620891+00:00",
    "app_category": null
   }
  ]
