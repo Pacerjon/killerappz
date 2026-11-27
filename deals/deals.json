@@ -870,5 +870,23 @@
   "price_checked": "2026-11-26T07:15:55-05:00",
   "date": "2026-11-26T12:16:30.239894+00:00",
   "pubDate": "Thu, 26 Nov 2026 12:16:30 +0000"
+ },
+ {
+  "board": "tech",
+  "asin": "B0CBPNWCVS",
+  "title": "33% Off Logitech MK540 Wireless Keyboard & Mouse Combo - $39.99",
+  "description": "Logitech MK540 full-size wireless keyboard and mouse combo with a quiet keyboard, number pad, palm rest and up to 36 months of keyboard battery life. $39.99 vs $59.99 list, a Black Friday deal. #AmazonDeals #CommissionsEarned",
+  "link": "https://www.amazon.com/dp/B0CBPNWCVS?tag=listworthy-20",
+  "image": "https://m.media-amazon.com/images/I/41AOC-GDWHL._SL500_.jpg",
+  "social": "\u26a1[TECH] 33% off - Logitech MK540 Wireless Keyboard and Mouse Combo\n$39.99 (List $59.99)\nhttps://www.amazon.com/dp/B0CBPNWCVS?tag=listworthy-social-20\n#AmazonDeals #CommissionsEarned",
+  "social_link": "https://www.amazon.com/dp/B0CBPNWCVS?tag=listworthy-social-20",
+  "price": 39.99,
+  "list_price": 59.99,
+  "pct_off": 33.0,
+  "category": "TECH",
+  "coupon": false,
+  "price_checked": "2026-11-27T07:15:00-05:00",
+  "date": "2026-11-27T12:16:22.207483+00:00",
+  "pubDate": "Fri, 27 Nov 2026 12:16:22 +0000"
  }
 ]
