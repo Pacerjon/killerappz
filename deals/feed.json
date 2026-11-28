@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-27T12:16:22.267949+00:00",
+ "generated": "2026-11-28T13:56:26.331351+00:00",
  "boards": {
   "kitchen": "Kitchen Deals",
   "home": "Home Deals",
@@ -10,6 +10,27 @@
   "media": "Entertainment Deals"
  },
  "deals": [
+  {
+   "id": "B000TTSXNI-2026-11-28",
+   "store": "amazon",
+   "asin": "B000TTSXNI",
+   "ebay_item_id": null,
+   "board": "home",
+   "category": "HOME",
+   "title": "26% Off Lasko 23\" Oscillating Ceramic Space Heater - $59.49",
+   "summary": "Lasko 1500W ceramic tower space heater with thermostat, remote and 7-hour timer. $59.49 vs $79.99 list, 26% off.",
+   "price": 59.49,
+   "list_price": 79.99,
+   "pct_off": 26.0,
+   "coupon": false,
+   "condition": null,
+   "image": "https://m.media-amazon.com/images/I/31K0zeAbFFL._SL500_.jpg",
+   "url": "https://www.amazon.com/dp/B000TTSXNI?tag=listworthy-app-20",
+   "page": "https://killerappz.dev/deals/B000TTSXNI.html?src=app",
+   "price_checked": "2026-11-28T08:55:00-05:00",
+   "posted": "2026-11-28T13:56:26.267929+00:00",
+   "app_category": null
+  },
   {
    "id": "B0CBPNWCVS-2026-11-27",
    "store": "amazon",
@@ -470,48 +491,6 @@
    "page": "https://killerappz.dev/deals/B0DYK1ZH2D.html?src=app",
    "price_checked": "2026-11-15T07:15:00-05:00",
    "posted": "2026-11-15T12:15:56.479024+00:00",
-   "app_category": null
-  },
-  {
-   "id": "B0FCDY59GG-2026-11-14",
-   "store": "amazon",
-   "asin": "B0FCDY59GG",
-   "ebay_item_id": null,
-   "board": "home",
-   "category": "FITNESS",
-   "title": "24% Off BDSHE 20lb Adjustable Dumbbell Set 5-in-1 - $49.99",
-   "summary": "BDSHE 20lb adjustable dumbbell set that converts into dumbbells, a barbell, kettlebell and push-up stands, with safety double nuts and non-slip grips. $49.99 vs $65.99 list, a limited time deal on Amazon.",
-   "price": 49.99,
-   "list_price": 65.99,
-   "pct_off": 24.0,
-   "coupon": false,
-   "condition": null,
-   "image": "https://m.media-amazon.com/images/I/51+IJRHuvvL._SL500_.jpg",
-   "url": "https://www.amazon.com/dp/B0FCDY59GG?tag=listworthy-app-20",
-   "page": "https://killerappz.dev/deals/B0FCDY59GG.html?src=app",
-   "price_checked": "2026-11-14T08:13:00-05:00",
-   "posted": "2026-11-14T13:14:27.925866+00:00",
-   "app_category": null
-  },
-  {
-   "id": "B0D7QL1LHC-2026-11-13",
-   "store": "amazon",
-   "asin": "B0D7QL1LHC",
-   "ebay_item_id": null,
-   "board": "travel",
-   "category": "OUTDOOR",
-   "title": "34% Off Coleman Skydome 6-Person Tent - $124.99",
-   "summary": "Coleman Skydome 6-person 3-season tent with rainfly and carry bag. Pre-attached poles for setup in under 5 minutes. $124.99 vs $189.99 list, 34% off.",
-   "price": 124.99,
-   "list_price": 189.99,
-   "pct_off": 34.0,
-   "coupon": false,
-   "condition": null,
-   "image": "https://m.media-amazon.com/images/I/31w3dnjC5pL._SL500_.jpg",
-   "url": "https://www.amazon.com/dp/B0D7QL1LHC?tag=listworthy-app-20",
-   "page": "https://killerappz.dev/deals/B0D7QL1LHC.html?src=app",
-   "price_checked": "2026-11-13T07:18:00-05:00",
-   "posted": "2026-11-13T12:19:07.969868+00:00",
    "app_category": null
   }
  ]
